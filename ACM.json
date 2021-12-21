@@ -10,7 +10,7 @@
 					"etc"
 				],
 				"convertedBy": [
-					"Azr"
+					"Azrael"
 				],
 				"version": "1.0",
 				"url": "a",
@@ -32,7 +32,7 @@
 	"inherits": {
 		"namePrefix": "Acidic ",
 		"source": "ACM",
-		"page": 1,
+		"page": 12,
 		"rarity": "uncommon",
 		"entries": [
 			"This set of armor deals {@damage 2d4} acid damage to any opponent grappling you, or to any object that remains touching you for longer than one round. This excludes items you carry yourself."
