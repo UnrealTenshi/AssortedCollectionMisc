@@ -4,7 +4,7 @@
 		"sources": [
 			{
 				"json": "ACM",
-				"abbreviation": "ACM",
+				"abbreviation": "AC",
 				"full": "Assorted",
 				"authors": [
 					"a"
@@ -13,12 +13,12 @@
 					"a"
 				],
 				"version": "1.0",
-				"url": "a",
+				"url": "https://www.dmsguild.com",
 				"targetSchema": "1.2"
 			}
 		],
-		"dateAdded": 1637229056,
-		"dateLastModified": 1637229056
+		"dateAdded": 1637229052,
+		"dateLastModified": 1637229052
 	},
 	"item": [
 			{
