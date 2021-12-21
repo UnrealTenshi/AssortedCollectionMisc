@@ -38,12 +38,14 @@
 		{
 	"name": "Aria's Arrow",
 	"type": "GV",
-	"inherits": {
-		"namePrefix": "Aria's Arrow ",
 		"source": "Assorted Collection Misc",
 		"page": 1,
 		"rarity": "very rare",
 		"reqAttune": true,
+			
+	"inherits": {
+		"namePrefix": "Aria's Arrow ",
+		
 		"entries": [
 			"This arrow is made of solid metal, with sharp, barbed spines along the arrowhead.",
 			"Aria's Arrow sings through the air at rapid speed when fired, dealing damage as normal on a hit. The arrowhead expands and embeds itself into whichever creature it strikes, and remains stuck in the creature's flesh until it is removed or the creature is slain. The arrow cannot embed itself in a creature that does not have organic flesh, such as most constructs, elementals, and oozes. While the arrow is embedded in a creature, the creature must make a",
