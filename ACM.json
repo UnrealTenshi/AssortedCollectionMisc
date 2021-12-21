@@ -22,24 +22,17 @@
 	},
 	"item": [
 			{
-				"name": "Acidic",
-				"type": "GV",
-				"requires": [
-					{
-						"armor": true
-					}
-				],
-				"inherits": {
-					"namePrefix": "Acidic ",
-					"source": "ACM",
-					"page": 1,
-					"rarity": "uncommon",
-					"entries": [
-						"This set of armor deals {@damage 2d4} acid damage to any opponent grappling you, or to any object that remains touching you for longer than one round. This excludes items you carry yourself."
-					]
-				},
-				"__prop": "variant"
-			}
+	"name": "BLINDFOLD OF TREMORSENSE",
+	"source": "ACM",
+	"page": 1,
+	"rarity": "rare",
+	"reqAttune": true,
+	"wondrous": true,
+	"entries": [
+		"You can spend an action to pull this blindfold over your eyes. While the blindfold covers your eyes, you gain {@sense tremorsense} to a range of 10 feet, but you are completely blind beyond this radius. Removing the blindfold requires an action"
+	]
+}
+
 
 
 	]
