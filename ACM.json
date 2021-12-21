@@ -3,17 +3,17 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "10000Cuts",
+				"json": "ACM",
 				"abbreviation": "10000",
-				"full": "Sword of 10,000 Cuts",
+				"full": "AssortedCollection",
 				"authors": [
-					"/u/Numbers1999"
+					"etc"
 				],
 				"convertedBy": [
-					"Lxran#2292"
+					"Azr"
 				],
 				"version": "1.0",
-				"url": "https://old.reddit.com/r/UnearthedArcana/comments/qrliyc/sword_of_10000_cuts_a_real_samurais_sword/",
+				"url": "",
 				"targetSchema": "1.2"
 			}
 		],
