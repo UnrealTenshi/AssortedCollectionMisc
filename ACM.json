@@ -35,5 +35,29 @@
 
 
 
+		{
+	"name": "Aria's Arrow",
+	"type": "GV",
+	"inherits": {
+		"namePrefix": "Aria's Arrow ",
+		"source": "ACM",
+		"page": 0,
+		"rarity": "very rare",
+		"reqAttune": true,
+		"entries": [
+			"This arrow is made of solid metal, with sharp, barbed spines along the arrowhead.",
+			"Aria's Arrow sings through the air at rapid speed when fired, dealing damage as normal on a hit. The arrowhead expands and embeds itself into whichever creature it strikes, and remains stuck in the creature's flesh until it is removed or the creature is slain. The arrow cannot embed itself in a creature that does not have organic flesh, such as most constructs, elementals, and oozes. While the arrow is embedded in a creature, the creature must make a",
+			"DC 13 Constitution saving throw at the end of each of it's turns. On a failed save, the target gains one level of {@condition exhaustion}.",
+			"As an action, the target or a creature adjacent it can attempt to remove the arrow with a DC 15 Strength check. The target takes {@damage 4d6} necrotic damage when the arrow is removed. When the arrow is removed, any levels of {@condition exhaustion} applied by the arrow disappear.",
+			"Whenever the arrow is removed from a creature or its corpse, roll a {@dice d20}. On a 1, the arrow snaps and crumbles to dust, forever destroyed."
+		]
+	},
+	"__prop": "variant",
+	"require": [
+		{
+			"arrowOrBolt": true
+		}
+	]
+}
 	]
 }
