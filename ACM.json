@@ -4,13 +4,13 @@
 		"sources": [
 			{
 				"json": "ACM",
-				"abbreviation": "AC",
-				"full": "Assorted",
+				"abbreviation": "ACM",
+				"full": "AssortedCollectionMisc",
 				"authors": [
-					"a"
+					"Etc"
 				],
 				"convertedBy": [
-					"a"
+					"Azrael"
 				],
 				"version": "1.0",
 				"url": "https://www.dmsguild.com",
@@ -24,7 +24,7 @@
 			{
 				"name": "Wreath of the Prism",
 				"source": "ACM",
-				"page": 0,
+				"page": 1,
 				"rarity": "legendary",
 				"reqAttune": true,
 				"wondrous": true,
