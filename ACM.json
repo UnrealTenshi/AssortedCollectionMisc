@@ -3,9 +3,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "AssortedCollection",
+				"json": "Assorted Collection Misc",
 				"abbreviation": "ACM",
-				"full": "AssortedCollectionMisc",
+				"full": "Assorted Collection Misc",
 				"authors": [
 					"Etc"
 				],
@@ -23,7 +23,7 @@
 	"item": [
 			{
 	"name": "BLINDFOLD OF TREMORSENSE",
-	"source": "AssortedCollection",
+	"source": "Assorted Collection Misc",
 	"page": 1,
 	"rarity": "rare",
 	"reqAttune": true,
