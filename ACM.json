@@ -1,7 +1,8 @@
 {
 	"$schema": "https://raw.githubusercontent.com/revilowaldow/5eSchema/main/5etools-Homebrew-Schema/schema.json",
 	"_meta": {
-		"sources": [
+		"sources": 
+		[
 			{
 				"json": "Assorted Collection Misc",
 				"abbreviation": "ACM",
@@ -20,81 +21,88 @@
 		"dateAdded": 1637229052,
 		"dateLastModified": 1637229052
 	},
-	"item": [
-			{
-	"name": "Blindfold of Tremorsense",
-	"source": "Assorted Collection Misc",
-	"page": 1,
-	"rarity": "rare",
-	"reqAttune": true,
-	"wondrous": true,
-	"entries": [
-		"You can spend an action to pull this blindfold over your eyes. While the blindfold covers your eyes, you gain {@sense tremorsense} to a range of 10 feet, but you are completely blind beyond this radius. Removing the blindfold requires an action"
-	]
-},
-
-
-
+	"item": 
+	[
 		{
-	"name": "Aria's Arrow",
-	"baseItem": "Arrow|PHB",
-			"type": "A",
-			"ammunition": true,
-		"source": "Assorted Collection Misc",
-		"page": 1,
-		"rarity": "very rare",
-		"reqAttune": true,
-			"entries": [
-			"This arrow is made of solid metal, with sharp, barbed spines along the arrowhead.",
-			"Aria's Arrow sings through the air at rapid speed when fired, dealing damage as normal on a hit. The arrowhead expands and embeds itself into whichever creature it strikes, and remains stuck in the creature's flesh until it is removed or the creature is slain. The arrow cannot embed itself in a creature that does not have organic flesh, such as most constructs, elementals, and oozes. While the arrow is embedded in a creature, the creature must make a DC 13 Constitution saving throw at the end of each of it's turns. On a failed save, the target gains one level of {@condition exhaustion}.",
-			"As an action, the target or a creature adjacent it can attempt to remove the arrow with a DC 15 Strength check. The target takes {@damage 4d6} necrotic damage when the arrow is removed. When the arrow is removed, any levels of {@condition exhaustion} applied by the arrow disappear.",
-			"Whenever the arrow is removed from a creature or its corpse, roll a {@dice d20}. On a 1, the arrow snaps and crumbles to dust, forever destroyed."]
-
-},
-		{
-	"name": "Armor of Power",
-	"source": "Assorted Collection Misc",
-	"page": 1,
-	"baseItem": "plate armor|PHB",
-	"type": "HA",
-	"resist": [
-		"fire",
-		"poison"
-	],
-	"rarity": "legendary",
-	"reqAttune": true,
-	"weight": 65,
-	"ac": 18,
-	"strength": "15",
-	"stealth": true,
-	"entries": [
-		"While attuned to this armor, you gain the following benefits when you wear it:",
-		{
-			"type": "list",
-			"items": [
-				"Your strength score becomes 21.",
-				"You gain resistance to fire and poison damage.",
-				"You don't need to breathe.",
-				"You sink in water or similar liquids.",
-				"You can endure natural environments with temperatures of -45 to 140 degrees without needing to make Constitution checks.",
-				"You gain {@sense darkvision} 60 feet.",
-				"You can amplify your voice to be audible out to a range of 300 feet."
+			"name": "Blindfold of Tremorsense",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries":
+			[
+				"You can spend an action to pull this blindfold over your eyes. While the blindfold covers your eyes, you gain {@sense tremorsense} to a range of 10 feet, but you are completely blind beyond this radius. Removing the blindfold requires an action"
 			]
 		},
-		"The armor is vacuumed sealed, allowing you to survive in a vacuum or pressurized environment.",
-		"The armor moves under its own power. Its weight doesn't count against your carrying capacity, and you don't need to make {@condition exhaustion} checks for wearing under any circumstances.",
-		"If you are reduced to 0 hit points while wearing this armor, roll a {@dice d20}. On a 1, the armor's power source ruptures as per a retributive strike.",
+		
 		{
-			"type": "entries",
-			"name": "Retributive Strike",
-			"entries": [
-				"While wearing the armor, you can use an action to overload it, performing a retributive strike. The armor is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.",
-				"You have a {@chance 50|50 percent} chance to instantly travel to a random plane of existence, avoiding the explosion.",
-				"If you fail to avoid the effect, you take damage equal your maximum hit points. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes force damage equal to your maximum hit points, or half as much on a successful saving throw."
+			"name": "Aria's Arrow",
+			"baseItem": "Arrow|PHB",
+			"type": "A",
+			"ammunition": true,
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"entries": 
+			[
+				"This arrow is made of solid metal, with sharp, barbed spines along the arrowhead.",
+				"Aria's Arrow sings through the air at rapid speed when fired, dealing damage as normal on a hit. The arrowhead expands and embeds itself into whichever creature it strikes, and remains stuck in the creature's flesh until it is removed or the creature is slain. The arrow cannot embed itself in a creature that does not have organic flesh, such as most constructs, elementals, and oozes. While the arrow is embedded in a creature, the creature must make a DC 13 Constitution saving throw at the end of each of it's turns. On a failed save, the target gains one level of {@condition exhaustion}.",
+				"As an action, the target or a creature adjacent it can attempt to remove the arrow with a DC 15 Strength check. The target takes {@damage 4d6} necrotic damage when the arrow is removed. When the arrow is removed, any levels of {@condition exhaustion} applied by the arrow disappear.",
+				"Whenever the arrow is removed from a creature or its corpse, roll a {@dice d20}. On a 1, the arrow snaps and crumbles to dust, forever destroyed."
+			]
+			
+		},
+		
+		{
+			"name": "Armor of Power",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "plate armor|PHB",
+			"type": "HA",
+			"resist": 
+			[
+				"fire",
+				"poison"
+			],
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 65,
+			"ac": 18,
+			"strength": "15",
+			"stealth": true,
+			"entries": 
+			[
+				"While attuned to this armor, you gain the following benefits when you wear it:",
+				{
+					"type": "list",
+					"items": 
+					[
+						"Your strength score becomes 21.",
+						"You gain resistance to fire and poison damage.",
+						"You don't need to breathe.",
+						"You sink in water or similar liquids.",
+						"You can endure natural environments with temperatures of -45 to 140 degrees without needing to make Constitution checks.",
+						"You gain {@sense darkvision} 60 feet.",
+						"You can amplify your voice to be audible out to a range of 300 feet."
+					]
+				},
+				"The armor is vacuumed sealed, allowing you to survive in a vacuum or pressurized environment.",
+				"The armor moves under its own power. Its weight doesn't count against your carrying capacity.",
+				"If you are reduced to 0 hit points while wearing this armor, roll a {@dice d20}. On a 1, the armor's power source ruptures as per a retributive strike.",
+				{
+					"type": "entries",
+					"name": "Retributive Strike",
+					"entries": 
+					[
+						"While wearing the armor, you can use an action to overload it, performing a retributive strike. The armor is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.",
+						"You have a {@chance 50|50 percent} chance to instantly travel to a random plane of existence, avoiding the explosion.",
+						"If you fail to avoid the effect, you take damage equal your maximum hit points. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes force damage equal to your maximum hit points, or half as much on a successful saving throw."
+					]
+				}
 			]
 		}
-	]
-}
 		
 		
 		
