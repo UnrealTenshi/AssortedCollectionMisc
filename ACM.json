@@ -220,7 +220,83 @@
 				"Additionally, you can use action to invoke power of Angurvadal to raise your Strength up to 22 for 1 minute.",
 				"Angurvadal can't be used this way again until the next dawn"
 			]
+		},
+		
+		{
+			"name": "Shisui, Water Slasher",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"recharge": "dawn",
+			"charges": 5,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Masters of movement and manipulators of momentum, the river ronin were protectors of the waterways. Legend says such samurai could control water with their ki, forming it into shields, whips and whirlpools. These blades, known as the shisui, gave the ronin the ability to conjure water to wield in even the driest deserts or most remote mountaintops.",
+				"This weapon has 5 charges and regains expended {@dice 1d4 + 1} charges daily at dawn. As an action you can expend one charge to create water, as per the create or destroy water spell.",
+				{
+					"type": "entries",
+					"name": "Torrent",
+					"entries": [
+						"Using the {@action Attack} action, you can expend 1 charge to fire a torrent of water from your blade. If you're able to make multiple attacks with the {@action Attack} action, this effect replaces one of them. You create a 2-foot-wide, 20-foot-long line of high pressure water. Each creature in the area must succeed on a DC 16 Strength saving throw or either be pushed 5 feet back or be knocked {@condition prone} (your choice)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Jet",
+					"entries": [
+						"As an action, you can expend 2 charges to propel yourself forward in a straight line up to 30 feet long to an unoccupied space you can see. Each creature in a 10-foot-wide line between your origin and your destination must make a DC 16 Dexterity saving throw as high powered jets of water slice into them. A creature takes {@damage 6d6} slashing damage on a failed saving throw, or half as much damage on a success."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Ruination",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"When you attune to Ruination a scar of an arcane brand appears on your palm.",
+				"Once attuned you gain a bonus to attack and damage rolls equal to half your proficiency bonus rounded down (minimum 1).",
+				"With the weapon in your scared hand you can use a bonus action to cause the blade to glow red hot. The heated blade sheds dim light in a 10 ft radius and deals an extra {@damage 1d6} fire damage to any target it hits. The blade remains hot until you use a bonus action to cool the blade or until you drop or sheathe the sword. ⁣ ⁣In addition, as part of an attack with the red hot blade you can cause it to become molten and elongate into a whip. ⁣ The weapon remains a whip until you mentally command it to revert to the red hot blade (no action required) or you drop it. ⁣ The fire from the whip sheds bright light in a 20-foot radius and dim light for an additional 20 feet. If you hit a large or smaller creature with the whip, you can dismiss any non fire damage inflicted and instead force the creature to make a contested {@skill Athletics} (Strength) or {@skill Acrobatics} (Dexterity) check. If you win the contest, you can either: knock it {@condition prone}, grapple it, pull it 5 feet towards you, or force it to drop an item it is holding. On subsequent turns a creature {@condition grappled} by the whip suffers {@damage 2d6} fire damage at the end of its turn.",
+				{
+					"type": "entries",
+					"name": "Branded",
+					"entries": [
+						"You can cast {@spell Heat Metal} on Ruination as a reaction to a creature you can see within 60ft holding the weapon."
+					]
+				}
+			],
+			"attachedSpells": [
+				"heat metal"
+			]
 		}
+		
 		
 		
 		
@@ -230,3 +306,4 @@
 	
 	
 }
+
