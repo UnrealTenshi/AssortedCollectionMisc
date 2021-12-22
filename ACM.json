@@ -122,14 +122,108 @@
 			"dmg1": "1d8",
 			"dmgType": "S",
 			"dmg2": "1d10",
-			"bonusWeapon": "+1",
+			"bonusWeapon": "+2",
 			"sword": true,
 			"weapon": true,
 			"entries": [
 				"This blade belonged to Dabbar, a long dead servant of Bhaal that exercised control over his minions in the most brutal of ways. In addition to strengthening the mind against the guile of others, the sword absorbs life energy from an opponent with each successful hit, healing the user. Dabbar considered it a failure of his officers if he returned from battle in less than perfect health, and as the rest of the company watched, he would administer beatings until fully healed.",
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a living target you get 1 temporary hit point, also while you are attuned to the Adjatha the Drinker, you can't be {@condition charmed}."
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit a living target you get 1 temporary hit point, also while you are attuned to the Adjatha the Drinker, you can't be {@condition charmed}."
+			]
+		},
+		
+		{
+			"name": "Albruin",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Basalin was a large man, rumored, far from his hearing, to be a werebear. He long wielded the sword Albruin in the protection of his village, slaying giant spiders that plagued the area. The sword protected him from their poison and also allowed him to see {@condition invisible} Red Wizards who controlled some of the more fantastic variants. The reason for their enmity is unknown.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"While you are attuned to the Albruin you are immune to the {@condition poisoned} condition and have immunity to poison damage. You can use an action to cast {@spell see invisibility} on self. The Albruin can't be used this way again until the next dawn."
+			],
+			"attachedSpells": [
+				"see invisibility"
+			]
+		},
+		
+		{
+			"name": "Amulet of Cheetah Speed",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This amulet grants its wearer fleetness of foot. Not surprisingly it is popular among fleeing felons, travelers and cowards.",
+				"You gain bonus 10 ft to your walking speed. Additionally, you can use action to invoke power of amulet to cast {@spell haste} on self. Amulet of Cheetah Speed can't be used this way again until the next dawn."
+			],
+			"attachedSpells": [
+				"haste"
+			]
+		},
+		
+		{
+			"name": "Amulet of Spell Warding",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"A favorite item of protection for a mage entering a magical duel, this amulet provides protection against spells, but does not interfere with the mage's own spellcasting.",
+				"You have advantage on saving throws against spells while you wear this amulet."
+			]
+		},
+		
+		{
+			"name": "Angurvadal",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Also known as the Stream of Anguish, this is the legendary burning blade of Frithiof.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this magic sword, the target takes an extra {@damage 1d6} fire damage.",
+				"Additionally, you can use action to invoke power of Angurvadal to raise your Strength up to 22 for 1 minute.",
+				"Angurvadal can't be used this way again until the next dawn"
 			]
 		}
+		
+		
+		
 		
 	]
 	
