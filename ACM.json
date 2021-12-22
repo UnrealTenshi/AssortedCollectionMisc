@@ -83,7 +83,7 @@
 						"You gain resistance to fire and poison damage.",
 						"You don't need to breathe.",
 						"You sink in water or similar liquids.",
-						"You can endure natural environments with temperatures of -45 to 140 degrees without needing to make Constitution checks.",
+						"You can endure natural environments with temperatures of -43 to 140 degrees Celsius without needing to make Constitution checks.",
 						"You gain {@sense darkvision} 60 feet.",
 						"You can amplify your voice to be audible out to a range of 300 feet."
 					]
@@ -102,10 +102,34 @@
 					]
 				}
 			]
+		},
+		
+		
+		
+		{
+			"name": "Adjatha the Drinker",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This blade belonged to Dabbar, a long dead servant of Bhaal that exercised control over his minions in the most brutal of ways. In addition to strengthening the mind against the guile of others, the sword absorbs life energy from an opponent with each successful hit, healing the user. Dabbar considered it a failure of his officers if he returned from battle in less than perfect health, and as the rest of the company watched, he would administer beatings until fully healed.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a living target you get 1 temporary hit point, also while you are attuned to the Adjatha the Drinker, you can't be {@condition charmed}."
+			]
 		}
-		
-		
-		
 		
 	]
 	
