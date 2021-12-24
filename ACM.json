@@ -223,8 +223,8 @@
 		},
 		
 		{
-			"name": "SHISUI, WATER SLASHER",
-			"source": "Assorted Content Misc",
+			"name": "Shisui, Water Slasher",
+			"source": "Assorted Collection Misc",
 			"page": 1,
 			"baseItem": "longsword|PHB",
 			"type": "M",
@@ -258,8 +258,7 @@
 					"type": "entries",
 					"name": "Torrent",
 					"entries": [
-						"When you take the {@action Attack} action, you can expend 1 charge to fire a torrent of water from your blade. If you're able to make multiple attacks with the",
-						"{@action Attack} action, this effect replaces one of them. You create a 2-foot-wide, 30-foot-long line of high pressure water. Each creature in the area must succeed on a DC 17 Strength saving throw or either be pushed 5 feet back or be knocked {@condition prone} (your choice)."
+						"When you take the {@action Attack} action, you can expend 1 charge to fire a torrent of water from your blade. If you're able to make multiple attacks with the attack action, this effect replaces one of them. You create a 2-foot-wide, 30-foot-long line of high pressure water. Each creature in the area must succeed on a DC 17 Strength saving throw or either be pushed 5 feet back or be knocked {@condition prone} (your choice)."
 					]
 				},
 				{
@@ -274,7 +273,8 @@
 				"create or destroy water",
 				"control water"
 			]
-		},
+		}
+		,
 		
 		{
 			"name": "Ruination",
