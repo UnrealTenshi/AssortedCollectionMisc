@@ -228,7 +228,7 @@
 			"page": 1,
 			"baseItem": "longsword|PHB",
 			"type": "M",
-			"rarity": "rare",
+			"rarity": "legendary",
 			"reqAttune": true,
 			"weight": 3,
 			"weaponCategory": "martial",
@@ -391,7 +391,59 @@
 					]
 				}
 			]
+		},
+		
+		{
+			"name": "Onikiri, Demon Cutter",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"grantsProficiency": true,
+			"recharge": "dawn",
+			"charges": 5,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This magic weapon has 5 charges and regains expended ld4 + 1 charges daily at dawn. You can cast the {@spell light} cantrip on the blade at will.",
+				{
+					"type": "entries",
+					"name": "Radiant Wrath",
+					"entries": [
+						"As a bonus action while holding the blade, you can expend 1 charge to imbue it with crackling radiant energy until the end of your next turn. While imbued, each time you hit a creature with an attack using this blade, it takes an additional {@damage 2d8} radiant damage. In addition each fiend within 10 feet of your target must succeed on a DC 17 Dexterity saving throw or take {@damage 2d8} radiant damage as crackling, radiant energy arcs out towards it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Demon Lure",
+					"entries": [
+						"As a bonus action while holding the blade, you can expend 1 charge to draw the attention of one creature you can see within 30 feet of you, forcing it to make a DC 17 Wisdom saving throw. A creature with the fiend type makes this saving throw with disadvantage. On a failure, the creature becomes fixated on you. For the next minute the creature's speed is reduced to 0 and it is {@condition incapacitated}. This effect ends if you attack any other creature, if you cast a spell, if the target of this property is affected by a spell cast by a creature friendly to you, or creature or if a creature friendly to you damages the target of this effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blessed",
+					"entries": [
+						"You can speak Celestial fluently and can expend a charge to cast {@spell protection from evil and good}, no concentration required, protecting the target from fiends only."
+					]
+				}
+			],
+			"attachedSpells": [
+				"light",
+				"protection from evil and good"
+			]
 		}
+		
 		
 		
 		
