@@ -223,12 +223,12 @@
 		},
 		
 		{
-			"name": "Shisui, Water Slasher",
-			"source": "Assorted Collection Misc",
+			"name": "SHISUI, WATER SLASHER",
+			"source": "Assorted Content Misc",
 			"page": 1,
 			"baseItem": "longsword|PHB",
 			"type": "M",
-			"rarity": "very rare",
+			"rarity": "rare",
 			"reqAttune": true,
 			"weight": 3,
 			"weaponCategory": "martial",
@@ -243,22 +243,36 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"Masters of movement and manipulators of momentum, the river ronin were protectors of the waterways. Legend says such samurai could control water with their ki, forming it into shields, whips and whirlpools. These blades, known as the shisui, gave the ronin the ability to conjure water to wield in even the driest deserts or most remote mountaintops.",
-				"This weapon has 5 charges and regains expended {@dice 1d4 + 1} charges daily at dawn. As an action you can expend one charge to create water, as per the create or destroy water spell.",
+				"Masters of movement and manipulators of momentum, the river ronin were protectors of the waterways.",
+				"Legend says such samurai could control water with their ki, forming it into shields, whips and whirlpools.",
+				"These blades, known as the shisui, gave the ronin the ability to conjure water to wield in even the driest deserts or most remote mountaintops.",
+				"This weapon has 5 charges and regains expended ld4 + 1 charges daily at dawn.",
+				{
+					"type": "entries",
+					"name": "Aqua Conjuration",
+					"entries": [
+						"As an action you can expend 1 charge to cast {@spell create or destroy water} spell but only to create water or you may expend 1 charge to cast {@spell control water} (save DC 17)."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Torrent",
 					"entries": [
-						"Using the {@action Attack} action, you can expend 1 charge to fire a torrent of water from your blade. If you're able to make multiple attacks with the {@action Attack} action, this effect replaces one of them. You create a 2-foot-wide, 20-foot-long line of high pressure water. Each creature in the area must succeed on a DC 16 Strength saving throw or either be pushed 5 feet back or be knocked {@condition prone} (your choice)."
+						"When you take the {@action Attack} action, you can expend 1 charge to fire a torrent of water from your blade. If you're able to make multiple attacks with the",
+						"{@action Attack} action, this effect replaces one of them. You create a 2-foot-wide, 30-foot-long line of high pressure water. Each creature in the area must succeed on a DC 17 Strength saving throw or either be pushed 5 feet back or be knocked {@condition prone} (your choice)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Jet",
 					"entries": [
-						"As an action, you can expend 2 charges to propel yourself forward in a straight line up to 30 feet long to an unoccupied space you can see. Each creature in a 10-foot-wide line between your origin and your destination must make a DC 16 Dexterity saving throw as high powered jets of water slice into them. A creature takes {@damage 6d6} slashing damage on a failed saving throw, or half as much damage on a success."
+						"As an action, you can expend 2 charges to propel yourself forward in a straight line up to 30 feet long to an unoccupied space you can see. Each creature in a 10-foot-wide line between your origin and your destination must make a DC 17 Dexterity saving throw as high powered jets of water slice into them. A creature takes {@damage 8d6} slashing damage on a failed saving throw, or half as much damage on a success."
 					]
 				}
+			],
+			"attachedSpells": [
+				"create or destroy water",
+				"control water"
 			]
 		},
 		
@@ -295,7 +309,91 @@
 			"attachedSpells": [
 				"heat metal"
 			]
+		},
+		
+		{
+			"name": "Stormsiren",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"recharge": "dawn",
+			"charges": 5,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. On a hit it deals an additional I {@damage 1d8} Lightning damage.",
+				"The sword has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn.",
+				{
+					"type": "entries",
+					"name": "Flash Step",
+					"entries": [
+						"As an action, you can expend a charge of this weapon to instantly travel in a 30 ft line to an unoccupied space. You can choose to make an attack with this weapon against any creatures you move through while making this movement' Any creature hit takes an additional ld8 lightning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thunder Step",
+					"entries": [
+						"As an action, you can expend 2 charges to cast {@spell Thunder Step|XGE} at the 3th level When you cast the spell this way, the spell save DC is 17."
+					]
+				}
+			],
+			"attachedSpells": [
+				"thunder step|xge"
+			]
+		},
+		
+		{
+			"name": "Bronze Bulwark",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shield|PHB",
+			"type": "S",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"recharge": "dawn",
+			"charges": 10,
+			"entries": [
+				"The shield has 10 charges and regains {@dice 1d6 + 4} expended charges daily at dawn.",
+				{
+					"type": "entries",
+					"name": "Repelling Blast",
+					"entries": [
+						"When you are hit by a melee attack while holding this shield you can use your reaction to spend 1 charge and release a blast of repulsive energy, forcing the attacker to make a DC 15 Strength saving throw. On a failed save, the attacker is pushed up to 30 feet directly away from you and knocked {@condition prone}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deflection",
+					"entries": [
+						"You can also use this repelling property to attempt to deflect projectiles. When you're hit by a ranged weapon attack roll, you can use your reaction to spend 1 charge to force the attacker to reroll the attack roll and use the new roll's result."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Surf's Up",
+					"entries": [
+						"The shield is also capable of producing a gentle repelling field when placed on a liquid, allowing it to hover a few inches off the surface. While hovering in this way, you can stand on the shield and speak its command word to make it glide across the liquid. You control the movement and trajectory of the shield, which has a speed of 60 feet and can carry up to 400 pounds. If you take damage while riding the shield in this way, you must succeed on a DC 15 Dexterity ({@skill Acrobatics}) check or fall {@condition prone} off of the shield."
+					]
+				}
+			]
 		}
+		
+		
 		
 		
 		
@@ -306,4 +404,3 @@
 	
 	
 }
-
