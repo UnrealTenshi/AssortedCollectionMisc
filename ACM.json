@@ -442,7 +442,520 @@
 				"light",
 				"protection from evil and good"
 			]
+		},
+		
+		{
+			"name": "Ring of Great Success",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "RG",
+			"rarity": "rare",
+			"entries": [
+				"This ring was created by a wizard who valued planning and good tactics. If its wearer can secure advantageous conditions, the ring can help him achieve great success",
+				"While wearing this ring, whenever you roll attack roll or ability check with advantage and have the same roll on both of the dice, you can treat that {@dice d20} roll as a 20. Additionally, when an attack roll is made against you with disadvantage, and attacker has the same roll on both of the dice, you can treat that {@dice d20} roll as a 1."
+			]
+		},
+		
+		{
+			"name": "Gloves of the Rime Keepers",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 5,
+			"entries": [
+				"The warmest care comes from the coldest hands. This item has 5 charges and regains all charges at dawn. Whenever you take an instance of cold damage from a spell or ability, roll {@dice 1d6}. On a 6, this item regains a charge.",
+				{
+					"type": "entries",
+					"name": "Keep on Ice",
+					"entries": [
+						"As an action, you can spend a charge to cast {@spell Spare the Dying} as icy frost stabilizes the target. You can spend 2 charges to cast {@spell Gentle Repose}, freezing a creature's body to keep it preserved for the duration."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Coldhearted",
+					"entries": [
+						"As an action you can spend 2 charges to harden the heart of a creature you touch with frosty protection. For the next minute the creature has advantage on saving throws against being {@condition frightened} or {@condition charmed} as the chill focuses their minds against invasion. This ability has no effect on undead or constructs."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frosty Embrace",
+					"entries": [
+						"While attuned to this item, whenever you use a spell or ability to heal a creature, you can spend any number of charges to have the target gain a number of temporary hit points equal to five times the number of charges spent."
+					]
+				}
+			],
+			"attachedSpells": [
+				"spare the dying",
+				"gentle repose"
+			]
+		},
+		
+		{
+			"name": "Mithril Armband",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusWeaponAttack": "+3",
+			"recharge": "dawn",
+			"charges": 6,
+			"entries": [
+				"You have a critical hit range of 19-20 while attuned and wearing this item.",
+				"This has 6 charges item and regains {@dice 1d4 + 2} expended charges daily at dawn.",
+				{
+					"type": "list",
+					"items": [
+						"You can use your bonus action to expend 1 charge to add +3 to your attack rolls this turn.",
+						"You can use your bonus action to expend 4 charges to make your critical hit range 18-20 for the next minute."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Razorpetal Longbow",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longbow|PHB",
+			"type": "R",
+			"rarity": "rare",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"entries": [
+				"This bow is shaped from an enchanted flower. Embedded along its surface are hundreds of fragrant, razor-sharp petals.",
+				"As a bonus action while wielding the bow you can cause the petals to erupt into an airborne flurry that swirls around you for 1 minute. While the whirlwind of petals is active you have half cover and attacks with this bow deal an additional {@damage 1d4} slashing damage as petals fly alongside your arrows to slash at your targets. Additionally, if a creature touches you or hits you with a melee attack while this effect is active, it takes {@damage 1d4} slashing damage. The petals fall lifelessly to the ground at the end of the minute. The bow cannot be used again this way until the petals regrow at dawn.",
+				"Shandra left the imprint of a kiss in scarlet red lipstick and a shower of petals on the bodies of her victims, each horrifically lacerated by ten thousand tiny blades."
+			],
+			"ammoType": "arrow|phb"
+		},
+		
+		{
+			"name": "Pearl of Truth",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While holding this pearl, you can cast the spell zone of truth as an action once per day. The spell save DC is 12 and its duration is 10 minutes. This ability recharges at dawn each day"
+			]
+		},
+		
+		{
+			"name": "Potion of Blindsight",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "P",
+			"rarity": "rare",
+			"entries": [
+				"When you drink this potion, you gain {@sense blindsight} in a 60-foot-radius for 1 hour.",
+				"The effect does not hinder your normal vision but allows you to \"see\" in absolute darkness while the potion lasts. The liquid inside the vial is viscous and inky in color"
+			]
+		},
+		
+		{
+			"name": "Mjolnir",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "warhammer|PHB",
+			"type": "M",
+			"rarity": "artifact",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"bonusWeapon": "+3",
+			"recharge": "dawn",
+			"charges": 10,
+			"hammer": true,
+			"weapon": true,
+			"entries": [
+				"requires proficiency in {@skill Religion}",
+				"When the famous dwarven brother Brock and Sindri were challenged by Loki to prove their skill in smithing against the Sons of Ivaldi, they forged three great artifacts, the last and most powerful of which was the mighty warhammer Mjolnir, specifically designed for the god Thor.",
+				"The wielder of Mjolnir becomes the Champion of the god Thor and automatically gains proficiency in {@skill Athletics} and in the use of warhammers.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
+				"It has the thrown property with a normal range of 20 feet and a long range of 60 feet. Immediately after the ranged attack or at your command, the weapon flies back to your hand.",
+				"When you hit an enemy, whether melee or ranged, it deals {@damage 2d8} bludgeoning damage and {@damage 1d8} thunder damage.",
+				"Mjolnir has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it (Save DC 18):",
+				{
+					"type": "list",
+					"items": [
+						"cast {@spell Thunderous Smite} (1 charge)",
+						"cast {@spell Shatter} (2 charges)",
+						"cast {@spell Lightning Bolt} (3 charges)",
+						"cast {@spell Call Lightning} (4 charges)",
+						"cast {@spell Destructive Wave} (5 charges)"
+					]
+				},
+				"Mjolnir regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, Mjolnir disappears forever."
+			],
+			"attachedSpells": [
+				"thunderous smite",
+				"shatter",
+				"lightning bolt",
+				"call lightning",
+				"destructive wave"
+			]
+		},
+		
+		{
+			"name": "Gungnir",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "spear|PHB",
+			"type": "M",
+			"rarity": "artifact",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"spear": true,
+			"weapon": true,
+			"entries": [
+				"When the Sons of Ivaldi were challenged by Loki to prove their skill in smithing against the famous dwarven brother Brock and Sindri, they forged three great artifacts, one of which was the powerful golden spear Gungnir, specifically designed for the god Odin.",
+				"To receive this weapon, one must complete a Penance of Charity.",
+				"Gungnir is a one-time use weapon. Once used, it returns to the divine realm of Asgard.",
+				"When you activate this weapon (as a bonus action), its raw power destroys all armor and shielding devices you are wearing, absorbing its pieces to make itself stronger, leaving you with a base AC of 10 and giving you 2 points of {@condition exhaustion}.",
+				"The benefit of this sacrifice however, is that it transforms the spear into an unerring missile. As an action, you can hurl it at any target you can see (with no distance penalty). The spear ignores the target's AC, dealing {@damage 5d8} piercing damage{@damage  + 15d8} radiant damage.",
+				"There is no attack roll required for this weapon and no saving throw can defend from it."
+			]
+		},
+		
+		{
+			"name": "Eye of Odin",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "artifact",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 8,
+			"entries": [
+				"This artifact is the right eye of the God Odin, sacrificed when hanging upside-down from the world tree",
+				"Yggdrassil, in exchange for knowledge of the future. It is a white orb covered in blue arcane runes, with a single glowing blue circle in the place of an iris.",
+				"To attune to the Eye of Odin, you must gouge out your own right eye and place the artifact in the empty socket. If the eye is ever removed, you die.",
+				"You gain Truesight, and you can use an action to see through walls.",
+				"The Eye has 8 charges to cast one of the following spells (Save DC18):",
+				{
+					"type": "list",
+					"items": [
+						"cast {@spell Clairvoyance} (2 charges)",
+						"cast {@spell Contact Other Plane} (3 charges)",
+						"cast {@spell Disintegrate} (4 charges)",
+						"cast {@spell Dominate Monster} (5 charges)",
+						"cast {@spell Foresight} (6 charges)"
+					]
+				},
+				"The Eye regains {@dice 1d4 + 4} expended charges at dawn.",
+				"Each time you cast a spell from the Eye, there is a 5% chance that your soul will be claimed to join the halls of Valhalla."
+			],
+			"attachedSpells": [
+				"clairvoyance",
+				"contact other plane",
+				"disintegrate",
+				"dominate monster",
+				"foresight"
+			]
+		},
+		
+		{
+			"name": "Hand of Tyr",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "artifact",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 8,
+			"entries": [
+				"This artifact is the right hand of the God of Justice-Tyr, bitten off just below the wrist by the monstrous wolf",
+				"Fenrir when he attempted to chain the creature.",
+				"To attune to the Hand of Tyr, you must chop off your right hand at the wrist and place the artefact against the stump. If the hand is ever removed, you die.",
+				"Your strength score becomes 20",
+				"Any melee spell attack or weapon attack from the hand deals an additional {@damage 2d8} Radiant damage",
+				"The Hand of Tyr has 8 charges to cast one of the following spells (Save DC18)",
+				{
+					"type": "list",
+					"items": [
+						"cast {@spell Bless} (1 charge)",
+						"cast {@spell Revivify} (2 charges)",
+						"cast {@spell Bigby's Hand} (3 charges)",
+						"cast {@spell Finger of Death} (5 charges)"
+					]
+				},
+				"The Hand regains {@dice 1d4 + 4} expended charges at dawn.",
+				"Each time you cast a spell from the Hand, it casts {@spell Suggestion} on you to commit one act of selfless charity that day."
+			],
+			"attachedSpells": [
+				"bless",
+				"revivify",
+				"Bigby's hand",
+				"finger of death"
+			]
+		},
+		
+		{
+			"name": "Sifjar",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "studded leather armor|PHB",
+			"type": "LA",
+			"rarity": "artifact",
+			"reqAttune": true,
+			"weight": 13,
+			"ac": 12,
+			"entries": [
+				"Challenged by Loki to produce wondrous artifacts, the Sons of Ivaldi forged a golden headpiece to restore the Goddess Sif's shorn hair.",
+				"However, this is actually a Mimic that has been enchanted to obey the wearer and can transform itself to take the form and function of any armor or clothing.",
+				"The armor is considered light armor and provides 13 AC + your Dexterity Modifier.",
+				"You gain Resistance to Acid, Poison, Piercing, Slashing and Bludgeoning damage and Vulnerability to Thunder and Psychic damage.",
+				"You gain Advantage to stealth checks: The mimic is capable ofblending into its surroundings when commanded to take an appropriately stealthy form.",
+				"You gain Advantage on Dexterity saving throws: The mimic tries to protect itself by protecting you from any unexpected dangers.",
+				"If the wearer dies, the mimic sacrifices itself to return the wearer to 1HP.",
+				"The armor can do the following actions:",
+				{
+					"type": "entries",
+					"name": "Acid Splash",
+					"entries": [
+						"As an action a target must make a DC13 Dexterity Saving Throw or take {@damage 1d6} Acid Damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shapeshift",
+					"entries": [
+						"As an action Mimic can be commanded to consume {@dice 1d6} of the wearer's HP to reset the shape of the armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grapple",
+					"entries": [
+						"As a bonus action Mimic can be commanded to stretch out its pseudopod limbs to attempt to grapple a target creature (DC13 Strength Save). You gain advantage on hitting the {@condition grappled} creature."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Drachenstahl",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "greatsword|PHB",
+			"type": "M",
+			"rarity": "artifact",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeapon": "+3",
+			"bonusSavingThrow": "+3",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This charred obsidian blade is crafted from a fragment of the legendary flaming sword of the Fire Giant Surtur.",
+				"The bronze handle of this blade is shaped in the form of a roaring dragon breathing fire.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon",
+				"The blade grants the wielder resistance to fire damage and advantage on all saving throws against spells and other magical effects",
+				"Each successful attack gathers one charge, lighting up one of the 8 empty rubies set into the handle.",
+				"With each successful attack, one or more gathered ruby charges can be spent to deal an additional {@damage 1d6} Fire Damage per charge.",
+				"As a reaction, the sword can also absorb any oncoming Fire Damage upto {@dice 1d6} x number of empty rubies.",
+				"Wielder can spend 3 charges to cast {@spell Burning Hands}",
+				"Wielder can spend 8 charges to cast {@spell Fireball}",
+				"Each day at dawn, {@dice 1d6 + 2} gathered charges fade away."
+			],
+			"attachedSpells": [
+				"burning hands",
+				"fireball"
+			]
+		},
+		
+		{
+			"name": "Solsverte",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "artifact",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+3",
+			"recharge": "dawn",
+			"charges": 8,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This sword is said to have once belonged to the God",
+				"Freyr and was associated with summer, sunshine and fair weather.",
+				"This item appears to be a plain longsword hilt.",
+				"However, when grasping the hilt, you can cause a blade of pure radiance to spring into existence, or make the blade disappear.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
+				"Each attack deals {@damage 1d10} Radiant Damage (instead of slashing damage). When you hit an undead with it, that target takes an extra {@damage 2d8} radiant damage.",
+				"A Proficiency with longswords allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+				{
+					"type": "entries",
+					"name": "Sunrise",
+					"entries": [
+						"You can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Powers",
+					"entries": [
+						"The Solsverte has 8 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it (Save DC 18):",
+						{
+							"type": "list",
+							"items": [
+								"cast {@spell Light} (0 charges)",
+								"cast {@spell Guiding Bolt} (1 charge)",
+								"cast {@spell Branding Smite} (2 charges)",
+								"cast {@spell Blinding Smite} (3 charges)",
+								"cast {@spell Sunbeam} (4 charges)",
+								"cast {@spell Sunburst} (5 charges)"
+							]
+						},
+						"Solsverte regains {@dice 1d4 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the Solsverte disappears forever."
+					]
+				}
+			],
+			"attachedSpells": [
+				"light",
+				"guiding bolt",
+				"branding smite",
+				"blinding smite",
+				"sunbeam",
+				"sunburst"
+			]
+		},
+		
+		{
+			"name": "Fjelljeger",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longbow|PHB",
+			"type": "R",
+			"rarity": "artifact",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+3",
+			"recharge": "dawn",
+			"charges": 10,
+			"bow": true,
+			"weapon": true,
+			"entries": [
+				"This beautifully crafted yew bow is said to have been crafted by the mountain goddess Skadi, for the purpose of hunting monstrous wild animals. Wrapped in rare animal furs, this bow is covered with dozens of tiny icicles that never melt.",
+				"As revenge against Loki for causing the death of her father Thiazi, Skadi placed a terrifying serpent that constantly drips venom onto the bound Loki.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
+				"A Proficiency with longbows allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+				"Each attack deals {@damage 1d8} Piercing Damage and {@damage 2d6} Cold Damage.",
+				"The wielder of this longbow is immune to all cold damage and cold weather effects.",
+				"When attuned to this artifact, the wielder is immune to fear and charm effects.",
+				{
+					"type": "entries",
+					"name": "Loki's Prison",
+					"entries": [
+						"When the wielder hits with an attack, they can declare a Venom {@action Attack}. The target must make a",
+						"DC18 constitution save. Upon failure, they are considered {@condition poisoned}, taking an additional {@damage 8d8} poison damage. Upon success, they take half as much poison damage. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on a success. The wielder needs to finish a short or long rest before using this ability again."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Powers",
+					"entries": [
+						"The Fjelljeger has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it (Save DC 18):",
+						{
+							"type": "list",
+							"items": [
+								"cast {@spell Ray of Frost} (1 charge)",
+								"cast {@spell Spike Growth} (2 charges)",
+								"cast {@spell Sleet Storm} (2 charges)",
+								"cast {@spell Dimension Door} (3 charges)",
+								"cast {@spell Ice Storm} (3 charges)",
+								"cast {@spell Wall of Ice} (3 charges)",
+								"cast {@spell Otiluke's Freezing Sphere} (4 charges)"
+							]
+						},
+						"Fjelljeger regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the Fjelljeger melts away into water, disappearing forever."
+					]
+				}
+			],
+			"ammoType": "arrow|phb",
+			"attachedSpells": [
+				"ray of frost",
+				"spike growth",
+				"sleet storm",
+				"dimension door",
+				"ice storm",
+				"wall of ice",
+				"Otiluke's freezing sphere"
+			]
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
