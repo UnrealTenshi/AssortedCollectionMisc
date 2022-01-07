@@ -1121,42 +1121,6 @@
 		},
 		
 		{
-			"name": "Weave-Wrought Weapon",
-			"type": "GV",
-			"requires": [
-				{
-					"weapon": true
-				}
-			],
-			"inherits": {
-				"namePrefix": "Weave-Wrought Weapon ",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"rarity": "rare",
-				"reqAttune": true,
-				"entries": [
-					"Most magical weapons are enchanted, with powerful magics woven into them after their construction, and allowed to settle into the fabric of the weapon and find purchase on the existing object. Very rarely, however a weapon will be forged with magic itself, strands of the weave poured into raw steel and stone, imbuing it with the very essence of magic at its most fundamental level, and shaping the nature of what it is without any need for hammer, tongs, or grindstone. Only a handful of magesmiths exist that are capable of performing such a feat, and they do so rarely, for the creation of such a weapon requires the smith to pour a part of themselves into the task, leaving them forever diminished by the act, for as long as their creation exists.",
-					"These incredible creations are immutable in form and essence, defying age, damage, and any attempt to mark them. They have a tendency to react with the weave, and are especially resistant to any attempts to dampen the effects of their magic. They are also especially effective tools in confronting a creature whose magical nature, affords it a measure of protection from more mundane weaponry.",
-					{
-						"type": "entries",
-						"name": "Inseparable Magic",
-						"entries": [
-							"This weapon continues to be treated as a magical weapon, and retains all of its properties even when subjected to the effects of an anti-magic field or comparable effect."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Resonant Essence",
-						"entries": [
-							"Attacks made with this magical weapon deal an additional {@damage 1d4} weapon damage. this bonus damage increases to {@dice 1d6} if the creature is resistant to nonmagical bludgeoning, piercing, and slashing damage, or to {@dice 1d8} if the creature is immune to nonmagical bludgeoning, piercing, and slashing damage."
-						]
-					}
-				]
-			},
-			"__prop": "variant"
-		},
-		
-		{
 			"name": "Cataphract Gauntlets",
 			"source": "Assorted Collection Misc",
 			"page": 1,
