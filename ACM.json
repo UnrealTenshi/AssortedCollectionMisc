@@ -1112,6 +1112,7 @@
 			"source": "Assorted Collection Misc",
 			"page": 1,
 			"rarity": "rare",
+			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
 				"A pair of steel canisters mounted in a leather strap which buckles around the face. The canisters end in polished gemstone lenses, and are inscribed with finely etched runes and glyphs on all sides.",
@@ -1142,6 +1143,84 @@
 					"entries": [
 						"These gauntlets can hold up to three charges and regain all expended charges when you complete a long rest.",
 						"You can expend one charge to use a bonus action to make a single melee attack using Strength with a weapon that has the Heavy property."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Deck of Piercing",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"grantsProficiency": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"This deck of 52 throwing cards is magical for the purpose of overcoming resistances.",
+				"It grants +1 to hit, but does not grant a bonus to damage rolls.",
+				"On a hit, roll a {@dice d12}.",
+				{
+					"type": "table",
+					"caption": "Damage",
+					"colLabels": [
+						"{@dice d12}",
+						"Hand",
+						"Piercing Damage"
+					],
+					"colStyles": [
+						"col-1 text-center","col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1,
+									"pad": true
+								}
+							},
+							"Low Card","1d4+DEX"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2,
+									"max": 10
+								}
+							},
+							"High Card","1d8+DEX"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 10,
+									"max": 11
+								}
+							},
+							"Full House","1d10+DEX"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 12
+								}
+							},
+							"Royal Flush","1d12+DEX"
+						]
+						
+					]
+				},
+				{
+					
+					"entries": [
+						"On a critical hit, the card automatically uses the {@damage d12} damage die.",
+						"You have proficiency with this weapon if you have proficiency with the {@item Playing Card Set |PHB}.",
+						"Thrown cards return to the deck after one round."
 					]
 				}
 			]
