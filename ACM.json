@@ -333,7 +333,7 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. On a hit it deals an additional I {@damage 1d8} Lightning damage.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. On a hit it deals an additional {@damage 1d8} Lightning damage.",
 				"The sword has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn.",
 				{
 					"type": "entries",
@@ -903,8 +903,7 @@
 					"type": "entries",
 					"name": "Loki's Prison",
 					"entries": [
-						"When the wielder hits with an attack, they can declare a Venom {@action Attack}. The target must make a",
-						"DC18 constitution save. Upon failure, they are considered {@condition poisoned}, taking an additional {@damage 8d8} poison damage. Upon success, they take half as much poison damage. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on a success. The wielder needs to finish a short or long rest before using this ability again."
+						"When the wielder hits with an attack, they can declare a Venom {@action Attack}. The target must make a DC18 Constitution save. Upon failure, they are considered {@condition poisoned}, taking an additional {@damage 8d8} poison damage. Upon success, they take half as much poison damage. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on a success. The wielder needs to finish a short or long rest before using this ability again."
 					]
 				},
 				{
@@ -938,7 +937,342 @@
 				"wall of ice",
 				"Otiluke's freezing sphere"
 			]
+		},
+		
+		{
+			"name": "Abacus of Mathematics",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"The beads on this silver abacus hum and faintly glow when moved, revealing the abacus's magical nature.",
+				"The abacus has 3 charges, and regains all expended charges daily at dawn. While holding it, when a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend 1 charge, roll a {@dice d6}, and add or subtract the number rolled from the attack roll, ability check, or damage roll."
+			]
+		},
+		
+		{
+			"name": "Azuza's Pearlescent Pen",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"wondrous": true,
+			"focus": [
+				"Artificer",
+				"Wizard"
+			],
+			"entries": [
+				"This quill pen is brightly colored, with each feather strand being colored in a different neon palette.",
+				"This pen doesn't require ink. Instead, by speaking the name of a color, you can make the pen magically write with ink of that color.",
+				"No matter what color you choose, the ink always has a bright, reflective sheen to it.",
+				"While you are holding the pen, you can use it as a spellcasting focus for your artificer or wizard spells. In addition, if you use this pen to copy a spell into your wizard spellbook, the gold you must spend to do so is halved.",
+				"As an action, you can hold the pen in your hand and cause a dazzling series of lights to shine from the pen. Each creature in a",
+				"60-foot cone originating from the pen must succeed on a DC 16 Dexterity saving throw or become {@condition blinded} for 1 minute. Once this property of the pen has been used, it can't be used again until the next dawn."
+			]
+		},
+		
+		{
+			"name": "Al-Bakasha's Sword of Buoyancy",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"A finely crafted short sword with a comfortable leather grip, and a small decorative chain that hangs about four inches from the smooth brass pommel.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"Each attack does {@damage 2d6} slashing or piercing damage.",
+				"The bearer of this sword gets +2 to all Dexterity Saving Throws.",
+				"Also, the bearer is capable of normal movement while suspended in air, either in the elemental plane of air, in the ethereal plane, and while levitating."
+			]
+		},
+		
+		{
+			"name": "Fresh Dagger",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				"A small dagger with a wavy steel blade, and a textured wooden handle. The entire dagger is abnormally clean, and smells strongly of freshly sliced orange.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"Whoever wields this dagger automatically subtracts 6 from any necrotic damage they take.",
+				"No matter what happens to the dagger, it cannot become dirty or soiled in any way."
+			]
+		},
+		
+		{
+			"name": "Butterfly Ring",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "RG",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"An ornate ring of jade and gold, fashioned in the shape of a butterfly. It is pleasantly cool to the touch.",
+				"The wearer of this ring gains an additional 10 feet to all jumping attempts.",
+				"Should the wearer fall, either landing from a jump, or falling further, the wearer only falls slowly, as per the {@spell Feather Fall} spell. The wearer takes no damage from falls, and doesn't need to make Dexterity checks to land on difficult terrain. This ability does not extend to others."
+			]
+		},
+		
+		{
+			"name": "Colwidth's Thinking Cap",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"A multicolored cloth cap that is particularly unattractive. It appears to have been sewn together from colorful rags, and has annoying tassels that hang down into the face of the wearer.",
+				"Wearing the thinking cap increases the intelligence of the wearer by 6 points. When the thinking cap is removed, the wearer becomes sleepy and must sleep for {@dice 1d8} turns per turn that the thinking cap was worn. Those who wear the cap, but are immune to magical sleep are instead {@condition paralyzed} for the duration."
+			]
+		},
+		
+		{
+			"name": "Pocket Gloves",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"A pair of thin, brown, wool gloves, fraying but sturdy, with the fingertips removed.",
+				"Wearing these gloves conveys a triple normal proficiency bonus to using {@item thieves' tools|PHB} regardless of class."
+			]
+		},
+		
+		{
+			"name": "Camo Jacket",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"A jacket of thin wool material, covered in splotches of earth tone colors.",
+				"It cannot be worn with armor.",
+				"Wearing this jacket grants a +4 bonus to {@skill Stealth}."
+			]
+		},
+		
+		{
+			"name": "Really Useful Rope",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"A length of hemp rope, 10' long, ending in a sturdy loop on both sides. Fine threads of blue and green can be seen woven in with the hemp upon close inspection.",
+				"As long as this rope is worn or carried, you gain +1 to your proficiency bonus.",
+				"You may choose a single skill, in which you are already proficient. Gain an additional +1 to your proficiency bonus for that skill."
+			]
+		},
+		
+		{
+			"name": "Shiny Lightning Necklace",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"A small golden lightning bolt shaped charm hanging from a woven cord.",
+				"This necklace empowers the wearer with a reflexive and automatic ability that will occur as a reaction up to two times daily.",
+				"Whenever the wearer is about to suffer damage that would bring them below 10 HP, that player is spared the total damage in that turn. The necklace simultaneously deals {@damage 3d12} lightning damage to the attacker."
+			]
+		},
+		
+		{
+			"name": "Tony the Basilisk Hunter's Goggles",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"A pair of steel canisters mounted in a leather strap which buckles around the face. The canisters end in polished gemstone lenses, and are inscribed with finely etched runes and glyphs on all sides.",
+				"Wearing Tony the Basilisk Hunter's Goggles gives one absolute protection from the petrifying gaze of Basilisks and other similar monsters. The goggles also remove Darkvision, the ability to see normal colors, and any other natural or magical sight based abilities, including spells that allow for magical augmentations to sight. Because of this, immunity to magical darkness is also provided by these goggles, even though normal darkness is still too dark too see through.",
+				"Everything viewed through Tony the Basilisk Hunter's Goggles appears in various shades of monochrome purple. For this reason, the wearer receives a -2 penalty to all {@skill Perception} checks based on sight."
+			]
+		},
+		
+		{
+			"name": "Weave-Wrought Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Weave-Wrought Weapon ",
+				"source": "Assorted Collection Misc",
+				"page": 1,
+				"rarity": "rare",
+				"reqAttune": true,
+				"entries": [
+					"Most magical weapons are enchanted, with powerful magics woven into them after their construction, and allowed to settle into the fabric of the weapon and find purchase on the existing object. Very rarely, however a weapon will be forged with magic itself, strands of the weave poured into raw steel and stone, imbuing it with the very essence of magic at its most fundamental level, and shaping the nature of what it is without any need for hammer, tongs, or grindstone. Only a handful of magesmiths exist that are capable of performing such a feat, and they do so rarely, for the creation of such a weapon requires the smith to pour a part of themselves into the task, leaving them forever diminished by the act, for as long as their creation exists.",
+					"These incredible creations are immutable in form and essence, defying age, damage, and any attempt to mark them. They have a tendency to react with the weave, and are especially resistant to any attempts to dampen the effects of their magic. They are also especially effective tools in confronting a creature whose magical nature, affords it a measure of protection from more mundane weaponry.",
+					{
+						"type": "entries",
+						"name": "Inseparable Magic",
+						"entries": [
+							"This weapon continues to be treated as a magical weapon, and retains all of its properties even when subjected to the effects of an anti-magic field or comparable effect."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Resonant Essence",
+						"entries": [
+							"Attacks made with this magical weapon deal an additional {@damage 1d4} weapon damage. this bonus damage increases to {@dice 1d6} if the creature is resistant to nonmagical bludgeoning, piercing, and slashing damage, or to {@dice 1d8} if the creature is immune to nonmagical bludgeoning, piercing, and slashing damage."
+						]
+					}
+				]
+			},
+			"__prop": "variant"
+		},
+		
+		{
+			"name": "Cataphract Gauntlets",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"These black iron gauntlets seem to grant the wearer the strength to wield the heaviest and most devastating weapons, and rain down a hail of crushing blows upon the enemy.",
+				{
+					"type": "entries",
+					"name": "Brutal Blows",
+					"entries": [
+						"When you make a melee attack using Strength with a weapon that has the Heavy property, you gain a +2 bonus to that attack roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless",
+					"entries": [
+						"These gauntlets can hold up to three charges and regain all expended charges when you complete a long rest.",
+						"You can expend one charge to use a bonus action to make a single melee attack using Strength with a weapon that has the Heavy property."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Deck of Piercing",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"grantsProficiency": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"This deck of 52 throwing cards is magical for the purpose of overcoming resistances.",
+				"It grants +1 to hit, but does not grant a bonus to damage rolls.",
+				"On a hit, roll a {@dice d12}.",
+				{
+					"type": "table",
+					"caption": "Damage",
+					"colLabels": [
+						"{@dice d12}",
+						"Hand",
+						"Piercing Damage"
+					],
+					"colStyles": [
+						"col-1 text-center","col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1,
+									"pad": true
+								}
+							},
+							"Low Card","1d4+DEX"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2,
+									"max": 10
+								}
+							},
+							"High Card","1d8+DEX"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 10,
+									"max": 11
+								}
+							},
+							"Full House","1d10+DEX"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 12
+								}
+							},
+							"Royal Flush","1d12+DEX"
+						]
+						
+					]
+				},
+				{
+					
+					"entries": [
+						"On a critical hit, the card automatically uses the {@damage d12} damage die.",
+						"You have proficiency with this weapon if you have proficiency with the {@item Playing Card Set |PHB}.",
+						"Thrown cards return to the deck after one round."
+					]
+				}
+			]
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
