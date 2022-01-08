@@ -1465,7 +1465,7 @@
 			"baseItem": "padded armor|PHB",
 			"type": "LA",
 			"rarity": "very rare",
-			"reqAttune": ".",
+			"reqAttune": true,
 			"weight": 8,
 			"ac": 11,
 			"bonusAc": "+1",
