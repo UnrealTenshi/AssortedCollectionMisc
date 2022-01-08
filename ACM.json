@@ -1270,8 +1270,8 @@
 					"type": "entries",
 					"name": "Part of the Whole",
 					"entries": [
-						"You can attune to the Boots of the Climber, the",
-						"Climber's Gloves and the Climber's Harness using the same attunement slot."
+						"You can attune to the Boots of the Climber, the Climber's Gloves and the Climber's Harness using the same attunement slot."
+						
 					]
 				}
 			]
@@ -1297,8 +1297,7 @@
 					"type": "entries",
 					"name": "Part of the Whole",
 					"entries": [
-						"You can attune to the Boots of the Climber, the",
-						"Climber's Gloves and the Climber's Harness using the same attunement slot."
+						""You can attune to the Boots of the Climber, the Climber's Gloves and the Climber's Harness using the same attunement slot."
 					]
 				}
 			]
@@ -1324,16 +1323,14 @@
 					"type": "entries",
 					"name": "Quick Reflexes",
 					"entries": [
-						"While wearing this harness, you can use a reaction when you fall to throw out a grappling hook. Make a thrown weapon attack, treating it as a simple weapon with the Finesse and",
-						"Thrown (Range 20/60) properties. On a hit you successfully hit the anchor point and your fall is arrested by the rope. You take no damage when you do so."
+						"While wearing this harness, you can use a reaction when you fall to throw out a grappling hook. Make a thrown weapon attack, treating it as a simple weapon with the Finesse and Thrown (Range 20/60) properties. On a hit you successfully hit the anchor point and your fall is arrested by the rope. You take no damage when you do so."	
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Part of the Whole",
 					"entries": [
-						"You can attune to the Boots of the Climber, the Climber's Gloves and the",
-						"Climber's harness using the same attunement slot."
+						"You can attune to the Boots of the Climber, the Climber's Gloves and the Climber's Harness using the same attunement slot."
 					]
 				}
 			]
@@ -1393,7 +1390,158 @@
 			"attachedSpells": [
 				"teleport"
 			]
+		},
+		
+		{
+			"name": "Dragon Turtle Plate",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "plate armor|PHB",
+			"type": "HA",
+			"resist": [
+				"fire"
+			],
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 65,
+			"ac": 18,
+			"strength": "15",
+			"bonusAc": "+1",
+			"stealth": true,
+			"entries": [
+				"You have a +1 bonus to AC, and you have resistance to fire damage while wearing this armor fashioned from a dragon turtle hatchling's shell.",
+				"As an action, you can exhale scalding steam in a 60-foot cone. Each creature in that area must make a DC 16 Constitution saving throw, taking {@damage 9d8} fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn't grant resistance against this damage. The armor can't be used this way again until you complete a long rest.",
+				"If you are knocked {@condition prone} while wearing this armor, flip a coin. If you lose the flip, you fall on your back. To stand up, you must succeed on a DC 10 Dexterity check on your turn and then use all your movement for that turn. Another player may use their action to get you on your feet."
+			]
+		},
+		
+		{
+			"name": "Captain's Coat",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "studded leather armor|PHB",
+			"type": "LA",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 13,
+			"ac": 12,
+			"grantsProficiency": true,
+			"modifySpeed": {
+				"equal": {
+					"swim": "walk"
+				}
+			},
+			"entries": [
+				"Functional and fashionable, this long pirate captain's coat is reinforced for combat and draws the eyes to its ornate design. While wearing this coat, you have proficiency in {@item navigator's tools|PHB}, vehicles (water) and you have a swimming speed equal to your walking speed.",
+				"Multiple pockets are hidden on the inside of the coat, able to conceal small objects. A creature attempting to search your person must succeed on a DC 15 Intelligence ({@skill Investigation}) check in order to discover the hidden pockets.",
+				{
+					"type": "entries",
+					"name": "Sailor's Mouth",
+					"entries": [
+						"Once per short rest, you can use a bonus action to cast the {@spell vicious mockery} spell (save DC 15) while wearing the coat. When cast in this way, the target takes extra psychic damage equal to your Charisma modifier."
+					]
+				}
+			],
+			"attachedSpells": [
+				"vicious mockery"
+			]
+		},
+		
+		{
+			"name": "Yves' Thieves' Tools",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"entries": [
+				"You have a +1 bonus to ability checks using these {@item thieves' tools|PHB}. As an action you can hold these tools up to a door to hear through it, as long as it's no thicker than 1 foot, alerting you to the location of any creatures within 20 feet of the door. If you set off a trap while using these tools to pick a lock, you have advantage on any saving throws to resist the trap."
+			]
+		},
+		
+		{
+			"name": "Sand Maiden",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "padded armor|PHB",
+			"type": "LA",
+			"rarity": "very rare",
+			"reqAttune": ".",
+			"weight": 8,
+			"ac": 11,
+			"bonusAc": "+1",
+			"stealth": true,
+			"entries": [
+				"This padded armor is a billowing assemblage of earth-colored cloth that seems to flow with the wind as if made of sand itself. You have a +1 bonus to AC while wearing this armor. Padded armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks, this armor doesn't.",
+				"Additionally, you have advantage on saving throws you make against {@condition exhaustion} effects due to extreme heat. You gain the ability to glide across the desert, while you are on sand you ignore difficult terrain.",
+				"As an action you can transform into the aspect of the sand maiden. For 1 minute, or until you end this transformation with a bonus action, your skin glimmers like a mirage and you move like a swirling sandstorm. While in this state you gain the following benefits:",
+				"You have advantage on Dexterity saving throws.",
+				"You can move through the space of another creature and pass through small holes, narrow openings, and even mere cracks, though you treat liquids as though they were solid surfaces.",
+				"Your movement doesn't provoke opportunity attacks.",
+				"Your speed increases by 20 feet.",
+				"The armor can't be used this way again until the next dawn.",
+				"The Sand Maiden was the ruler of the dunes. Her shifting visage was stunning to behold, appearing to embody the form most desirous to a desperate onlooker. Those who had tested themselves against the vast expanse of her domain and failed would be visited by her in their final moments. Only those who have survived this encounter know what pact is offered in exchange for mercy.",
+				"This cloth armor was woven from loose strands of her hair found drifting across the desert contour. Dunefolk treasure this material for its magical properties that bestow a fraction of the maiden's power upon the wearer."
+			]
+		},
+		
+		{
+			"name": "Aquatic Symbiote",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This fleshy mass pulses with life and twitches when touched. If you allow this creature to merge with your body you gain adaptations suited for an aquatic environment. You can breathe underwater and gain a swimming speed equal to your walking speed. You must immerse yourself in water for at least 1 hour every day, or suffer one level of {@condition exhaustion} at the end of that day. You can only recover from this {@condition exhaustion} through magic or by immersing yourself in water for at least 1 hour. Additionally, when you merge with the symbiote, you can choose one of the following adaptations:",
+				{
+					"type": "entries",
+					"name": "Bioluminescence",
+					"entries": [
+						"Your skin develops luminous patches or you grow a slender stalk from your head that dangles a mass of luminescent flesh at the end. As a bonus action you can activate or deactivate your bioluminescence, providing bright light in a 20-foot radius and dim light for an additional 20 feet. As an action you can create a dazzling display and attempt to allure a creature within 20 feet of you that can see you. The creature must make a DC 15 Wisdom saving throw, or become {@condition charmed} by you for 1 minute on a failure. A creature {@condition charmed} in this way is {@condition incapacitated} and moves towards you at half speed on each of its turns. The creature can remake this save at the beginning of each of its turns and each time it takes damage, ending the effect on a success. Once this property is used, it cannot be used again until you complete a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Venomous Spines",
+					"entries": [
+						"Rows of thin spines protrude from your skin, coated with neurotoxic mucus. As a reaction, when a creature hits you with a melee attack, you can retaliate with venomous spines. Make an unarmed strike against the attacker, dealing {@dice 1d4} piercing on a hit and the target must make a DC 15 Constitution saving throw, taking {@damage 2d8} poison damage and becoming {@condition poisoned} for 1 minute on a failure. Once you hit a creature, this property cannot be used again until you complete a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ink Sacs",
+					"entries": [
+						"You develop three sacs filled with an inky black substance. As an action while underwater you can secrete the contents of one sac to create an opaque ink cloud in a 20-foot-radius sphere centered on yourself. The sphere spreads around corners, its area is heavily obscured, and it counts as difficult terrain to creatures other than yourself. It lasts for 1 minute or until a strong current disperses it. You regenerate all expended ink sacs when you complete a long rest.",
+						"Removing the attunement to the symbiote takes 1 hour of incredibly painful surgery, which must be performed by another creature. During this process, you are {@condition incapacitated} and take {@damage 2d6} necrotic damage every 10 minutes. This damage ignores resistance and immunity. If you are reduced to 0 hit points or the process is interrupted, the removal fails. If the process is a success, the attunement ends and the symbiote is destroyed."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Verdant Slip",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "leather armor|PHB",
+			"type": "LA",
+			"rarity": "very rare",
+			"weight": 10,
+			"ac": 11,
+			"bonusAc": "+1",
+			"entries": [
+				"This deep green vegan-leather armor is wreathed in living leaves. You have a +1 bonus to AC while wearing this armor and advantage on Dexterity ({@skill Stealth}) checks made to hide in verdant terrain.",
+				"Once per day, you can use an action to cast the {@spell tree stride} spell from the armor. When tree stride is cast using this armor, each time you emerge from a tree you have advantage on the first attack you make before the end of your turn."
+			],
+			"attachedSpells": [
+				"tree stride"
+			]
 		}
+		
+		
+		
+		
+		
+		
 		
 		
 		
