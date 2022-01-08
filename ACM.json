@@ -1224,7 +1224,180 @@
 					]
 				}
 			]
+		},
+		
+		{
+			"name": "The Bow of a Thousand Arrows",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortbow|PHB",
+			"type": "R",
+			"rarity": "legendary",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"entries": [
+				"When you attack with this weapon and roll at least a 15 on the die, the arrow that is shot multiplies into a volley of arrows. All creatures within a 30 foot cone in front of you, pointed in the direction of the original target of your attack, must succeed on a DC 20 dexterity saving throw or take {@damage 8d8} damage. A creature that successfully saves takes half damage. The original arrow also still hits the original target as normal."
+			],
+			"ammoType": "arrow|phb"
+		},
+		
+		{
+			"name": "Climber's Gloves",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"These metal gauntlets serve as piercing hooks to claw out handholds in the sheerest surfaces, and can bite deep into even solid rock.",
+				{
+					"type": "entries",
+					"name": "Grip of Steel",
+					"entries": [
+						"While wearing these gloves you gain a climb speed of 20 feet. If you already have a climb speed, your climb speed increases by 10 feet instead. In addition, while wearing these gloves, you can have your unarmed strikes deal slashing or piercing damage equal to 3 + your strength modifier instead of your regular unarmed damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Part of the Whole",
+					"entries": [
+						"You can attune to the Boots of the Climber, the",
+						"Climber's Gloves and the Climber's Harness using the same attunement slot."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Boots of the Climber",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"These sturdy boots strap firmly to the wearer's calves, and have metal shod soles and spikes to grip to smallest footholds in stony walls and cliff faces.",
+				{
+					"type": "entries",
+					"name": "Spiked Grip",
+					"entries": [
+						"While wearing these boots you gain a climb speed of 20 feet. If you already have a climb speed, your climb speed increases by 10 feet instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Part of the Whole",
+					"entries": [
+						"You can attune to the Boots of the Climber, the",
+						"Climber's Gloves and the Climber's Harness using the same attunement slot."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Climber's Harness",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Comprised of loops of corded leather and tightly braided rope slung through metal hoops with biting hooks attached to the ends, this harness can be affixed to any attire by the use of belts and straps to distribute the weight evenly.",
+				{
+					"type": "entries",
+					"name": "Slinger's Line",
+					"entries": [
+						"The harness can be used as a grappling hook and is attached to a 20 foot length of rope that is enchanted to extend up to 60 feet when thrown. The rope cannot be cut or severed unless it is exposed to an antimagic field."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quick Reflexes",
+					"entries": [
+						"While wearing this harness, you can use a reaction when you fall to throw out a grappling hook. Make a thrown weapon attack, treating it as a simple weapon with the Finesse and",
+						"Thrown (Range 20/60) properties. On a hit you successfully hit the anchor point and your fall is arrested by the rope. You take no damage when you do so."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Part of the Whole",
+					"entries": [
+						"You can attune to the Boots of the Climber, the Climber's Gloves and the",
+						"Climber's harness using the same attunement slot."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Speed Force Sandals",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusAc": "+2",
+			"bonusSavingThrow": "+2",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"While wearing the sandals your movement speed increases by 20ft."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Awakened",
+					"entries": [
+						"Once awakened and attuned, the sandals gain the ability to harness a number of charges equal to your proficiency modifier x2. These charges are replenished at a rate of {@dice 2d6} charges per dawn. When you spend these charges you suffer {@dice 1d4} points of Lighting damage per charge used but can activate the following features."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed Increase",
+					"entries": [
+						"You can use your bonus action to spend charges to increase your speed. For every 1 charge you spend your movement speed is increased by 10ft. The Speed Increase is active for the next 1 minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Boost",
+					"entries": [
+						"As a reaction to taking damage from a Speed Increase you can spend charges to boost your movement speed. For every 3 charges you spend your movement speed is doubled. The Boost is active for the next 1 minute.",
+						"When you activate the Speed Increase and/or Boost, you can spend up to as many charges as you have available, but you can have only one active Speed Increase and/or Boost active at any given time. If you attempt to magically increase your speed by any other means while you have an active Speed Increase and/or Boost Active the effect fails. All expended charges are replenished at dawn.",
+						"During your turn if your movement speed exceeds;",
+						{
+							"type": "list",
+							"items": [
+								"150, you gain a +2 bonus to AC, advantage on Dexterity saving throws, and ranged attacks against you are made at disadvantage.",
+								"200, you can use your reaction to move up to half your movement speed when an enemy ends their turn within 5ft of you. In addition, all opportunity attacks made against you are made at disadvantage.",
+								"250, all attacks against you are made at disadvantage.",
+								"300, you gain an additional action. That action can be used only to take the {@action Attack} (one weapon attack only), {@action Dash}, Disengage, {@action Hide}, or {@action Use an Object} action.",
+								"774, you can push the boot so fast you become a near {@condition invisible} blur and appear to teleport to a location. This effect functions as if you cast the {@spell Teleport} spell (no action required) targeting a Very Familiar Location. You can choose any location on the same plane that is not magically secured from entry. Results other than \"On Target\" are considered to be \"Mishaps\" such as running into objects or getting lost. This movement ravages your body causing 1 level of {@condition exhaustion} if you are \"On Target\" or 2 if you have a \"Mishap\"."
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": [
+				"teleport"
+			]
 		}
+		
+		
+		
+		
 		
 		
 	]
