@@ -1767,7 +1767,7 @@
 				"These crystals can fit in the palm of your hand. They vary in color and give benefits to the user depending on the color.",
 				"When you take damage of the crystal's type, you can use your reaction to reduce the damage of that type by {@dice 1d4}.",
 				"The crystal has 5 charges, you can expend a charge to cast a cantrip corresponding to the color of the crystal, as shown in the table below. The range of the cantrip becomes 30 feet, and has a {@hit 4} to hit and a spell save DC of 12.The cantrip is cast as if the caster is 1st level.",
-				"If you have more than 2 crystals on you,they become temporarily inert due to interference and you cannot use the charges and the absorption ability."
+				"If you have more than 2 crystals on you,they become temporarily inert due to interference and you cannot use the charges and the absorption ability.",
 				{
 					"type": "list",
 					"items": [
@@ -1795,7 +1795,7 @@
 				"These crystals are typically the size of a longsword hilt. They vary in color and give benefits to the user depending on the color.",
 				"When you take damage of the crystal's type, you can use your reaction to reduce the damage of that type by {@dice 2d4}.",
 				"The crystal has 15 charges, you can expend a charge to cast a cantrip corresponding to the color of the crystal, as shown in the table below. The range of the cantrip becomes 60 feet, and has a {@hit 5} to hit and a spell save DC of 13.The cantrip is cast as if the caster is 5th level.",
-				"If you have more than 2 crystals on you,they become temporarily inert due to interference and you cannot use the charges and the absorption ability."
+				"If you have more than 2 crystals on you,they become temporarily inert due to interference and you cannot use the charges and the absorption ability.",
 				{
 					"type": "list",
 					"items": [
@@ -1824,7 +1824,7 @@
 				"When you take damage of the crystal's type, you can use your reaction to reduce the damage of that type by {@dice 3d4}.",
 				"The crystal has 20 charges, you can expend a charge to cast a cantrip corresponding to the color of the crystal, as shown in the table below. The range of the cantrip becomes 90 feet, and has a {@hit 7} to hit and a spell save DC of 15.The cantrip is cast as if the caster is 5th level.",
 				"You can also expend 3 charges a spell at it's lowest level.",
-				"If you have more than 2 crystals on you,they become temporarily inert due to interference and you cannot use the charges and the absorption ability."
+				"If you have more than 2 crystals on you,they become temporarily inert due to interference and you cannot use the charges and the absorption ability.",
 				{
 					"type": "list",
 					"items": [
