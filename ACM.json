@@ -1777,7 +1777,7 @@
 						"Green------Poison reduction, {@spell Poison Spray}",
 						"Light Blue-Cold reduction, {@spell Ray of Frost}",
 						"Red--------Fire reduction, {@spell Fire Bolt}",
-						"Purple-----Psychic reduction, {@spell Viscious Mockery}",
+						"Purple-----Psychic reduction, {@spell Vicious Mockery}",
 						"White------Radiant reduction, {@spell Sacred Flame}"
 					]
 				}
@@ -1805,7 +1805,7 @@
 						"Green------Poison reduction, {@spell Poison Spray}",
 						"Light Blue-Cold reduction, {@spell Ray of Frost}",
 						"Red--------Fire reduction, {@spell Fire Bolt}",
-						"Purple-----Psychic reduction, {@spell Viscious Mockery}",
+						"Purple-----Psychic reduction, {@spell Vicious Mockery}",
 						"White------Radiant reduction, {@spell Sacred Flame}"
 					]
 				}
@@ -1813,7 +1813,7 @@
 		},
 		
 		{
-			"name": "Arcane Crystal (Larg)",
+			"name": "Arcane Crystal (Large)",
 			"source": "Assorted Collection Misc",
 			"page": 1,
 			"rarity": "uncommon",
@@ -1823,18 +1823,18 @@
 				"These crystals are typically the size of a longsword. They vary in color and give benefits to the user depending on the color.",
 				"When you take damage of the crystal's type, you can use your reaction to reduce the damage of that type by {@dice 3d4}.",
 				"The crystal has 20 charges, you can expend a charge to cast a cantrip corresponding to the color of the crystal, as shown in the table below. The range of the cantrip becomes 90 feet, and has a {@hit 7} to hit and a spell save DC of 15.The cantrip is cast as if the caster is 5th level.",
-				"You can also expend 3 charges a spell at it's lowest level.",
+				"You can also expend 3 charges to cast a spell in the crystal at it's lowest level.",
 				"If you have more than 2 crystals on you,they become temporarily inert due to interference and you cannot use the charges and the absorption ability.",
 				{
 					"type": "list",
 					"items": [
-						"Black------Necrotic reduction, {@spell Toll the Dead},{@spell Arms of Hadar}",
+						"Black------Necrotic reduction, {@spell Toll the Dead|XGE},{@spell Arms of Hadar}",
 						"Blue-------Lightning reduction, {@spell Shocking Grasp},{@spell Witch Bolt}",
-						"Dark Green-Acid reduction, {@spell Acid Splash},{@spell Chromatirc Orb} as Acid",
+						"Dark Green-Acid reduction, {@spell Acid Splash},{@spell Chromatic Orb} as Acid",
 						"Green------Poison reduction, {@spell Poison Spray},{@spell Ray of Sickness}",
 						"Light Blue-Cold reduction, {@spell Ray of Frost},{@spell Armor of Agathys}",
 						"Red--------Fire reduction, {@spell Fire Bolt},{@spell Burning Hands}",
-						"Purple-----Psychic reduction, {@spell Viscious Mockery},{@spell Dissonant Whispers}",
+						"Purple-----Psychic reduction, {@spell Vicious Mockery},{@spell Dissonant Whispers}",
 						"White------Radiant reduction, {@spell Sacred Flame},{@spell Guiding Bolt}"
 					]
 				}
