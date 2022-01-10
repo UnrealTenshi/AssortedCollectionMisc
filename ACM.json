@@ -1670,7 +1670,119 @@
 					]
 				}
 			]
+		},
+		
+		{
+			"name": "Ring of X Enhancement",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "RG",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"The ring enhances the wielder's ability to deal damage.",
+				"While wearing the ring you gain +1 to damage of a certain damage type.",
+				{
+					"type": "list",
+					"items": [
+						"Acid",
+						"Bludgeoning",
+						"Cold",
+						"Fire",
+						"Lightning",
+						"Necrotic",
+						"Piercing",
+						"Poison",
+						"Psychic",
+						"Radiant",
+						"Slashing",
+						"Thunder"
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Swords of Dungeons & Dragons",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+2",
+			"bonusAc": "+2",
+			"recharge": "dawn",
+			"charges": 1,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls with this magic weapon, which can also be wieled as a magic morningstar with the same bonuses.",
+				"The weapon also grants you a +2 bonus to your Armor Class",
+				"The weapon has 1 charge, which it recharges daily at dawn.",
+				"As an action, you can spend the charge to conjure a gold dragon wyrmling. The dragon disappears when it drops to 0 hit points or after 1 minute.",
+				"The dragon is friendly to you and your companions for the duration. Roll initiative for the dragon, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you) lf you don't issue any commands to the dragon, it defends itself from hostile creatures but otherwise takes no actions.",
+				"If you score a critical hit with the weapon on a creature CR 1 or higher, it regains 1 charge."
+			]
+		},
+		
+		{
+			"name": "Mirror Shield",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shield|PHB",
+			"type": "S",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+1",
+			"entries": [
+				"The face of this ornate shield has the reflective properties of a mirror, but with incredible durability.",
+				"While you wield it,you gain a +1 bonus to your Armor Class, in addition to the shield's normal bonus to AC.",
+				"When you are hit by an attack that deals damage of any type except bludgeoning, piercing, or slashing, you can use your reaction to absorb the attack. If you do so,the damage is reduced by {@dice 1d10} + your Constitution modifier, and the shield gains that many charges.",
+				"As part of the same reaction used to absorb an attack, you can unleash energy absorbed by the shield by expending any number of charges from the shield and make a ranged spell attack using Constitution as your spellcasting ability.",
+				"On a hit, the target takes damage cqual to the number of charges spent. The damage is your choice of any type that the shield has absorbed since your last long rest.",
+				"The shield can hold up to 20 charges and loses all charges when you finish a long rest. If the shield would gain more charges than its maximum, it gains only enough charges to reach its maximum and you take any remaining damage."
+			]
+		},
+		
+		{
+			"name": "Arcane Crystal (Small)",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"wondrous": true,
+			"charges": 5,
+			"entries": [
+				"These crystals can fit in the palm of your hand. They vary in color and give benefits to the user depending on the color. The crystal has 5 charges. When you take damage of the crystal's type, you can use your reaction to reduce the damage of that type by {@dice 1d4}. Furthermore, you can expend a charge to cast a cantrip corresponding to the color of the crystal, as shown in the table below. The range of the cantrip becomes 30 feet, and has a +{@hit 4} to hit and a spell save DC of 12.The cantrip is cast as if the caster is 1st level.",
+				{
+					"type": "list",
+					"items": [
+						"Black------Necrotic reduction, {@spell Toll the Dead}",
+						"Blue-------Lightning reduction, {@spell Shocking Grasp}",
+						"Dark Green-Acid reduction, {@spell Acid Splash}",
+						"Green------Poison reduction, {@spell Poison Spray}",
+						"Light Blue-Cold reduction, {@spell Ray of Frost}",
+						"Red--------Fire reduction, {@spell Fire Bolt}",
+						"Purple-----Psychic reduction, {@spell Viscious Mockery}",
+						"White------Radiant reduction, {@spell Sacred Flame}"
+					]
+				}
+			]
 		}
+		
+		
+		
 		
 		
 		
