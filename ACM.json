@@ -1839,7 +1839,64 @@
 					]
 				}
 			]
+		},
+		
+		{
+			"name": "Coat of Arms",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While attuned to this you can speak the command word as an action to sprout a pair of spectral arms. The arms persist for an hour or until you dismiss them  (no action required).",
+				"You can do this 3 times per long rest.",
+				"While the arms exist, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Strength ({@skill Athletics}) Checks made to grapple creatures and maintain grapples.",
+						"Climbing does not cost you extra movement",
+						"You ignore the loading property of weapons.",
+						"When make a melee attack as a bonus action on your turn, can make one additional attack as part of the same bonus action"
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Hookshot",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "R",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",			
+			"weapon": true,
+			"entries": [
+				"Hookshots are typically comprised of a pointed spearhead attached to a length of chain with a mechanism allowing them to be quickly deployed and retracted.",
+				"The hookshot can be used as a martial ranged weapon with a range 20/60 feet and the light property.",
+				"It deals piercing damage equal to {@dice 1d6}+your Dexterity modifier on a hit.",
+				"After you make an attack with the hookshot, you can use a bonus action to retract it.",
+				"If the attack hit a creature or object, one of the following effects occurs. depending on the properties of the target:",
+				{
+					"type": "list",
+					"items": [
+						"If the target is a creature of your size or smaller, it must succeed on a DC 15 Strength saving throw or be pulled within 5 feet of you to an unoccupied space. The creature cannot take reactions until the end of its next turn.",
+						"If the target is an object that is your size or larger made of wood or a similarly \"soft\" material or a creature of a larger size than you, you are pulled within 5 feet of it to an unoccupied space. At your DM's discretion, you may instead be able to climb onto the creature or object."
+					]
+				},
+				"Any other targets hit by the hookshot take damage as normal and cause no additional effects. Regardless of the target, the hookshot immediately detaches after it is finished retracting."
+			]
 		}
+		
+		
 		
 		
 		
