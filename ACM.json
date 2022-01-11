@@ -1870,7 +1870,6 @@
 			"page": 1,
 			"type": "R",
 			"rarity": "rare",
-			"reqAttune": true,
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -1894,7 +1893,503 @@
 				},
 				"Any other targets hit by the hookshot take damage as normal and cause no additional effects. Regardless of the target, the hookshot immediately detaches after it is finished retracting."
 			]
+		},
+		
+		{
+			"name": "Cinderbane, Sword of Sinew and Steel",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"reqAttune": "shortsword legendary (requires attunement)",
+			"bonusWeapon": "+2",
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls with thismagic weapon.",
+				"Once per turn, when you hit a creature with an attack using the sword it deals an additional {@damage 2d6} damage that is either fire or necrotic (your choice)",
+				"When you deal necrotic damage with the sword you gain temporary hit points equal to the necrotic damage dealt.",
+				"When you deal fire damage with the sword, the target is ignited.",
+				"While ignited, the target takes {@damage 1d4} fire damage at the start of each of its turns.",
+				"A creature can end this damage by using its action to make a DC l0 Dexterity check to extinguish the flames."
+			]
+		},
+		
+		{
+			"name": "Peculiar Coin",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"A shiny coin that looks different from regular coins.",
+				"After failing an ability check or saving throw, but before knowing the outcome, time freezes, and whoever is in possession of this coin and concious may flip it. On a heads they automatically get a natural 20 for the check, and a natural 1 on a tails.",
+				"The coin has 3 charges and regains {@dice 1d4 - 1} charges daily at dawn."
+			]
+		},
+		
+		{
+			"name": "Hex Eater",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weave Cutter",
+					"entries": [
+						"Imbued with powerful abjuration magic, this weapon suppresses any magic that would resist its damage. Additionally, when you score a critical hit with this weapon, you can cast {@spell Dispel Magic} as a 3rd level spell as part of your action. Intelligence is your spellcasting ability for this spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Consume Magic",
+					"entries": [
+						"You can cast {@spell Absorb Elements|XGE} at will as a 1st level spell, without expending a spell slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Witch Hunter",
+					"entries": [
+						"You can cast {@spell Detect Magic} at will, without expending a spell slot."
+					]
+				}
+			],
+			"attachedSpells": [
+				"dispel magic",
+				"absorb elements|xge",
+				"detect magic"
+			]
+		},
+		
+		{
+			"name": "Lucky Seven",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"(weapon any)",
+				"Everyone thinks they have a lucky item. A lucky copper piece, lucky dagger, lucky hat. But luck is much more fickle than that. Especially magical luck. See, luck is tangible and it truly exists in certain places.",
+				"This finely made weapon is embossed with golden four leafed clovers on its hilt. There is a strange weighting in the weapon's handle that will occasionally make a mediocre attack strike true, almost as if the weapon had a mind of its own.",
+				{
+					"type": "entries",
+					"name": "Lucky Seven",
+					"entries": [
+						"This weapon scores a critical hit on a roll of 7 or 20"
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Yin & Yang",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "rapier|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Each of these rapiers is a counterpart to the other. The blade of one shines with a brilliant white metal while the other is made out of a jet black iron alloy. You attune to both swords as if it were one item.",
+				"You gain a +1 bonus to attack and damage rolls made with these magic weapons.",
+				{
+					"type": "entries",
+					"name": "Yin",
+					"entries": [
+						"Once per turn you may activate the sword to deal and extra {@damage 1d8} necrotic damage. When you roll a 20 on your attack roll with this magic weapon, the target takes an additional {@damage 1d8} necrotic damage. Additionally, this weapon can be used to cast the {@spell darkness} spell once per long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Yang",
+					"entries": [
+						"Once per turn you may activate the sword to deal and extra {@damage 1d8} radiant damage.When you roll a 20 on your attack roll with this magic weapon, the target takes an additional {@damage 1d8} radiant damage. Additionally, this weapon can be used to cast the {@spell daylight} spell once per long rest."
+					]
+				}
+			],
+			"attachedSpells": [
+				"darkness",
+				"daylight"
+			]
+		},
+		
+		{
+			"name": "Golden Beetle Pendant",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"The Golden Beetle Pendant is stunning in its craftsmanship, with twisting golden arcs forming the curvature of its body and head and delicately set sapphires in its wings.",
+				"Multiple creatures can be attuned to the same pendant. Anyone attuned to the pendant is in its favor unless they do something directly destructive to nature or do something truly evil in its presence, at which time the attunement is lost.",
+				{
+					"type": "entries",
+					"name": "Lifegiver",
+					"entries": [
+						"When anyone attuned to the pendant dies within 60 feet of it, the beetle unhooks itself from its chain and flies to them instantly, spreading its sapphire wings with a brilliant flash of green that returns them to life with 10 hit points.",
+						"Once this ability has been used, the beetle must spend an hour in direct moonlight to recharge this ability."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Boom Box",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This crystal cube contains a highly volatile substance that explodes upon impact.",
+				"You can use an action to throw the cube up to 60 feet. The cube explodes on impact and is destroyed. Each creature within a 10-foot radius of where the cube landed must succeed on a DC 15 Dexterity saving throw. On a failed save, a creature takes {@damage 2d8} thunder damage and is pushed 10 feet away from the point of impact."
+			]
+		},
+		
+		{
+			"name": "Planar Mirror",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"For many mages, looking into the vast realms that lie beyond the material planes is all but impossible. For some mages however, it is absolutely necessary. These mages have created items to help them in this process. Small, unassuming trinkets such as this mirror can act as a conduit to other planes, so that no creature can escape their purview.",
+				"The planar mirror, a very rare item, is a small black wooden hand mirror encircled with engravings of planar sigils.",
+				"While touching it, you can cast the {@spell scrying} spell (save DC 17) with it and can attempt to look at any location or being that you are familiar with on another plane of existence. When attempting to scry on a creature on a different plane than you, that creature has advantage on its saving throw.",
+				"Alternatively, you can peer into the mirror to view the destination of a plane shift spell, if you are within 30 feet of where the spell was cast and the spell was cast less than 1 minute ago. When using the mirror in this way the mirror reflects a shimmering portal and you learn the location it led to in general terms such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells."
+			],
+			"attachedSpells": [
+				"scrying"
+			]
+		},
+		
+		{
+			"name": "Sungun",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "revolver",
+			"type": "R",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"age": "modern",
+			"property": [
+				"AF",
+				"RLD",
+				"L"
+			],
+			"range": "40/120",
+			"reload": 6,
+			"dmg1": "2d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"entries": [
+				"This magical revolver has the Light property, with Reload 6 and Misfire 1. While attuned to this magical revolver, you gain a bonus to your attack and damage rolls equal to half your proficiency modifier rounded down when you attack with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "High Noon",
+					"entries": [
+						"At noon the empty chambers of the revolver are loaded with Deadeye bullets imbued with magical energy that ignore resistances and immunity to damage. Deadeye bullets deal radiant damage instead of piercing damage. If you reduce a creature to 0 hit points with a Deadeye bullet the gun produces another Deadeye bullet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fan The Hammer",
+					"entries": [
+						"If the {@dice D20} roll for your initiative is a 15 or higher and your other hand is free, on your first turn you can forgo your movement and bonus action to make up to six attacks with this weapon with a single action. Once you use this feature it cannot be used again until you finish a short or long rest."
+					]
+				}
+			],
+			"ammoType": "modern bullet"
+		},
+		
+		{
+			"name": "Thousand Rat Shiv",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				"You gain +1 bonus to attack and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Plague Bite",
+					"entries": [
+						"When you damage a creature with this dagger the target takes an additional {@damage 2d8} poison damage and must make a DC 16 Constitution saving throw. On a failed save, it is {@condition poisoned} until the end of your next turn. When a creature dies while {@condition poisoned} by this dagger or you reduce a creature to 0 hit points with an attack made with this dagger, the body is consumed and a Swarm of Rats erupts from the corpse. Any time one of these swarms reduces a creature to 0 hit points, another Swarm of Rats takes that creature's place. All swarms summoned by this dagger and its effects remain for 10 minutes, after which they fade out of existence."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Rat",
+					"entries": [
+						"At the start of your turn, you can use a free action to mentally command these swarms to move up to 30 feet in any direction and attack. As a bonus action or reaction(to being hit with a weapon attack), you can magically swap places with any swarm summoned by this dagger."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Brazeen Ox Knuckles",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"resist": [
+				"cold"
+			],
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusWeapon": "+2",
+			"entries": [
+				"While wearing these magic bracers, your unarmed strikes gain +2 bonus to attack and damage rolls and you have advantage on attack rolls with unarmed strikes against creatures wearing heavy armor..",
+				{
+					"type": "entries",
+					"name": "Raging Ox",
+					"entries": [
+						"If a creature makes a melee attack against you, you may use your reaction to make a melee attack against them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Burning Rage",
+					"entries": [
+						"The Knuckles have a number of charges equal to your proficiency bonus. You may spend three charges to cast {@spell Heat Metal} from the Knuckles as a bonus action without concentration. You may spend additional charges to cast the spell at one level higher for each charge spent. If you target the Brazen Ox Knuckles with Heat Metal, your unarmed strikes deal an additional {@damage 2d8} fire damage plus {@damage 1d8} fire damage for each additional level of the spell. You do not take fire damage from casting Heat Metal on the Knuckles and you are resistant to cold damage for the duration of the spell. The Knuckles regain all expended charges after a long rest."
+					]
+				}
+			],
+			"attachedSpells": [
+				"heat metal"
+			]
+		},
+		
+		{
+			"name": "Desert Walker Shroud",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"You have protection against the effects of the shifting temperatures of the desert. You can tolerate temperatures as high as 115 degrees Fahrenheit and as low as 0 degrees Fahrenheit without any additional protection. Creatures have disadvantage on perception or investigation checks to discover items or weapons hidden on your person. This poncho also has the abilities of a \"{@item Cloak of Billowing|XGE}.\""
+			]
+		},
+		
+		{
+			"name": "Snake Bite Whip",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "whip|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"You gain +{@hit 1} to hit on attack rolls made with this weapon.",
+				{
+					"type": "entries",
+					"name": "Viper Venom",
+					"entries": [
+						"This weapon increases your attack range by an additional 5 ft. When you deal damage to a creature with this weapon, the snake head bites down and poisons the creature. The target must succeed on a DC 16 Constitution saving throw or be Paralyzed for 1 minute. At the end of each of the target's turns, it can repeat the saving throw, ending the effect on itself on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Second Skin",
+					"entries": [
+						"When you take damage from an attack, spell, or ability you may use your reaction to reduce that damage to 0, shedding the outer layer of your skin. Once you use this ability, it can't be used again until you finish a long rest."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Snake Eye Stetson",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 6,
+			"entries": [
+				"This hat has 6 charges and regains {@dice 1d4 + 1} charges at dawn. You have advantage on insight checks while wearing this hat.",
+				{
+					"type": "entries",
+					"name": "Vaquero Grit",
+					"entries": [
+						"While you wear this hat, if you would be {@condition frightened} or {@condition charmed} you can use your reaction to spend 1 charge to resist the effect. When a {@condition frightened} or {@condition charmed} condition is resisted this way, if you were the sole target of the effect, you may spend an additional charge to reflect the spell or ability back towards the creature who attempted to affect you."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Holly Jolly Jacket",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"immune": [
+				"cold"
+			],
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Wherever you go, winter and merriment follow close behind. While you are wearing this coat you are immune to cold damage and you can ignore difficult terrain and low temperatures caused by ice and snow.",
+				{
+					"type": "entries",
+					"name": "Down the Chimney",
+					"entries": [
+						"As an action you and everything you are wearing and carrying, can meld with the coat. Until the end of your next turn you can move through a space as narrow as 1 inch wide without squeezing and cannot be {@condition grappled} or {@condition restrained} by non magical means."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Naughty or Nice",
+					"entries": [
+						"If another creature within 30 feet of you rolls a 1 or 20 on a {@dice d20}, you can use your reaction to change the roll to the opposite number (1 becomes 20 and vice versa). If the roll was for an attack and is changed to a 20, it becomes a critical hit. Once you use this feature it cannot be used again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Father Winter",
+					"entries": [
+						"As an action you become wreathed in frigid winter winds for 1 minute. Every step you take leaves icy frost in your wake, causing a 10 foot radius centered on you to become difficult terrain. Melee attacks you make deal a bonus {@damage 1d8} cold damage and the first time each turn you damage a creature with a melee attack while this feature is active, the target must make a DC 16 constitution saving throw. On a failed save, the target's speed is halved until the start of your next turn. Once you use this feature you can't use it again until you finish a short or long rest."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Soloist's Harpblade",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": "by a bard",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Stand out from the competition. Show them how a true artist gets things done. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Showboat",
+					"entries": [
+						"When you make an attack with this magic weapon you can use your bonus action to add one Bardic Inspiration die to the attack and damage rolls. You can wait until after you make your attack roll before choosing to use this feature, but you must decide before the DM says whether the attack roll succeeds or fails."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Critique",
+					"entries": [
+						"You gain access to the Vicious Mockery cantrip while attuned to this weapon. If you already have the Vicious Mockery cantrip you can alternatively choose another cantrip to gain access to. When you cast {@spell Vicious Mockery} while attuned to this weapon you can spend a Bardic Inspiration die to subtract the number rolled from the target's saving throw."
+					]
+				}
+			],
+			"attachedSpells": [
+				"vicious mockery"
+			]
+		},
+		
+		{
+			"name": "Wranglin' Rope",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"As an action, you can use this item to make an attack roll against a creature within 15 feet of you. The attack uses your dexterity bonus and proficiency with a whip allows you to add your proficiency bonus to the attack roll. If the attack hits, the creature is {@condition restrained} and you cannot use this feature again until the creature is no longer {@condition restrained}. You can use an action to pull the {@condition restrained} creature 10 feet towards you. You can use a bonus action to tighten the lasso dealing {@damage 1d4} bludgeoning damage or to release a creature {@condition restrained} by this item. The {@condition restrained} creature cannot be moved further than 15 feet from you while you hold the rope. The creature must use an action to make a DC 15 Strength (athletics) check to free itself from the rope. If the creature is more than one size class larger than you it is not considered {@condition restrained}, you cannot pull it towards you, and it has advantage on the strength check to free itself from the rope."
+			]
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
