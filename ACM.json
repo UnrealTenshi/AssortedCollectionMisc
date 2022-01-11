@@ -1451,8 +1451,10 @@
 			"name": "Yves' Thieves' Tools",
 			"source": "Assorted Collection Misc",
 			"page": 1,
+			"type":"T",
 			"rarity": "uncommon",
 			"reqAttune": true,
+			"wondrous": true,
 			"entries": [
 				"You have a +1 bonus to ability checks using these {@item thieves' tools|PHB}. As an action you can hold these tools up to a door to hear through it, as long as it's no thicker than 1 foot, alerting you to the location of any creatures within 20 feet of the door. If you set off a trap while using these tools to pick a lock, you have advantage on any saving throws to resist the trap."
 			]
@@ -1899,7 +1901,21 @@
 			"name": "Cinderbane, Sword of Sinew and Steel",
 			"source": "Assorted Collection Misc",
 			"page": 1,
-			"reqAttune": "shortsword legendary (requires attunement)",
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"reqAttune": true,
 			"bonusWeapon": "+2",
 			"entries": [
 				"You gain a +2 bonus to attack and damage rolls with thismagic weapon.",
