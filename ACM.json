@@ -732,11 +732,11 @@
 			"weight": 13,
 			"ac": 12,
 			"entries": [
-				"Challenged by Loki to produce wondrous artifacts, the Sons of Ivaldi forged a golden headpiece to restore the Goddess Sif's shorn hair.",
+				"Challenged by Loki to produce wondrous artifacts, the Sons of Ivaldi forged a golden headpiece to restore the Goddess Sif's short hair.",
 				"However, this is actually a Mimic that has been enchanted to obey the wearer and can transform itself to take the form and function of any armor or clothing.",
 				"The armor is considered light armor and provides 13 AC + your Dexterity Modifier.",
 				"You gain Resistance to Acid, Poison, Piercing, Slashing and Bludgeoning damage and Vulnerability to Thunder and Psychic damage.",
-				"You gain Advantage to stealth checks: The mimic is capable ofblending into its surroundings when commanded to take an appropriately stealthy form.",
+				"You gain Advantage to stealth checks: The mimic is capable of blending into its surroundings when commanded to take an appropriately stealthy form.",
 				"You gain Advantage on Dexterity saving throws: The mimic tries to protect itself by protecting you from any unexpected dangers.",
 				"If the wearer dies, the mimic sacrifices itself to return the wearer to 1HP.",
 				"The armor can do the following actions:",
@@ -791,7 +791,7 @@
 				"The blade grants the wielder resistance to fire damage and advantage on all saving throws against spells and other magical effects",
 				"Each successful attack gathers one charge, lighting up one of the 8 empty rubies set into the handle.",
 				"With each successful attack, one or more gathered ruby charges can be spent to deal an additional {@damage 1d6} Fire Damage per charge.",
-				"As a reaction, the sword can also absorb any oncoming Fire Damage upto {@dice 1d6} x number of empty rubies.",
+				"As a reaction, the sword can also absorb any oncoming Fire Damage up to {@dice 1d6} x number of empty rubies.",
 				"Wielder can spend 3 charges to cast {@spell Burning Hands}",
 				"Wielder can spend 8 charges to cast {@spell Fireball}",
 				"Each day at dawn, {@dice 1d6 + 2} gathered charges fade away."
@@ -1728,11 +1728,11 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"You gain a +2 bonus to attack and damage rolls with this magic weapon, which can also be wieled as a magic morningstar with the same bonuses.",
+				"You gain a +2 bonus to attack and damage rolls with this magic weapon, which can also be wielded as a magic morningstar with the same bonuses.",
 				"The weapon also grants you a +2 bonus to your Armor Class",
 				"The weapon has 1 charge, which it recharges daily at dawn.",
 				"As an action, you can spend the charge to conjure a gold dragon wyrmling. The dragon disappears when it drops to 0 hit points or after 1 minute.",
-				"The dragon is friendly to you and your companions for the duration. Roll initiative for the dragon, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you) lf you don't issue any commands to the dragon, it defends itself from hostile creatures but otherwise takes no actions.",
+				"The dragon is friendly to you and your companions for the duration. Roll initiative for the dragon, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you).If you don't issue any commands to the dragon, it defends itself from hostile creatures but otherwise takes no actions.",
 				"If you score a critical hit with the weapon on a creature CR 1 or higher, it regains 1 charge."
 			]
 		},
@@ -1753,7 +1753,7 @@
 				"While you wield it,you gain a +1 bonus to your Armor Class, in addition to the shield's normal bonus to AC.",
 				"When you are hit by an attack that deals damage of any type except bludgeoning, piercing, or slashing, you can use your reaction to absorb the attack. If you do so,the damage is reduced by {@dice 1d10} + your Constitution modifier, and the shield gains that many charges.",
 				"As part of the same reaction used to absorb an attack, you can unleash energy absorbed by the shield by expending any number of charges from the shield and make a ranged spell attack using Constitution as your spellcasting ability.",
-				"On a hit, the target takes damage cqual to the number of charges spent. The damage is your choice of any type that the shield has absorbed since your last long rest.",
+				"On a hit, the target takes damage equal to the number of charges spent. The damage is your choice of any type that the shield has absorbed since your last long rest.",
 				"The shield can hold up to 20 charges and loses all charges when you finish a long rest. If the shield would gain more charges than its maximum, it gains only enough charges to reach its maximum and you take any remaining damage."
 			]
 		},
@@ -1918,7 +1918,7 @@
 			"reqAttune": true,
 			"bonusWeapon": "+2",
 			"entries": [
-				"You gain a +2 bonus to attack and damage rolls with thismagic weapon.",
+				"You gain a +2 bonus to attack and damage rolls with this magic weapon.",
 				"Once per turn, when you hit a creature with an attack using the sword it deals an additional {@damage 2d6} damage that is either fire or necrotic (your choice)",
 				"When you deal necrotic damage with the sword you gain temporary hit points equal to the necrotic damage dealt.",
 				"When you deal fire damage with the sword, the target is ignited.",
@@ -2197,7 +2197,7 @@
 		},
 		
 		{
-			"name": "Brazeen Ox Knuckles",
+			"name": "Brazen Ox Knuckles",
 			"source": "Assorted Collection Misc",
 			"page": 1,
 			"resist": [
@@ -2388,7 +2388,330 @@
 			"entries": [
 				"As an action, you can use this item to make an attack roll against a creature within 15 feet of you. The attack uses your dexterity bonus and proficiency with a whip allows you to add your proficiency bonus to the attack roll. If the attack hits, the creature is {@condition restrained} and you cannot use this feature again until the creature is no longer {@condition restrained}. You can use an action to pull the {@condition restrained} creature 10 feet towards you. You can use a bonus action to tighten the lasso dealing {@damage 1d4} bludgeoning damage or to release a creature {@condition restrained} by this item. The {@condition restrained} creature cannot be moved further than 15 feet from you while you hold the rope. The creature must use an action to make a DC 15 Strength (athletics) check to free itself from the rope. If the creature is more than one size class larger than you it is not considered {@condition restrained}, you cannot pull it towards you, and it has advantage on the strength check to free itself from the rope."
 			]
+		},
+		
+		{
+			"name": "Sunder",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				"A crystalline weapon from times of old, broken but stronger than ever. This magic weapon has the versatile property and deals {@damage 1d6} damage instead when wielded with two hands.",
+				{
+					"type": "entries",
+					"name": "Brilliant Blade",
+					"entries": [
+						"Once per turn when you take the attack action, you can forgo one of your attacks, expending a spell slot of your choice and infusing this weapon with destructive power. A wave of magical energy slashes forth from the broken blade in a wave that is 5-feet tall and extends from you in a cone with a size equal to 10 times the level of the expended spell slot. Each creature in the area must succeed on a dexterity saving throw with a DC equal to 11 plus the level of the expended spell slot. On a failed save a creature takes {@damage 1d10} force damage per level of the expended spell slot, or half as much on a successful save."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Soulmate Band",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"curse": true,
+			"bonusAc": "+2",
+			"entries": [
+				"The spirit of a jilted lover resides within this tarnished wedding ring. While attuned to this ring you have advantage against being {@condition charmed} as the spirit within the ring guards your heart for themselves.",
+				{
+					"type": "entries",
+					"name": "Till Death Do Us Part",
+					"entries": [
+						"You can use your action to summon a Banshee from the ring to fight by your side for up to 10 minutes or until you dismiss it with a bonus action. The Banshee shares your initiative and moves after you, but cannot willingly move further than 30 feet from you. If you are further than 30 feet from the Banshee at the start of its turn, it attempts to move as close to you as possible before taking any other actions. The Banshee prioritizes attacking the closest creature to you or the most recent creature to deal damage to you. When you or the Banshee are reduced to 0 hit points the Banshee is sucked back into the ring. Once you use this feature it can't be used again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"Once attuned to this ring, you cannot end your attunement to it. You hear the Banshee jealously whisper in your ear when you converse with other creatures. If you attempt to charm a creature or make a persuasion check, you must make a DC 12 wisdom saving throw. On a failed save, the creature you attempt to charm makes their saving throw with advantage or you make your persuasion check with disadvantage. If a creature attempts to cast {@spell Remove Curse} on the ring, it fails and the Banshee emerges from the ring and attacks that creature until they are {@condition unconscious} or the Banshee is reduced to 0 hit points. To undo the curse, the Wedding portion of the Ceremony spell must be cast on you and the Banshee. Once you do, the Banshee passes on to the afterlife and this item loses all other features, and instead the ring provides a bonus +2 to your AC."
+					]
+				}
+			],
+			"attachedSpells": [
+				"remove curse"
+			]
+		},
+		
+		{
+			"name": "Titan",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "greatsword|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": "by a dwarf or earth genasi",
+			"reqAttuneTags": [
+				{
+					"race": "dwarf"
+				}
+			],
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusAc": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Carved from only the toughest earth and stone in the dwarven mountains, the mighty blade is found in the hands of warriors of similar sturdiness and connection to the earth. This weapon requires a Constitution score of 17 to wield. You gain a +1 bonus to AC while holding this weapon.",
+				{
+					"type": "entries",
+					"name": "Rolling Bash",
+					"entries": [
+						"If you move at least 10 feet in a straight line towards a large or smaller creature before making a melee attack against it with this weapon, the target must succeed on a DC Strength saving throw equal to 8 plus your proficiency bonus plus your Constitution bonus or be knocked {@condition prone}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mantle Skin",
+					"entries": [
+						"If attuned to by a Dwarf or Earth Genasi, after each long rest your body is covered in a layer of protective stone and you gain 25 temporary hit points. While you have these hit points you gain a +1 bonus to AC and are immune to any spell or effect that would alter your form. Over the course of a long rest you can place at least 500 gold worth of gemstones into the empty slot of this weapon and the gemstones are consumed. If you do so, while the temporary hit points granted by this feature remain you gain an additional benefit based on the type of gemstone used:"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ruby",
+					"entries": [
+						"Fire resistance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sapphire",
+					"entries": [
+						"Cold resistance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Topaz",
+					"entries": [
+						"Lightning resistance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Diamond",
+					"entries": [
+						"Resistance to all magical damage."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Spellsnare Buckler",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shield|PHB",
+			"type": "S",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"Constructed from arcane shielding used in experiments, this shield grants its wielder the ability to absorb and even redirect magical energy.",
+				{
+					"type": "entries",
+					"name": "Catch",
+					"entries": [
+						"This shield has a number of charges equal to 3 + your proficiency bonus. When a creature within 10 feet of you becomes the target of a spell, you can use your reaction to spend 1 or more charges to attempt to snare it. If the number of charges spent is equal to or exceeds the spell level, the spell's effect is countered as it is absorbed into the shield. If the number of charges spent is less than the level of the spell, the spell targets you instead and is not absorbed. The shield can have only one spell absorbed at a time. At the end of your turn, if a spell is absorbed by the shield, you must make an Intelligence saving throw to attempt to contain it. The DC is equal to 10 + the spell's level. On a failure, the shield is destroyed as it explodes in a 20ft sphere around you, dealing {@damage 1d6} force damage for each level of the spell to each creature in the area."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Release",
+					"entries": [
+						"While a spell is absorbed by the shield, you can spend an action to release it. The spell is cast as though the original spellcaster had done so using the original DC and dice rolled, but you may choose a new target within the spell's range."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Saint's Scripture",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"wondrous": true,
+			"bonusSpellAttack": "+1",
+			"entries": [
+				"The word of the Dawn Saint alone can be a tool for delivering healing and grace to the sick and needy. If you are a Cleric or Paladin, you can use this tome as a holy symbol, and you gain a +1 bonus to spell attack rolls while you hold it.",
+				{
+					"type": "entries",
+					"name": "Compassion",
+					"entries": [
+						"This item has a number of charges equal to your proficiency modifier and regains {@dice 1d6 + 1} charges daily at dawn. You can use an action to expend 1 or more charges to cast one of the following spells: Detect Good and Evil, {@spell Detect Poison and Disease} (1 charge), {@spell Cure Wounds}, {@spell Sanctuary}, (2 charges), {@spell Mass Healing Word}, {@spell Beacon of Hope} (3 charges).",
+						"Your spellcasting ability for these spells is Charisma or Wisdom."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Generosity",
+					"entries": [
+						"When you heal a creature while holding this item, roll one additional die of the same type and add the result to the number of hit points healed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Self-Sacrifice",
+					"entries": [
+						"When you roll a death saving throw, you can choose to fail your save and cause another creature within 20 feet of you to regain a number of hit points equal to {@dice 3d8} + your Charisma bonus. If you regain consciousness, you gain a point of {@condition exhaustion}. Once you use this ability, it cannot be used again until you finish a long rest."
+					]
+				}
+			],
+			"attachedSpells": [
+				"detect poison and disease",
+				"beacon of hope",
+				"cure wounds",
+				"sanctuary",
+				"mass healing word"
+			]
+		},
+		
+		{
+			"name": "Butterfly",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeaponAttack": "+3",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				"You gain a +3 bonus to damage and attack rolls you make with this magic weapon. This item has a number of charges equal to your proficiency modifier and regains all charges after a long rest. When thrown this dagger flies back, returning to your hand.",
+				{
+					"type": "entries",
+					"name": "Feather",
+					"entries": [
+						"You can cast the {@spell Feather Fall} spell at will targeting only yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flitter",
+					"entries": [
+						"As a bonus action you can spend a charge to gain a temporary fly speed equal to your movement speed +10 until the end of your next turn. Until this feature ends, opportunity attacks are made against you with disadvantage. When the feature ends you fall if still aloft, unless you can stop the fall."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flurry",
+					"entries": [
+						"When you make an attack with this magic weapon with advantage, you can spend a charge to instead make an additional weapon attack against that target as part of the same attack action."
+					]
+				}
+			],
+			"attachedSpells": [
+				"feather fall"
+			]
+		},
+		
+		{
+			"name": "Starstep Diadem",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dusk",
+			"charges": 2,
+			"entries": [
+				"A crown fashioned to hold the fossilized fetal remains of a creature that fell from the stars. It allows the wearer to interact with the mysterious shifting of space across the universe. While attuned to this item, you can sense when a creature within 100 feet of you is teleporting (e.g. Misty Step, Dimension Door, Planeshift, etc.). This item has 2 charges and regains all charges daily at dusk.",
+				{
+					"type": "entries",
+					"name": "Cosmic Passenger",
+					"entries": [
+						"When a creature within 100 feet of you teleports, you can use your reaction to spend a charge and teleport alongside them, appearing in an empty space within 5 feet of the creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Universal Eye",
+					"entries": [
+						"When a creature within 100 feet of you teleports, for the next minute you can use this item to cast the {@spell Scrying} spell on that target, making its wisdom save with disadvantage. The base Spell Save DC is 10 unless yours is higher. Once you use this feature it cannot be used again until you finish a long rest."
+					]
+				}
+			],
+			"attachedSpells": [
+				"scrying"
+			]
+		},
+		{
+			"name": "Scholar Beater Belt",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"wondrous": true,
+			"bonusAc": "+1",
+			"bonusSavingThrow": "+1",
+			"entries": [
+				"An inconspicuous piece of clothing that turns a warrior into every mage's worst nightmare.",
+				{
+					"type": "entries",
+					"name": "Your Best Shot",
+					"entries": [
+						"This item has a pool of 50 temporary hit points that replenishes after you finish a long rest. You can use an action to activate this belt, causing a set of spectral armor to engulf your body for 1 minute or until you use a bonus action to dismiss the armor. You gain an amount of temporary hit points equal to the number left in the pool. If any of these temporary hit points remain when the ability ends, you lose them and they are stored in the pool up to a maximum of 50. While you have these temporary hit points you have a +1 bonus to your AC and have advantage on saving throws against spells and other magical effects.Once you use this ability it can't be used again until you finish a short rest."
+					]
+				}
+			]
 		}
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
