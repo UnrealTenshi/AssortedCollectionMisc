@@ -2703,10 +2703,530 @@
 					]
 				}
 			]
+		},
+		
+		{
+			"name": "Giant's Share Frying Pan",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "club|PHB",
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"bonusAc": "+2",
+			"club": true,
+			"weapon": true,
+			"entries": [
+				"This runed cast-iron frying pan can change size at will, allowing you to cook for larger groups of adventurers without breaking a sweat. If you take the dodge action you can shield yourself with this pan and gain a +1 bonus to AC until the start of your next turn.",
+				{
+					"type": "entries",
+					"name": "Morphing Metal",
+					"entries": [
+						"You can use a bonus action to cause the pan to enlarge in size. While enlarged, this weapon uses the properties of a {@item greatclub|PHB} and your movement speed is reduced by 5. If you take the dodge action while in greatclub form, this pan grants a +2 bonus to AC until the start of your next turn. When preparing food, you can serve three times the number of people you can normally serve. You can use a bonus action to revert the pan to its regular size."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heavy Retention",
+					"entries": [
+						"If exposed to a source of fire, this pan immediately warms and retains the heat for an hour. Food can be cooked without a flame and the weapon deals an additional {@damage 1d4} fire damage while heat is retained this way."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Raiment of the Final Dawn",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"resist": [
+				"fire",
+				"necrotic",
+				"radiant"
+			],
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"charges": 3,
+			"entries": [
+				"Radiant as the sun, pure as the sky, strong as the earth. While wearing this coat you have advantage against being {@condition charmed} or {@condition frightened} and you can understand and speak Celestial. This item can store up to 3 charges. When a creature is reduced to 0 hit points within 30 feet of you, this item gains a charge. If the creature was an undead or fiend this item gains 2 charges instead.",
+				{
+					"type": "entries",
+					"name": "Consecration",
+					"entries": [
+						"From the blood of the infernal that stains this holy vestment, light shines forth. You can use an action to activate this feature, causing you to become a holy avatar of battle. While this feature is active, at the start of each of your turns you regain an amount of hit points equal to 1+ your constitution modifier, you have resistance to fire and necrotic damage, and melee attacks you make deal an additional {@damage 2d4} radiant damage. At the end of each of your turns, the raiment loses a charge until it has no charges remaining, at which point this feature is no longer active. Once this feature has been used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corruption",
+					"entries": [
+						"If a creature is reduced to 0 hit points within 30 feet of you while this item has 3 charges, at the start of your next turn you must succeed on a DC 18 wisdom saving throw. On a failed save you move directly towards the nearest creature to you and use the attack action against that creature. You can choose whether or not to use your extra attack feature for this manic attack. If there is more than one possible target, roll to randomly determine the target. You then regain control for the remainder of your turn. If you are under an effect that prevents you from concentrating (such as the barbarian's Rage feature), you automatically fail this saving throw."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "The Hand of Treachery",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"recharge": "dusk",
+			"charges": 3,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Forged from terrible deeds for a noble cause, a weapon with a dubious birth now thirsts for its kind. You gain a +1 bonus to attack and damage rolls you make with this magic weapon. This weapon has 3 charges and regains all charges daily at dusk.",
+				{
+					"type": "entries",
+					"name": "Coagulate",
+					"entries": [
+						"If a Vampire is damaged by this weapon, at the start of its next turn its Regeneration feature causes it to regain {@dice 1d20} hit points instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kindred Bloodhunt",
+					"entries": [
+						"As a bonus action you can choose to designate one Vampire you can see within 60 feet as the target of this feature. If you rest this weapon in your palm it points in the direction of the designated creature so long as you are on the same plane as it. As long as the target is within 60 feet of you, when it attempts to use either its Charm or Children of the Night action and you can see them, you can use your reaction to spend a charge, forcing the target to succeed on a DC 15 Intelligence saving throw. On a failed save this weapon's peculiar powers cause the feature to fail. Any uses of the failed ability are expended as though it were countered. This benefit lasts until the target dies or you designate a new creature as the target of this feature."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "The Watcher's Eyes",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "scimitar|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"bonusWeaponAttack": "+1",
+			"recharge": "dawn",
+			"charges": 3,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"It's always better to have more eyes watching your back. You gain a +1 bonus to damage and attack rolls you make with this magic weapon. When you speak the command word, the weapon's eyes glow with a menacing light, providing bright light in a 20-foot radius and dim light for an additional 20 feet that pierces even magical darkness. This weapon has 3 charges and regains all charges daily at dawn.",
+				{
+					"type": "entries",
+					"name": "Such Sights to Show",
+					"entries": [
+						"You can spend a charge to hold this weapon up to the face of a creature within 5 feet of you that can see the light and hypnotize it. The target must succeed on a DC 15 Intelligence saving throw or become affected by your choice of the Command, Charm Person or Dissonant Whispers spell. A creature that cannot normally see (such as a blind creature or a creature with no eyes) is immune to this feature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nowhere to Hide",
+					"entries": [
+						"When you cast the {@spell Scrying} spell you can spend a charge to cause the target to make their save with disadvantage. While you are scrying you can spend a charge to change the type of vision you experience to {@sense darkvision}, X-ray vision, or seeing the presence of magic as if affected by the Detect Magic spell. While this weapon has at least 1 charge you also become aware if you or a friendly creature within 30 feet of you is being scryed upon and can see any scrying sensor within 30 feet of you."
+					]
+				}
+			],
+			"attachedSpells": [
+				"scrying"
+			]
+		},
+		
+		{
+			"name": "Quickstep Chapsatcher's Eyes",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Leather chaps with a golden buckle and tooled designs of alchemical nature. You gain a +2 bonus to your initiative so long as you are not surprised. When you roll a 1 on your initiative roll, you may reroll the die. You must use the new roll."
+			]
+		},
+		
+		
+		{
+			"name": "Dayspring Longbow",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longbow|PHB",
+			"type": "R",
+			"rarity": "rare",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"recharge": "dawn",
+			"charges": 3,
+			"bow": true,
+			"weapon": true,
+			"entries": [
+				"The only things that shine brighter than this embellished weapon are the arrows of sunlight it conjures to battle the infernal. This bow doesn't require ammunition, automatically creating arrows of pure sunlight when the bowstrings are drawn back. Ranged attacks you make with these arrows deal radiant damage instead of the weapon's normal damage. An arrow created by this weapon disappears after it hits or misses a target.",
+				{
+					"type": "entries",
+					"name": "Piercing Light",
+					"entries": [
+						"This weapon has 3 charges and regains all charges daily at dawn. As an action, you can spend a charge to fire a light arrow at a point within 100 feet, casting the Daylight spell at that point."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sun Shower",
+					"entries": [
+						"You can spend an action to fire an arrow into the air and choose a point within 150 feet of you. Each creature in a 40-foot radius, 20-foot high cylinder under that point must make a DC 16 Dexterity saving throw as a barrage of light arrows shower the area. A creature takes {@damage 5d8} radiant damage on a failed save, or half as much damage on a successful one. Once you use this feature, it can't be used again until the next dawn."
+					]
+				}
+			],
+			"ammoType": "arrow|phb"
+		},
+		
+		{
+			"name": "Shard of the Apex",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "greatsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": "by a barbarian",
+			"reqAttuneTags": [
+				{
+					"class": "barbarian"
+				}
+			],
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeaponAttack": "+3",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Often, the terrible designs of nature itself can prove inspirational to the art of combat. You gain a +3 bonus to damage and attack rolls you make with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Primal Presence",
+					"entries": [
+						"When you enter your rage, you summon the terror of the ancient hunter into your body. You force each creature within 30 feet of you to succeed on a DC 16 wisdom saving throw or become {@condition frightened} of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this feature for the next 24 hours."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rip and Tear",
+					"entries": [
+						"When you score a critical hit against a creature with this weapon, the target begins to bleed profusely and loses {@dice 2d6} hitpoints at the start of each of its turns. If you score a critical hit on the same creature while it is affected by this feature, the hitpoint loss increases by {@dice 2d6}. Any creature can attempt to stop the bleeding by succeeding on a DC 14 medicine check. Constructs, undead and any other creatures that do not bleed are immune to this feature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bring it Down",
+					"entries": [
+						"The first time each turn you damage a large or smaller creature with this weapon you can force the target to make a contested Strength ({@skill Athletics}) check. Small and tiny creatures make this check with disadvantage. If you succeed, you yank the creature by the hooked blade of this weapon and knock it {@condition prone}."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Hag's Finger",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "WD",
+			"rarity": "rare",
+			"reqAttune": true,
+			"curse": true,
+			"bonusSpellAttack": "+1",
+			"entries": [
+				"A {@condition petrified} finger of a Hag, perhaps given as a gift, or perhaps given as a hex. While using this wand as an arcane focus, you gain a bonus +1 to spell attack rolls. This wand has two charges and regains all expended charges at dusk.",
+				{
+					"type": "entries",
+					"name": "Cruel Magicks",
+					"entries": [
+						"You can spend a charge to cast the {@spell Bestow Curse} spell without expending a spell slot. If you cast the {@spell Bestow Curse} spell while attuned to this item it does not require spell components and you can spend a number of spell slots to increase the spell level cast by that amount of levels."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Malicious Sustenance",
+					"entries": [
+						"You can spend an action to consume the Hag's Finger, swallowing it whole. You transform into an Annis Hag for up to 10 minutes as though affected by the {@spell True Polymorph} spell without requiring concentration. When you revert back to your normal form, a finger drops from your hand to the ground and becomes a new Hag's Finger. Once you use this feature, it cannot be used again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"If you use the Malicious Sustenance feature, you cannot unnattune from the wand. At the end of each long rest you must roll a {@dice D20}. On a 10 or lower, features of an Annis Hag begin to appear on your person, such as hunched shoulders, unappealing grey skin, and a stench of death lingering about you. Each time you roll a 10 or lower the effects become more severe until you fail three times, at which point others perceive you as a Hag. A Greater Restoration or Remove Curse spell mitigates the effects of the curse for up to 1 hour. To undo the curse you must find an Annis Hag and present it with this wand to remove the effects, as only an Annis Hag understands the intricacies of their magic. If they do so, this item loses the Malicious Sustenance feature and you revert to your original form."
+					]
+				}
+			],
+			"attachedSpells": [
+				"bestow curse"
+			]
+		},
+		
+		{
+			"name": "Kinetically Augmented Ballistic Overkill Obliteration Machine",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "greatsword|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"The line between genius as insanity is a blurry one. You gain a +2 bonus to attack and damage rolls made with this weapon. This weapon can hold up to 5 charges. You can cast a spell that deals fire damage into the engine of this weapon. The spell has no effect and this weapon gains a number of charges equal to the level of the spell slot used. You can instead insert a Red Corundum {@item Elemental Gem} into the engine of this weapon. As long as the engine holds the gem inside it, the weapon regains all charges after a long rest.",
+				{
+					"type": "entries",
+					"name": "Booster Blade",
+					"entries": [
+						"As a bonus action you can spend a charge to fire up the engine of this weapon and supercharge your attacks. Until the end of your turn this weapon gains the thrown property (Range 20/120) and your attacks are made with advantage dealing an additional {@damage 1d8} fire damage on a hit. After each attack you make, you must succeed on a Strength saving throw where the DC is equal to 13 plus the number of attacks you have made this turn. On a failed save you lose your grip on this weapon as the rocket continues to fire and it flies a number of feet equal to 10 times the number of attacks you have made this turn in a random direction or until it hits a structure. Any creature in the weapon's path must make a Dexterity saving throw where the DC is equal to 13 plus the number of attacks made this turn or take {@damage 2d6} bludgeoning damage."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Luxus Voucher",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"The finest hospitality in this, or any plane.",
+				{
+					"type": "entries",
+					"name": "Welcome",
+					"entries": [
+						"This single-use voucher grants you one visit to The Luxus, a lavish hotel located in the Astral Plane. When you tear the ticket, a gorgeous mahogany door appears in front of you as though instantly casting the Magnificent Mansion spell. The door disappears after it has been closed. The interior appears as a luxurious hotel decorated in gold. All other aspects of the spell are subject to your wishes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rest and Relaxation",
+					"entries": [
+						"While in the hotel a creature can enter the hotel spa to undergo treatments to cure them of diseases, conditions, and curses that could be undone by the Greater Restoration or Remove Curse spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chauffeur",
+					"entries": [
+						"When a creature leaves the hotel it can choose to teleport to a place that it knows on the plane that the creature is from. If a creature has not left the hotel after 24 hours they reappear at an unoccupied space near where the ticket was torn."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Shade, the Coffin Nail",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "rapier|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"While sheathed, this weapon is indistinguishable from an ordinary cane. A creature must succeed on a DC 16 investigation check to discern its true nature. This weapon has a number of charges equal to half your proficiency bonus rounded down and regains all charges daily at dusk.",
+				{
+					"type": "entries",
+					"name": "Shadow Tag",
+					"entries": [
+						"When you hit a creature with this weapon, you can spend a charge to forgo the damage and instead target the creature's shadow with this magic weapon. If you do, the target becomes {@condition restrained} while this sword is pinning its shadow. The creature makes a DC 15 Charisma Saving throw at the end of its turns to break free.",
+						"While this ability is active you cannot make attacks with this weapon and the ability ends if you let go of the weapon or it is removed from the ground. You can remove the blade from a shadow it is pinning as a free action, freeing the creature from being {@condition restrained}. This feature cannot be used if there is no light to cast the target's shadow."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Escoffier, the Peerless Edge",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				"This pristine 240 mm chef's knife of celestial make grants its wielder the ability of a master chef. While you are attuned to this item, it gains the following features:",
+				{
+					"type": "entries",
+					"name": "Grand Chef",
+					"entries": [
+						"You have advantage on any ability checks that involve food preparation including but not limited to carving creatures, memorizing a complicated recipe, making a dish more presentable, etc. Food preparation takes half as long while you are attuned to this knife."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Refined Blade",
+					"entries": [
+						"This knife can only carve through non-magical, inanimate materials. Regardless of the material's properties, the knife glides through with little resistance."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "The Locker Key",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "scimitar|PHB",
+			"type": "M",
+			"rarity": "artifact",
+			"reqAttune": true,
+			"curse": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"bonusWeaponDamage": "+1",
+			"recharge": "dusk",
+			"charges": 3,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This crude-looking blade banishes unfortunate souls to the crushing depths far below the ocean surface to meet their painful end.",
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"The scimitar grants the following benefits in its dormant state:",
+						"You gain a +1 bonus to damage rolls made with this magic weapon.",
+						"This weapon has 3 charges and regains all charges daily at dusk."
+						{
+							"type": "entries",
+							"name": "To the Locker",
+							"entries": [
+								"When you hit a creature, you can spend a charge to have this weapon deal an additional {@damage 2d10} necrotic damage. If this damage reduces the target to below 30 hit points, the creature must make a charisma saving throw. The DC is equal to 10 + your proficiency bonus + your charisma bonus. On a failed save the creature is teleported to The Locker, a demiplane resembling a prison at the bottom of the ocean. At the start of the creature's turns it takes {@damage 5d10} force damage from the crushing pressure of the water. If this damage reduces the target to 0 hit points, it is crushed into pulp and does not return, after which this weapon regains a charge. A creature can repeat the saving throw at the end of each of its own turns, ending the effect on itself on a success and reappearing in the space it left or in the nearest unoccupied space if that space is occupied. The soul of a creature that dies is trapped in The Locker and cannot be restored except by a wish spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Curse",
+							"entries": [
+								"The Pull of the Sea. This blade is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you cannot unattune from this weapon except by an effect such as the remove curse spell. If your attunement ends, the item returns to its dormant state as though no creatures had died from its abilities. If a humanoid creature has not been killed by the To The Locker ability within one week of the last, on each subsequent day you must roll one of your hit dice. Your hit point maximum is reduced by that amount as the blade begins to siphon your soul. Your hit point maximum is reduced this way until you kill a humanoid creature with the To The Locker feature. If your hit point maximum is reduced to zero, you die and your soul is transported and trapped in the depths of The Locker.",
+								"When 25 humanoid creatures have died using the To The Locker feature, this weapon reaches its awakened form."
+							]
+						}
+					]
+				},
+				
+				{
+					"type": "entries",
+					"name": "Awakened",
+					"entries": [
+						"The scimitar grants the following benefits in its awakened state:",
+						"The weapon's bonus to attack and damage rolls increases to +2.",
+						"To The Locker now deals {@damage 3d10} necrotic damage and the hit point threshold is increased to 40 hit points."
+						{
+							"type": "entries",
+							"name": "Gaze into the Abyss",
+							"entries": [
+								"Your mind has been blessed by the depths in ways yet incomprehensible. If you succeed on a wisdom or charisma saving throw the creature whose ability or spell caused you to make a saving throw subtracts half your charisma modifier from the next saving throw it makes before the end of your next turn.",
+								"When 50 humanoid creatures have died using the To The Locker feature, this weapon reaches its exalted form."
+							]
+						}
+					]
+				},
+				
+				{
+					"type": "entries",
+					"name": "Exalted",
+					"entries": [
+						"The scimitar grants the following benefits in its exalted state:",
+						"The weapon's bonus to attack and damage rolls increases to +3.",
+						"To The Locker now deals {@damage 4d10} necrotic damage and the hit point threshold is increased to 50 hit points.",
+						"Gaze into the Abyss now causes the creature whose ability or spell caused you to make a saving throw to subtract your charisma modifier from the next saving throw it makes before the end of your next turn.",
+						
+						{"type": "entries",
+							"name": "Life is Cruel",
+							"entries": [
+								"Whenever you score a critical hit against a creature, you may use the To The Locker ability against the target without expending a charge."
+							]
+						}
+					]
+				}
+			]
 		}
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+			
 		
 		
 		
