@@ -3158,7 +3158,7 @@
 					"entries": [
 						"The scimitar grants the following benefits in its dormant state:",
 						"You gain a +1 bonus to damage rolls made with this magic weapon.",
-						"This weapon has 3 charges and regains all charges daily at dusk."
+						"This weapon has 3 charges and regains all charges daily at dusk.",
 						{
 							"type": "entries",
 							"name": "To the Locker",
@@ -3183,7 +3183,7 @@
 					"entries": [
 						"The scimitar grants the following benefits in its awakened state:",
 						"The weapon's bonus to attack and damage rolls increases to +2.",
-						"To The Locker now deals {@damage 3d10} necrotic damage and the hit point threshold is increased to 40 hit points."
+						"To The Locker now deals {@damage 3d10} necrotic damage and the hit point threshold is increased to 40 hit points.",
 						{
 							"type": "entries",
 							"name": "Gaze into the Abyss",
