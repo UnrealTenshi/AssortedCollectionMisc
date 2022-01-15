@@ -4435,7 +4435,109 @@
 						]
 					}
 				]
+			},
+			
+			{
+				"name": "Lamp of Minor Wishes",
+				"source": "Assorted Collection Misc",
+				"page": 1,
+				"rarity": "uncommon",
+				"wondrous": true,
+				"charges": 3,
+				"entries": [
+					"It is unknown whether a genie truly dwells within this ornate oil lamp, or if it is powered by much lesser magic.",
+					"This item has 3 charges. You can use an action to rub the lamp and expend 1 charge to make one of the following wishes:",
+					{
+						"type": "entries",
+						"name": "Fortune",
+						"entries": [
+							"Two coins appear in your hands, or at your feet if your hands are full. Roll a {@dice d6}. On a result of 1-2 the coins are copper, on a result of 3-4 they're silver and on a result of 5-6 they're gold."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Power",
+						"entries": [
+							"For the next hour all of your spell and weapon attacks deal an additional 2 force damage."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Knowledge",
+						"entries": [
+							"A large tome appears before you. A creature holding this tome has advantage on Intelligence checks. This tome disappears after 1 hour."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Immortality",
+						"entries": [
+							"You gain {@dice 2d4} temporary hit points and a small, ethereal picture of you is magically transported to a random location on your current plane of existence."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Magic",
+						"entries": [
+							"You can cast either prestidigitation or thaumaturgy (your choice) at-will. Additionally, you have advantage on all Dexterity ({@skill Sleight of Hand}) and Charisma ({@skill Deception} and {@skill Performance}) checks made to perform magic tricks or card tricks. These benefits last for 1 hour."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Love",
+						"entries": [
+							"A voice only you can hear declares its love for you. You regain {@dice 1d4} hit points and a rose appears at your feet.",
+							"A creature cannot make the same wish more than once per day. A creature holding this lamp at dawn can wish for more wishes, no matter how many charges the item has remaining. Doing so restores all expended charges."
+						]
+					}
+				]
+			},
+			
+			{
+				"name": "Hilt of the Elements",
+				"source": "Assorted Collection Misc",
+				"page": 1,
+				"rarity": "rare",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusWeaponAttack": "+1",
+				"recharge": "dawn",
+				"charges": 4,
+				"entries": [
+					"This hilt is warm to touch and swirls with elemental energy. As an action you can speak the command word, causing the hilt to form a stone weapon with an appearance of your choice. This weapon uses the statistics of a mace and has a +1 bonus to damage and attack rolls. This item has 4 charges and regains",
+					"{@dice 1d4} expended charges at dawn. As a bonus action you can expend 2 charges to imbue this weapon with an element, giving it one of the following sets of properties.",
+					{
+						"type": "entries",
+						"name": "Earth",
+						"entries": [
+							"The weapon now deals {@damage 2d4} + your Strength modifier bludgeoning damage, and gains the heavy and versatile ({@dice 2d6}) properties. Additionally, it deals double damage to nonmagical objects that aren't being worn or carried."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Wind",
+						"entries": [
+							"The weapon becomes a ranged weapon with a range of of 30/60 and it gains the light property, dealing {@damage 1d6} + your Dexterity modifier slashing damage. Once per turn you can cause a creature of size medium or smaller hit by this weapon to be pushed back 10 feet in a straight line."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Water",
+						"entries": [
+							"The weapon gains the finesse and reach properties, and now deals cold damage. Additionally, your attacks with this weapon ignore half cover and the effects of fighting underwater."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Fire",
+						"entries": [
+							"The weapon gains the thrown (20/60) and versatile ({@dice 1d8}) properties, now deals fire damage and shines bright light in a 5 foot radius. When thrown you can recall it to your hand as a bonus action. Once per turn, when you make a successful attack roll you can deal an additional {@damage 1d6} fire damage to the target.",
+							"You become proficient in the use of this weapon when you attune to it. The weapon and any properties it has remain until you dismiss them as a bonus action. Only one set of properties may be active at a time, if you select a new set the old one disappears."
+						]
+					}
+				]
 			}
+			
 			
 			
 			
