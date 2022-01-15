@@ -4751,7 +4751,165 @@
 					]
 				}
 			]
+		},
+		
+		{
+			"name": "Expedient Ring",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"Burn bright, burn fast. While attuned to this ring, you have advantage on initiative checks, +2 to initiative rolls, +10 feet to walking speed and disadvantage on death saving throws."
+			]
+		},
+		
+		{
+			"name": "Ram Shield",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shield|PHB",
+			"type": "S",
+			"rarity": "rare",
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+1",
+			"entries": [
+				"While holding this shield, you gain a + 1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+				"You can use this shield to attempt to break down doors or smash through walls. When doing so, you gain a +5 bonus on the Strength check. If you move at least 10 feet directly towards the door or wall before making this check, you may make it with advantage.",
+				"Time to make a new door."
+			]
+		},
+		
+		{
+			"name": "Traveler's Flask",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This double-sided {@item iron flask} the temperature of liquids poured from it. Any liquid poured from the blue capped side becomes refreshingly cool. Any liquid poured from the red-capped side becomes soothingly warm."
+			]
+		},
+		
+		{
+			"name": "The Screaming Shield",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shield|PHB",
+			"type": "S",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+2",
+			"entries": [
+				"While holding this shield, you gain a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+				"This shield lets out a harrowing scream when you successfully {@action shove} a creature, deafening it until the beginning of its next turn in addition to the shove's normal effect. A creature that is {@condition deafened} by this shield has disadvantage on Constitution saving throws to maintain concentration. The screams of this shield are audible out to 300 feet."
+			]
+		},
+		
+		{
+			"name": "Draught Helm",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This great helm has been elongated to accommodate a compartment in the upper portion. A potion can be loaded into or removed from the compartment over the course of 1 minute, and the compartment can hold a total of 2 potions.",
+				"The loaded potions are connected to a metal tube that extends down toward the wearer's mouth.",
+				"You can use a bonus action while wearing this helmet to consume all loaded potions."
+			]
+		},
+		
+		{
+			"name": "Nullmage's Necklace",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While wearing this necklace, you automatically know the name, effects, and level of any spell you see that is being cast. In addition, you have advantage on checks you make to determine if {@spell counterspell} or {@spell dispel magic} is successful."
+			]
+		},
+		
+		{
+			"name": "Mnemonic Necklace",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": "by a wizard",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"This magical necklace allows you to momentarily recall the specifics of a spell you have recorded in your spellbook.",
+				"While wearing it, you can use a bonus action to expend 1 of its charges. When you do, choose a spell that is in your spellbook but isn't prepared. Until the beginning of your next turn, you may cast that spell as if it were prepared. The necklace has a single charge, and it regains all of its charges when you complete a long rest.",
+				"If you have at least one spell of 5th level or higher in your spellbook, this necklace does not require attunement for you.",
+				"If you have at least one spell of 7th level or higher in your spellbook, this necklace gains 2 additional charges, for a total of 3.",
+				"If you have at least one 9th level spell in your spellbook, you can activate this necklace at any time, and activating it no longer requires any action."
+			]
+		},
+		
+		{
+			"name": "Pacia's Psychic Perforator",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "halberd|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"entries": [
+				"This magical halberd(or glaive) is infused with psychic energy, bestowing its wielder with a weak form of precognition while in combat. You gain a +1 bonus to attack and damage rolls made with this weapon. Attacks made with this weapon deal an extra ld4 psychic damage to creatures. In addition, while wielding this halberd, you make opportunity attacks with advantage"
+			]
+		},
+		
+		{
+			"name": "Fickle Fortune",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "pike|PHB",
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 18,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"entries": [
+				"(Any with reach).This magical weapon vacillates between precision and power depending on the distance of your foe. You gain a +1 bonus to attack and damage rolls made with this weapon. W7hen you make an attack with this determine the distance to your target. If the target is within five feet of you, you gain an additional +1 bonus to the damage roll If the target is more than five feet from you, you instead gain an additional +1 bonus to the attack roll"
+			]
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
