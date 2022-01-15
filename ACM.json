@@ -4898,44 +4898,146 @@
 			"bonusWeapon": "+1",
 			"weapon": true,
 			"entries": [
-				"(Any with reach).This magical weapon vacillates between precision and power depending on the distance of your foe. You gain a +1 bonus to attack and damage rolls made with this weapon. W7hen you make an attack with this determine the distance to your target. If the target is within five feet of you, you gain an additional +1 bonus to the damage roll If the target is more than five feet from you, you instead gain an additional +1 bonus to the attack roll"
+				"(Any with reach).This magical weapon vacillates between precision and power depending on the distance of your foe. You gain a +1 bonus to attack and damage rolls made with this weapon. When you make an attack with this weapon determine the distance to your target. If the target is within five feet of you, you gain an additional +1 bonus to the damage roll. If the target is more than five feet from you, you instead gain an additional +1 bonus to the attack roll."
+			]
+		},
+		
+		{
+			"name": "Bracers of the Jaguar Warrior",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusAc": "+1",
+			"entries": [
+				"These golden bracers are adorned with three glowing green gems. They are often worn by jaguar warriors tasked to defend the sun god's temple against intruders and wild animals. It is said that the bracers are imbued with the spirits of the jaguar guardians. Layers of fur line the edges of the bracers, offering protection against cuts and stings. While wearing these bracers, you gain a +1 bonus to AC.",
+				{
+					"type": "entries",
+					"name": "Jaguar Spirit Claw",
+					"entries": [
+						"You can use a bonus action to speak this bracer's command word, calling upon the Jaguar spirits. Three radiant claws appear from the gems, granting you the following benefits:",
+						"Your unarmed strikes deal radiant damage instead of bludgeoning damage.",
+						"Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non magical attacks and damage.",
+						"You can add your Wisdom modifier to your unarmed strike's damage.",
+						"The claws last for one minute or until you speak the command word again (no action required). This property can't be used again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Jaguar Guardian",
+					"entries": [
+						"While you wear these bracers, you can use an action to speak the command word and call forth jaguar spirits to protect you. The spirits prowl around you to a distance of 15 feet for 1 minute or until your concentration ends (as if concentrating on a spell). When you activate this property, you can designate any number of creatures you can see to be unaffected by it. An affected creature's speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a DC15 Wisdom saving throw. On a failed save, the creature takes {@damage 3d8} radiant damage. On a successful save, the creature takes half as much damage. This property can't be used again until you finish a long rest."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Morning Star",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "morningstar|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"mace": true,
+			"weapon": true,
+			"entries": [
+				"Within these four, free-floating, ever-moving, gyroscopic rings is contained the source of morning star's power: a ball of fusion; a miniaturized star. One attuned to the item can induce tiny solar flares that can blind or burn those in its path.",
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Dawn",
+					"entries": [
+						"As an action you can cause morning star to shine a gloriously bright light at all creatures within a 20-foot cone. Each creature in the area must succeed on a DC 15 Constitution saving throw or become {@condition blinded} until the end of your next turn. One you use this property, you can't do so again until the following dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ultraviolet",
+					"entries": [
+						"After you use the Dawn property, but before the next dawn, you can use an action to cause morning star to shine a focused beam of ultraviolet light in a 50-foot line. Each creature in the area must make a DC 15 Dexterity saving throw, taking {@damage 8d6} radiant damage on a failure, or half as much damage on a success. Once you use this property, you can't do so again until you activate Dawn again."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Evening Moon",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "R",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"range": "60/120",
+			"dmg1": "1d4",
+			"dmgType": "S",		
+			"weapon": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"This three-quarter chakram can sustain itself in flight, returning to its wielder after lacerating its target. Equally lethal in both melee and ranged combat, this weapon is favoured by assassins of the astral sea for its ability to create a moving sphere of shadow, aiding its wielder to slip through enemy lines unseen, even in broad daylight.",
+				"This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to your hand immediately after it is used to make a ranged attack. When you hit a shapechanger creature with this weapon, it must succeed on a DC 15 Constitution saving throw or instantly revert to its original form and be unable to assume a different form for the next minute.",
+				{
+					"type": "entries",
+					"name": "Dusk",
+					"entries": [
+						"While you hold this item you can, as an action, create a 20-foot sphere in which all light becomes dim. This sphere lasts for 1 hour, or until you dismiss it as a bonus action, and it follows you when you move. While Dusk is active, you can hide when only lightly obscured, and you can take the {@action Hide} action as a bonus action. Once you use this property, you can't do so again until the following dusk."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chakram",
+					"entries": [
+						"A chakram is a martial melee weapon with the finesse, light, and thrown (range 30/90 feet) properties that deals {@damage 1d6} slashing damage on a hit."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Eclipse, Set of the Moon and Stars",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusWeapon": "+1",
+			"bonusSpellSaveDc": "+1",
+			"entries": [
+				"When the magics of morning star and evening moon become intertwined through attunement to a single wielder, their innate dunmantic magics coalesce creating a miniature solar system.",
+				"While you are attuned to both morning star and evening moon, both items gain an additional +1 bonus to attack and damage rolls, the saving throw DCs of both items are increased by 1, and you can use the",
+				"Orbit and Eclipse properties.",
+				{
+					"type": "entries",
+					"name": "Orbit",
+					"entries": [
+						"Whenever you make a ranged attack with evening moon while also holding morning star, you can use a bonus action to cause it to begin orbiting you. As part of this bonus action and as a bonus action on subsequent turns, you can make one attack with evening moon against any creature within 15 feet of you.",
+						"Evening moon orbits you at a distance of ld3 feet.",
+						"Any creature within 5 feet of you can use its action to make a DC 21 Dexterity ({@skill Acrobatics}) check in an attempt to catch evening moon. On a success, the creature catches evening moon. On a failure, it takes ld6 slashing damage.",
+						"While the Orbit property is active, a creature that targets you with a melee attack must succeed on a DC 17 Dexterity saving throw or take ld6 slashing damage immediately before it makes its attack roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eclipse",
+					"entries": [
+						"As a bonus action while evening moon is orbiting you, you can cause it to hover in front of you, casting you in a dark obscuring light. For the next minute you are under the effects of the blur spell. After you activate this effect, you can't do so again until the following dawn or dusk."
+					]
+				}
 			]
 		}
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 		
 		
