@@ -3982,6 +3982,7 @@
 						"If you use your action to cast a spell that is not focused through the wand, you can use your bonus action to fire one beam of arcane energy. Roll a spell attack using the wand. On a hit the the target takes force damage equal to {@dice 1d10} plus the wands bonus. If the dice roll of the attack is equal to or lower than 3, the wand misfires. You suffer {@damage 1d10} force damage and the wand can't be used again until the end of your next turn"		
 					]
 				}
+			]
 			},
 			
 			{
