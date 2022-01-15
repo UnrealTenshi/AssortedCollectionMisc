@@ -4559,7 +4559,6 @@
 			"rarity": "common",
 			"baseItem": "shortsword|PHB",
 			"type": "M",
-			"rarity": "none",
 			"weight": 2,
 			"weaponCategory": "martial",
 			"property": [
@@ -4594,7 +4593,6 @@
 			"rarity": "common",
 			"baseItem": "leather armor|PHB",
 			"type": "LA",
-			"rarity": "none",
 			"weight": 10,
 			"ac": 11,
 			"entries": [
