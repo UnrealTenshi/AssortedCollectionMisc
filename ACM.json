@@ -3983,577 +3983,808 @@
 					]
 				}
 			]
-			},
-			
-			{
-				"name": "Arcane Blaster",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"srd": true,
-				"basicRules": true,
-				"type": "M",
-				"rarity": "rare",
-				"reqAttune": true,
-				"weight": 4,
-				"weaponCategory": "simple",
-				"property": [
-					"V"
-				],
-				"dmg1": "1d6",
-				"dmgType": "B",
-				"dmg2": "1d8",
-				"bonusWeapon": "+1",
-				"staff": true,
-				"entries": [
-					"Also known as Spell Snipers, these wood and metal staffs are magically enchanted to focus and amplify blasts of arcane energy.",
-					"In the hands of a non-spellcaster the arcane blaster is a two-handed martial ranged weapon with reload 1 and misfire 2. It deals {@damage 2d12} force damage with a range of 200/800. Proficiency in either firearms or heavy crossbow is sufficient for wielding this weapon. On a misfire you suffer {@damage 1d12} force damage and the weapon cannot be used again until the end of your next turn. The reload period is considered an arcane recharge period since the wand does not require ammunition.",
-					"In addition, you gain a +1 bonus to your attack and damage rolls with this magic weapon.",
-					"If you are a spellcaster you can attune to the staff. Once attuned you can use it as an arcane focus and unlock these additional features:",
-					"If you are an Artificer (Artillerist) you can carve sigils into the staff to make it your Arcane Firearm.",
-					"You gain a bonus to your ranged spell attack and damage rolls equal to half your proficiency modifier rounded down.",
-					{
-						"type": "entries",
-						"name": "Sniper",
-						"entries": [
-							"The range of any cantrip focused through the staff is doubled."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Overcharge",
-						"entries": [
-							"Before you cast a cantrip with a ranged spell attack, you can choose to take a penalty to the attack roll equal to your proficiency bonus. If you do so and the attack hits, it deals additional damage equal to double your proficiency bonus . You can deal this extra damage only once per turn. If the dice roll of an overcharge attack is equal to or lower than 3, the staff backfires the beam in your direction. Roll damage as if you had successfully hit your target."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Arcane Ammunition",
-						"entries": [
-							"You can bind a wand to the staff. The range of any spell cast by a wand bound with the staff is doubled and can benefit from the staff's magical bonus to attack and/or damage."
-						]
-					}
-				]
-			},
-			
-			{
-				"name": "Arcane Blaster",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"srd": true,
-				"basicRules": true,
-				"type": "M",
-				"rarity": "rare",
-				"reqAttune": true,
-				"weight": 4,
-				"weaponCategory": "simple",
-				"property": [
-					"V"
-				],
-				"dmg1": "1d6",
-				"dmgType": "B",
-				"dmg2": "1d8",
-				"bonusWeapon": "+1",
-				"staff": true,
-				"entries": [
-					"Also known as Spell Snipers, these wood and metal staffs are magically enchanted to focus and amplify blasts of arcane energy.",
-					"In the hands of a non-spellcaster the arcane blaster is a two-handed martial ranged weapon with reload 1 and misfire 2. It deals {@damage 2d12} force damage with a range of 200/800. Proficiency in either firearms or heavy crossbow is sufficient for wielding this weapon. On a misfire you suffer {@damage 1d12} force damage and the weapon cannot be used again until the end of your next turn. The reload period is considered an arcane recharge period since the wand does not require ammunition.",
-					"In addition, you gain a +1 bonus to your attack and damage rolls with this magic weapon.",
-					"If you are a spellcaster you can attune to the staff. Once attuned you can use it as an arcane focus and unlock these additional features:",
-					"If you are an Artificer (Artillerist) you can carve sigils into the staff to make it your Arcane Firearm.",
-					"You gain a bonus to your ranged spell attack and damage rolls equal to half your proficiency modifier rounded down.",
-					{
-						"type": "entries",
-						"name": "Sniper",
-						"entries": [
-							"The range of any cantrip focused through the staff is doubled."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Overcharge",
-						"entries": [
-							"Before you cast a cantrip with a ranged spell attack, you can choose to take a penalty to the attack roll equal to your proficiency bonus. If you do so and the attack hits, it deals additional damage equal to double your proficiency bonus . You can deal this extra damage only once per turn. If the dice roll of an overcharge attack is equal to or lower than 3, the staff backfires the beam in your direction. Roll damage as if you had successfully hit your target."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Arcane Ammunition",
-						"entries": [
-							"You can bind a wand to the staff. The range of any spell cast by a wand bound with the staff is doubled and can benefit from the staff's magical bonus to attack and/or damage."
-						]
-					}
-				]
-			},
-			
-			{
-				"name": "Mentor's Hand",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"baseItem": "longsword|PHB",
-				"type": "M",
-				"rarity": "rare",
-				"reqAttune": true,
-				"weight": 3,
-				"weaponCategory": "martial",
-				"property": [
-					"V"
-				],
-				"dmg1": "1d8",
-				"dmgType": "S",
-				"dmg2": "1d10",
-				"grantsProficiency": true,
-				"bonusWeapon": "+1",
-				"sword": true,
-				"weapon": true,
-				"entries": [
-					{
-						"type": "entries",
-						"name": "(Any Sword)",
-						"entries": [
-							"This weapon holds the spirit of a master swordsman eager to pass on his finer techniques.",
-							"You gain a +1 bonus to attack rolls and damage rolls made with this weapon.",
-							"It has the following additional properties:"
-						]
-					},
-					{
-						"type": "entries",
-						"name": "First Lesson",
-						"entries": [
-							"While you are attuned to it, you gain proficiency in this weapon if you didn't already have it."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Watch My Hands",
-						"entries": [
-							"When you roll a natural 1 on an attack with this weapon, ethereal hands readjust your stance, granting you advantage on your next attack with it before the end of your next turn."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Student and Master",
-						"entries": [
-							"When you roll a natural 20 on an attack with this weapon, a spectral sword strikes in tandem with your own, causing the attack to deal an additional {@dice 1d8} magical slashing damage. This additional damage is not doubled by the critical hit."
-						]
-					}
-				]
-			},
-			
-			{
-				"name": "Metaphorical Keys",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"rarity": "uncommon",
-				"wondrous": true,
-				"charges": 1,
-				"entries": [
-					"These keys were forged by an ancient fey smith that hadn't quite grasped the concept of metaphor.",
-					"These keys are usually found in sets of {@dice 1d4 + 1}, and each key has 1 charge. While holding a key you can use a bonus action to expend its charge for one of the following effects:",
-					{
-						"type": "entries",
-						"name": "Key To Your Heart",
-						"entries": [
-							"A creature of your choice that you can see within 30 feet of you must succeed on a DC 13 Wisdom saving throw or become {@condition charmed} by you for 1 minute, or until it takes damage."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Key To Success",
-						"entries": [
-							"You have advantage on the next attack roll, ability check or saving throw you make before the start of your next turn."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Key To Escape",
-						"entries": [
-							"You, or a willing creature within 5 feet of you, teleport up to 30 feet to an unoccupied space that you can see."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Key To Understanding",
-						"entries": [
-							"You gain the benefits of the spell comprehend languages for 1 hour. Additionally, you gain advantage on Wisdom ({@skill Insight}) checks for one minute."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Just a Key",
-						"entries": [
-							"One non-magical lock you can see within 5 feet of you is locked or unlocked with an audible click."
-						]
-					}
-				]
-			},
-			
-			{
-				"name": "Champion's Icon",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"baseItem": "shortsword|PHB",
-				"type": "M",
-				"rarity": "rare",
-				"reqAttune": true,
-				"weight": 2,
-				"weaponCategory": "martial",
-				"property": [
-					"F",
-					"L"
-				],
-				"dmg1": "1d6",
-				"dmgType": "P",
-				"bonusWeapon": "+1",
-				"sword": true,
-				"weapon": true,
-				"entries": [
-					"Some of history's most infamous brigands and beloved heroes have had this weapon at their side throughout the ages. It still commands the same fear and awe it always has, but only in the hands of those who truly know how to wield it.",
-					"You have a +1 bonus to attack and damage rolls with this weapon. Additionally, it has the following properties.",
-					{
-						"type": "entries",
-						"name": "Iconic Flourish",
-						"entries": [
-							"When you roll initiative you can brandish the weapon in an awe-inspiring display of your skill. Choose up to 3 creatures with 30 feet of you that can see you, these creatures must succeed on a DC 16 Wisdom saving throw or be {@condition charmed} or {@condition frightened} by you (your choice) until the end of their next turn or until they take damage."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Unstoppable Challenger",
-						"entries": [
-							"Once per day you can cast {@spell compelled duel} (DC 16) as a 1st-level spell without concentration. If you reduce the target of the spell to 0 hit points whilst the spell is active, you regain the ability to cast the spell without needing to wait 1 day."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Marked History",
-						"entries": [
-							"Anyone who touches the weapon is instantly made aware of your ownership over it, and knows the names and great deeds of every creature that has ever attuned to the weapon."
-						]
-					}
-				],
-				"attachedSpells": [
-					"compelled duel"
-				]
-			},
-			
-			{
-				"name": "Sacrificial Dagger",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"baseItem": "dagger|PHB",
-				"type": "M",
-				"resist": [
-					"necrotic"
-				],
-				"rarity": "rare",
-				"weight": 1,
-				"weaponCategory": "simple",
-				"property": [
-					"F",
-					"L",
-					"T"
-				],
-				"range": "20/60",
-				"dmg1": "1d4",
-				"dmgType": "P",
-				"bonusWeapon": "+1",
-				"charges": 6,
-				"dagger": true,
-				"weapon": true,
-				"entries": [
-					"This ceremonial blade has passed through the hands of many cult leaders and religious high priests alike.",
-					"You have a +1 bonus to attack and damage rolls with this weapon. Additionally, you may use it as a spellcasting focus. This weapon has 6 charges, and regains {@dice 1d6} charges at midnight. When you reduce a creature of size small or larger to 0 hit points you can expend 1 charge to make a sacrifice for one of the following effects:",
-					{
-						"type": "entries",
-						"name": "Fiendish Sacrifice",
-						"entries": [
-							"The dagger now deals an additional {@damage 1d4} fire damage and you gain advantage on all Charisma ({@skill Deception} and {@skill Intimidation}) checks."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Sacrifice To The Deep",
-						"entries": [
-							"The dagger now deals an additional {@damage 1d4} cold damage, you gain a swim speed of 20 feet and you can breathe underwater."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Ode To The Old Ones",
-						"entries": [
-							"The dagger now deals an additional {@damage 1d4} psychic damage and you can telepathically communicate with creatures you can see within 30 feet of you, as long as they can understand at least one language."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Prayer To The Gods",
-						"entries": [
-							"The dagger now deals an additional {@damage 1d4} radiant damage, you gain {@dice 4d4} temporary hit points and you gain resistance to necrotic damage."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Divination (3 Charges)",
-						"entries": [
-							"You gain the ability to cast {@spell augury} and speak with dead once each, without material components. Additionally, you can cast {@spell guidance} at will.",
-							"Each of these effects lasts for 1 hour. You can only have one effect active at a time, using another will end the previous one."
-						]
-					}
-				],
-				"attachedSpells": [
-					"augury",
-					"guidance"
-				]
-			},
-			
-			{
-				"name": "Oath Blade",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"baseItem": "longsword|PHB",
-				"type": "M",
-				"rarity": "rare",
-				"reqAttune": "by a paladin",
-				"reqAttuneTags": [
-					{
-						"class": "paladin"
-					}
-				],
-				"weight": 3,
-				"weaponCategory": "martial",
-				"property": [
-					"V"
-				],
-				"dmg1": "1d8",
-				"dmgType": "S",
-				"dmg2": "1d10",
-				"bonusWeaponAttack": "+1",
-				"recharge": "dawn",
-				"charges": 6,
-				"sword": true,
-				"weapon": true,
-				"entries": [
-					"(Any Sword).It is said these blades can only be enchanted in the moment which a paladin first swears their oath.",
-					"You have a +1 bonus to weapon and attack rolls made with this magic weapon. It has the following additional properties.",
-					{
-						"type": "entries",
-						"name": "Oathsworn",
-						"entries": [
-							"As an action, a willing creature touching the blade can swear an oath or make a promise of no more than 20 words. After this oath is sworn, it appears in the form of text on the blade. Any creature that can understand at least one language can read the text. The text disappears if the oath is fulfilled or no longer possible. Only one oath can be sworn at any one time, the user can nullify an oath as an action."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Truth Seeker",
-						"entries": [
-							"The Oath Blade has 6 charges and regains {@dice 1d4 + 1} charges at dawn. As an action you can expend 1 charge to cast {@spell comprehend languages} or divine favour or 2 charges to cast {@spell zone of truth} (DC 16), bless, or branding smite as 2nd level spells. You may expend 1 charge to cast {@spell ceremony|XGE} but still require material components to do so."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Oathbreaker",
-						"entries": [
-							"If a creature breaks the oath it swore it takes {@damage 10d8 + 20} radiant damage, plus an additional {@damage 4d8} psychic damage for every 10 minutes they spend within 30 feet of the blade, and the blade blackens. When this happens no more oaths can be sworn on the blade, and the spells you can expend charges to cast are replaced with darkness , hellish rebuke, hex, wrathful smite and blindness/deafness as 2nd level spells for 2 charges, with a spell save DC of 16."
-						]
-					}
-				],
-				"attachedSpells": [
-					"comprehend languages",
-					"zone of truth",
-					"ceremony|xge"
-				]
-			},
-			
-			{
-				"name": "Crown of the Mad Mage King",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"rarity": "very rare",
-				"reqAttune": "by a spellcaster",
-				"reqAttuneTags": [
-					{
-						"spellcasting": true
-					}
-				],
-				"wondrous": true,
-				"grantsProficiency": true,
-				"recharge": "dawn",
-				"charges": 10,
-				"entries": [
-					"This once mundane crown has absorbed the power of a long dead sorcerer king. The crown has 10 Charges and it regains {@dice 1d8 + 2} charges at Dawn. While attuned to, and wearing, this crown you gain the following abilities.",
-					{
-						"type": "entries",
-						"name": "Royal Presence (4 Charges)",
-						"entries": [
-							"As an action you can create an aura of 10 foot radius centered on yourself for 1 minute. A creature that begins or ends its turn in this aura must succeed on a DC 17 Wisdom saving throw or be {@condition charmed} by or {@condition frightened} of you for one hour, or until you attack it. Creatures that succeed on this saving throw are immune to this ability for 24 hours."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Eloquent Speech",
-						"entries": [
-							"You gain proficiency in intimidation and persuasion, and you have advantage on Charisma (intimidation and persuasion) checks made against creatures {@condition charmed} or {@condition frightened} by your royal presence. Additionally, all creatures within 30 feet of you that know at least one language can understand you when you speak."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Royal Decree (2 Charges)",
-						"entries": [
-							"You can cast the spells {@spell command} (2nd level) and {@spell sanctuary} (1st level) with a spell save DC of 17, and without material or somatic components. Creatures {@condition charmed} or {@condition frightened} by your royal presence have disadvantage on their saving throws against these spells."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Kneel Before Your King (4 Charges)",
-						"entries": [
-							"As an action you can force all creatures within 15 feet of you to make a DC 17 Charisma saving throw. On a failure, the creatures take {@damage 4d8} psychic damage, are knocked {@condition prone} and are {@condition frightened} of you until the end of your next turn. On a success they take half as much damage and are pushed back 10 feet."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Such Tasks Are Beneath Me",
-						"entries": [
-							"You can cast the spells {@spell mage hand}, {@spell prestigitation} and {@spell unseen servant} at will, without material or somatic components."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Variants",
-						"entries": []
-					},
-					{
-						"type": "entries",
-						"name": "    Know Your Place",
-						"entries": [
-							"You have advantage on saving throws made against being {@condition charmed} or {@condition frightened} by a creature you can see and hear. If you succeed on such a saving throw you may use your reaction to deal {@damage 2d8} psychic damage to the creature that caused it."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "    Curse",
-						"entries": [
-							"This crown is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you suffer paranoid delusions that you are of extreme importance and someone is out for your title. You have disadvantage on ability checks and saving throws to discern whether or not illusions are real, and you require an extra hour of rest to gain the benefits of a short rest, as your sleep is disturbed by your fear. You can break the curse in the usual ways."
-						]
-					}
-				]
-			},
-			
-			{
-				"name": "Lamp of Minor Wishes",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"rarity": "uncommon",
-				"wondrous": true,
-				"charges": 3,
-				"entries": [
-					"It is unknown whether a genie truly dwells within this ornate oil lamp, or if it is powered by much lesser magic.",
-					"This item has 3 charges. You can use an action to rub the lamp and expend 1 charge to make one of the following wishes:",
-					{
-						"type": "entries",
-						"name": "Fortune",
-						"entries": [
-							"Two coins appear in your hands, or at your feet if your hands are full. Roll a {@dice d6}. On a result of 1-2 the coins are copper, on a result of 3-4 they're silver and on a result of 5-6 they're gold."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Power",
-						"entries": [
-							"For the next hour all of your spell and weapon attacks deal an additional 2 force damage."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Knowledge",
-						"entries": [
-							"A large tome appears before you. A creature holding this tome has advantage on Intelligence checks. This tome disappears after 1 hour."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Immortality",
-						"entries": [
-							"You gain {@dice 2d4} temporary hit points and a small, ethereal picture of you is magically transported to a random location on your current plane of existence."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Magic",
-						"entries": [
-							"You can cast either prestidigitation or thaumaturgy (your choice) at-will. Additionally, you have advantage on all Dexterity ({@skill Sleight of Hand}) and Charisma ({@skill Deception} and {@skill Performance}) checks made to perform magic tricks or card tricks. These benefits last for 1 hour."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Love",
-						"entries": [
-							"A voice only you can hear declares its love for you. You regain {@dice 1d4} hit points and a rose appears at your feet.",
-							"A creature cannot make the same wish more than once per day. A creature holding this lamp at dawn can wish for more wishes, no matter how many charges the item has remaining. Doing so restores all expended charges."
-						]
-					}
-				]
-			},
-			
-			{
-				"name": "Hilt of the Elements",
-				"source": "Assorted Collection Misc",
-				"page": 1,
-				"rarity": "rare",
-				"reqAttune": true,
-				"wondrous": true,
-				"bonusWeaponAttack": "+1",
-				"recharge": "dawn",
-				"charges": 4,
-				"entries": [
-					"This hilt is warm to touch and swirls with elemental energy. As an action you can speak the command word, causing the hilt to form a stone weapon with an appearance of your choice. This weapon uses the statistics of a mace and has a +1 bonus to damage and attack rolls. This item has 4 charges and regains",
-					"{@dice 1d4} expended charges at dawn. As a bonus action you can expend 2 charges to imbue this weapon with an element, giving it one of the following sets of properties.",
-					{
-						"type": "entries",
-						"name": "Earth",
-						"entries": [
-							"The weapon now deals {@damage 2d4} + your Strength modifier bludgeoning damage, and gains the heavy and versatile ({@dice 2d6}) properties. Additionally, it deals double damage to nonmagical objects that aren't being worn or carried."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Wind",
-						"entries": [
-							"The weapon becomes a ranged weapon with a range of of 30/60 and it gains the light property, dealing {@damage 1d6} + your Dexterity modifier slashing damage. Once per turn you can cause a creature of size medium or smaller hit by this weapon to be pushed back 10 feet in a straight line."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Water",
-						"entries": [
-							"The weapon gains the finesse and reach properties, and now deals cold damage. Additionally, your attacks with this weapon ignore half cover and the effects of fighting underwater."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Fire",
-						"entries": [
-							"The weapon gains the thrown (20/60) and versatile ({@dice 1d8}) properties, now deals fire damage and shines bright light in a 5 foot radius. When thrown you can recall it to your hand as a bonus action. Once per turn, when you make a successful attack roll you can deal an additional {@damage 1d6} fire damage to the target.",
-							"You become proficient in the use of this weapon when you attune to it. The weapon and any properties it has remain until you dismiss them as a bonus action. Only one set of properties may be active at a time, if you select a new set the old one disappears."
-						]
-					}
-				]
-			}
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		]
+		},
+		
+		{
+			"name": "Arcane Blaster",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bonusWeapon": "+1",
+			"staff": true,
+			"entries": [
+				"Also known as Spell Snipers, these wood and metal staffs are magically enchanted to focus and amplify blasts of arcane energy.",
+				"In the hands of a non-spellcaster the arcane blaster is a two-handed martial ranged weapon with reload 1 and misfire 2. It deals {@damage 2d12} force damage with a range of 200/800. Proficiency in either firearms or heavy crossbow is sufficient for wielding this weapon. On a misfire you suffer {@damage 1d12} force damage and the weapon cannot be used again until the end of your next turn. The reload period is considered an arcane recharge period since the wand does not require ammunition.",
+				"In addition, you gain a +1 bonus to your attack and damage rolls with this magic weapon.",
+				"If you are a spellcaster you can attune to the staff. Once attuned you can use it as an arcane focus and unlock these additional features:",
+				"If you are an Artificer (Artillerist) you can carve sigils into the staff to make it your Arcane Firearm.",
+				"You gain a bonus to your ranged spell attack and damage rolls equal to half your proficiency modifier rounded down.",
+				{
+					"type": "entries",
+					"name": "Sniper",
+					"entries": [
+						"The range of any cantrip focused through the staff is doubled."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Overcharge",
+					"entries": [
+						"Before you cast a cantrip with a ranged spell attack, you can choose to take a penalty to the attack roll equal to your proficiency bonus. If you do so and the attack hits, it deals additional damage equal to double your proficiency bonus . You can deal this extra damage only once per turn. If the dice roll of an overcharge attack is equal to or lower than 3, the staff backfires the beam in your direction. Roll damage as if you had successfully hit your target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Ammunition",
+					"entries": [
+						"You can bind a wand to the staff. The range of any spell cast by a wand bound with the staff is doubled and can benefit from the staff's magical bonus to attack and/or damage."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Arcane Blaster",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bonusWeapon": "+1",
+			"staff": true,
+			"entries": [
+				"Also known as Spell Snipers, these wood and metal staffs are magically enchanted to focus and amplify blasts of arcane energy.",
+				"In the hands of a non-spellcaster the arcane blaster is a two-handed martial ranged weapon with reload 1 and misfire 2. It deals {@damage 2d12} force damage with a range of 200/800. Proficiency in either firearms or heavy crossbow is sufficient for wielding this weapon. On a misfire you suffer {@damage 1d12} force damage and the weapon cannot be used again until the end of your next turn. The reload period is considered an arcane recharge period since the wand does not require ammunition.",
+				"In addition, you gain a +1 bonus to your attack and damage rolls with this magic weapon.",
+				"If you are a spellcaster you can attune to the staff. Once attuned you can use it as an arcane focus and unlock these additional features:",
+				"If you are an Artificer (Artillerist) you can carve sigils into the staff to make it your Arcane Firearm.",
+				"You gain a bonus to your ranged spell attack and damage rolls equal to half your proficiency modifier rounded down.",
+				{
+					"type": "entries",
+					"name": "Sniper",
+					"entries": [
+						"The range of any cantrip focused through the staff is doubled."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Overcharge",
+					"entries": [
+						"Before you cast a cantrip with a ranged spell attack, you can choose to take a penalty to the attack roll equal to your proficiency bonus. If you do so and the attack hits, it deals additional damage equal to double your proficiency bonus . You can deal this extra damage only once per turn. If the dice roll of an overcharge attack is equal to or lower than 3, the staff backfires the beam in your direction. Roll damage as if you had successfully hit your target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Ammunition",
+					"entries": [
+						"You can bind a wand to the staff. The range of any spell cast by a wand bound with the staff is doubled and can benefit from the staff's magical bonus to attack and/or damage."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Mentor's Hand",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"grantsProficiency": true,
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "(Any Sword)",
+					"entries": [
+						"This weapon holds the spirit of a master swordsman eager to pass on his finer techniques.",
+						"You gain a +1 bonus to attack rolls and damage rolls made with this weapon.",
+						"It has the following additional properties:"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "First Lesson",
+					"entries": [
+						"While you are attuned to it, you gain proficiency in this weapon if you didn't already have it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Watch My Hands",
+					"entries": [
+						"When you roll a natural 1 on an attack with this weapon, ethereal hands readjust your stance, granting you advantage on your next attack with it before the end of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Student and Master",
+					"entries": [
+						"When you roll a natural 20 on an attack with this weapon, a spectral sword strikes in tandem with your own, causing the attack to deal an additional {@dice 1d8} magical slashing damage. This additional damage is not doubled by the critical hit."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Metaphorical Keys",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"charges": 1,
+			"entries": [
+				"These keys were forged by an ancient fey smith that hadn't quite grasped the concept of metaphor.",
+				"These keys are usually found in sets of {@dice 1d4 + 1}, and each key has 1 charge. While holding a key you can use a bonus action to expend its charge for one of the following effects:",
+				{
+					"type": "entries",
+					"name": "Key To Your Heart",
+					"entries": [
+						"A creature of your choice that you can see within 30 feet of you must succeed on a DC 13 Wisdom saving throw or become {@condition charmed} by you for 1 minute, or until it takes damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Key To Success",
+					"entries": [
+						"You have advantage on the next attack roll, ability check or saving throw you make before the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Key To Escape",
+					"entries": [
+						"You, or a willing creature within 5 feet of you, teleport up to 30 feet to an unoccupied space that you can see."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Key To Understanding",
+					"entries": [
+						"You gain the benefits of the spell comprehend languages for 1 hour. Additionally, you gain advantage on Wisdom ({@skill Insight}) checks for one minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Just a Key",
+					"entries": [
+						"One non-magical lock you can see within 5 feet of you is locked or unlocked with an audible click."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Champion's Icon",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Some of history's most infamous brigands and beloved heroes have had this weapon at their side throughout the ages. It still commands the same fear and awe it always has, but only in the hands of those who truly know how to wield it.",
+				"You have a +1 bonus to attack and damage rolls with this weapon. Additionally, it has the following properties.",
+				{
+					"type": "entries",
+					"name": "Iconic Flourish",
+					"entries": [
+						"When you roll initiative you can brandish the weapon in an awe-inspiring display of your skill. Choose up to 3 creatures with 30 feet of you that can see you, these creatures must succeed on a DC 16 Wisdom saving throw or be {@condition charmed} or {@condition frightened} by you (your choice) until the end of their next turn or until they take damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unstoppable Challenger",
+					"entries": [
+						"Once per day you can cast {@spell compelled duel} (DC 16) as a 1st-level spell without concentration. If you reduce the target of the spell to 0 hit points whilst the spell is active, you regain the ability to cast the spell without needing to wait 1 day."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marked History",
+					"entries": [
+						"Anyone who touches the weapon is instantly made aware of your ownership over it, and knows the names and great deeds of every creature that has ever attuned to the weapon."
+					]
+				}
+			],
+			"attachedSpells": [
+				"compelled duel"
+			]
+		},
+		
+		{
+			"name": "Sacrificial Dagger",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"resist": [
+				"necrotic"
+			],
+			"rarity": "rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"charges": 6,
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				"This ceremonial blade has passed through the hands of many cult leaders and religious high priests alike.",
+				"You have a +1 bonus to attack and damage rolls with this weapon. Additionally, you may use it as a spellcasting focus. This weapon has 6 charges, and regains {@dice 1d6} charges at midnight. When you reduce a creature of size small or larger to 0 hit points you can expend 1 charge to make a sacrifice for one of the following effects:",
+				{
+					"type": "entries",
+					"name": "Fiendish Sacrifice",
+					"entries": [
+						"The dagger now deals an additional {@damage 1d4} fire damage and you gain advantage on all Charisma ({@skill Deception} and {@skill Intimidation}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sacrifice To The Deep",
+					"entries": [
+						"The dagger now deals an additional {@damage 1d4} cold damage, you gain a swim speed of 20 feet and you can breathe underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ode To The Old Ones",
+					"entries": [
+						"The dagger now deals an additional {@damage 1d4} psychic damage and you can telepathically communicate with creatures you can see within 30 feet of you, as long as they can understand at least one language."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prayer To The Gods",
+					"entries": [
+						"The dagger now deals an additional {@damage 1d4} radiant damage, you gain {@dice 4d4} temporary hit points and you gain resistance to necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Divination (3 Charges)",
+					"entries": [
+						"You gain the ability to cast {@spell augury} and speak with dead once each, without material components. Additionally, you can cast {@spell guidance} at will.",
+						"Each of these effects lasts for 1 hour. You can only have one effect active at a time, using another will end the previous one."
+					]
+				}
+			],
+			"attachedSpells": [
+				"augury",
+				"guidance"
+			]
+		},
+		
+		{
+			"name": "Oath Blade",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": "by a paladin",
+			"reqAttuneTags": [
+				{
+					"class": "paladin"
+				}
+			],
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeaponAttack": "+1",
+			"recharge": "dawn",
+			"charges": 6,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"(Any Sword).It is said these blades can only be enchanted in the moment which a paladin first swears their oath.",
+				"You have a +1 bonus to weapon and attack rolls made with this magic weapon. It has the following additional properties.",
+				{
+					"type": "entries",
+					"name": "Oathsworn",
+					"entries": [
+						"As an action, a willing creature touching the blade can swear an oath or make a promise of no more than 20 words. After this oath is sworn, it appears in the form of text on the blade. Any creature that can understand at least one language can read the text. The text disappears if the oath is fulfilled or no longer possible. Only one oath can be sworn at any one time, the user can nullify an oath as an action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Truth Seeker",
+					"entries": [
+						"The Oath Blade has 6 charges and regains {@dice 1d4 + 1} charges at dawn. As an action you can expend 1 charge to cast {@spell comprehend languages} or divine favour or 2 charges to cast {@spell zone of truth} (DC 16), bless, or branding smite as 2nd level spells. You may expend 1 charge to cast {@spell ceremony|XGE} but still require material components to do so."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Oathbreaker",
+					"entries": [
+						"If a creature breaks the oath it swore it takes {@damage 10d8 + 20} radiant damage, plus an additional {@damage 4d8} psychic damage for every 10 minutes they spend within 30 feet of the blade, and the blade blackens. When this happens no more oaths can be sworn on the blade, and the spells you can expend charges to cast are replaced with darkness , hellish rebuke, hex, wrathful smite and blindness/deafness as 2nd level spells for 2 charges, with a spell save DC of 16."
+					]
+				}
+			],
+			"attachedSpells": [
+				"comprehend languages",
+				"zone of truth",
+				"ceremony|xge"
+			]
+		},
+		
+		{
+			"name": "Crown of the Mad Mage King",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"wondrous": true,
+			"grantsProficiency": true,
+			"recharge": "dawn",
+			"charges": 10,
+			"entries": [
+				"This once mundane crown has absorbed the power of a long dead sorcerer king. The crown has 10 Charges and it regains {@dice 1d8 + 2} charges at Dawn. While attuned to, and wearing, this crown you gain the following abilities.",
+				{
+					"type": "entries",
+					"name": "Royal Presence (4 Charges)",
+					"entries": [
+						"As an action you can create an aura of 10 foot radius centered on yourself for 1 minute. A creature that begins or ends its turn in this aura must succeed on a DC 17 Wisdom saving throw or be {@condition charmed} by or {@condition frightened} of you for one hour, or until you attack it. Creatures that succeed on this saving throw are immune to this ability for 24 hours."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eloquent Speech",
+					"entries": [
+						"You gain proficiency in intimidation and persuasion, and you have advantage on Charisma (intimidation and persuasion) checks made against creatures {@condition charmed} or {@condition frightened} by your royal presence. Additionally, all creatures within 30 feet of you that know at least one language can understand you when you speak."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Royal Decree (2 Charges)",
+					"entries": [
+						"You can cast the spells {@spell command} (2nd level) and {@spell sanctuary} (1st level) with a spell save DC of 17, and without material or somatic components. Creatures {@condition charmed} or {@condition frightened} by your royal presence have disadvantage on their saving throws against these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kneel Before Your King (4 Charges)",
+					"entries": [
+						"As an action you can force all creatures within 15 feet of you to make a DC 17 Charisma saving throw. On a failure, the creatures take {@damage 4d8} psychic damage, are knocked {@condition prone} and are {@condition frightened} of you until the end of your next turn. On a success they take half as much damage and are pushed back 10 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Such Tasks Are Beneath Me",
+					"entries": [
+						"You can cast the spells {@spell mage hand}, {@spell prestidigitation} and {@spell unseen servant} at will, without material or somatic components."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Variants",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "    Know Your Place",
+					"entries": [
+						"You have advantage on saving throws made against being {@condition charmed} or {@condition frightened} by a creature you can see and hear. If you succeed on such a saving throw you may use your reaction to deal {@damage 2d8} psychic damage to the creature that caused it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "    Curse",
+					"entries": [
+						"This crown is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you suffer paranoid delusions that you are of extreme importance and someone is out for your title. You have disadvantage on ability checks and saving throws to discern whether or not illusions are real, and you require an extra hour of rest to gain the benefits of a short rest, as your sleep is disturbed by your fear. You can break the curse in the usual ways."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Lamp of Minor Wishes",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"charges": 3,
+			"entries": [
+				"It is unknown whether a genie truly dwells within this ornate oil lamp, or if it is powered by much lesser magic.",
+				"This item has 3 charges. You can use an action to rub the lamp and expend 1 charge to make one of the following wishes:",
+				{
+					"type": "entries",
+					"name": "Fortune",
+					"entries": [
+						"Two coins appear in your hands, or at your feet if your hands are full. Roll a {@dice d6}. On a result of 1-2 the coins are copper, on a result of 3-4 they're silver and on a result of 5-6 they're gold."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Power",
+					"entries": [
+						"For the next hour all of your spell and weapon attacks deal an additional 2 force damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Knowledge",
+					"entries": [
+						"A large tome appears before you. A creature holding this tome has advantage on Intelligence checks. This tome disappears after 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Immortality",
+					"entries": [
+						"You gain {@dice 2d4} temporary hit points and a small, ethereal picture of you is magically transported to a random location on your current plane of existence."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magic",
+					"entries": [
+						"You can cast either {@spell prestidigitation} or {@spell thaumaturgy} (your choice) at-will. Additionally, you have advantage on all Dexterity ({@skill Sleight of Hand}) and Charisma ({@skill Deception} and {@skill Performance}) checks made to perform magic tricks or card tricks. These benefits last for 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Love",
+					"entries": [
+						"A voice only you can hear declares its love for you. You regain {@dice 1d4} hit points and a rose appears at your feet.",
+						"A creature cannot make the same wish more than once per day. A creature holding this lamp at dawn can wish for more wishes, no matter how many charges the item has remaining. Doing so restores all expended charges."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Hilt of the Elements",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusWeaponAttack": "+1",
+			"recharge": "dawn",
+			"charges": 4,
+			"entries": [
+				"This hilt is warm to touch and swirls with elemental energy. As an action you can speak the command word, causing the hilt to form a stone weapon with an appearance of your choice. This weapon uses the statistics of a mace and has a +1 bonus to damage and attack rolls. This item has 4 charges and regains",
+				"{@dice 1d4} expended charges at dawn. As a bonus action you can expend 2 charges to imbue this weapon with an element, giving it one of the following sets of properties.",
+				{
+					"type": "entries",
+					"name": "Earth",
+					"entries": [
+						"The weapon now deals {@damage 2d4} + your Strength modifier bludgeoning damage, and gains the heavy and versatile ({@dice 2d6}) properties. Additionally, it deals double damage to nonmagical objects that aren't being worn or carried."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wind",
+					"entries": [
+						"The weapon becomes a ranged weapon with a range of of 30/60 and it gains the light property, dealing {@damage 1d6} + your Dexterity modifier slashing damage. Once per turn you can cause a creature of size medium or smaller hit by this weapon to be pushed back 10 feet in a straight line."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Water",
+					"entries": [
+						"The weapon gains the finesse and reach properties, and now deals cold damage. Additionally, your attacks with this weapon ignore half cover and the effects of fighting underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fire",
+					"entries": [
+						"The weapon gains the thrown (20/60) and versatile ({@dice 1d8}) properties, now deals fire damage and shines bright light in a 5 foot radius. When thrown you can recall it to your hand as a bonus action. Once per turn, when you make a successful attack roll you can deal an additional {@damage 1d6} fire damage to the target.",
+						"You become proficient in the use of this weapon when you attune to it. The weapon and any properties it has remain until you dismiss them as a bonus action. Only one set of properties may be active at a time, if you select a new set the old one disappears."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Ring of Orbiting",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"type": "RG",
+			"wondrous": true,
+			"entries": [
+				"While holding this ring you can use a bonus action to speak a command word, causing it to slowly orbit around you at an axis of your choice. You can end this effect as a bonus action.",
+				"A creature attempting to grab ring must succeed on a DC 12 Strength check or fail to do so."
+			]
+		},
+		
+		{
+			"name": "Sword of Deception",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"(Any Sword).When you make a successful attack roll with this weapon, you can choose for it to deal no damage and become covered in illusory blood for 1 minute. When you miss an attack roll with this weapon you can choose for it to create an illusory sound that sounds as if the attack had hit."
+			]
+		},
+		
+		{
+			"name": "Shredded Threads",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While wearing these clothes you can use a bonus action to flex, causing them to rip and tear in random places and granting you advantage on Charisma (intimidation) checks until the end of your next turn.",
+				"The clothes can be torn in this way once per day and repair themselves at dawn."
+			]
+		},
+		
+		{
+			"name": "Delicious Armour",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"baseItem": "leather armor|PHB",
+			"type": "LA",
+			"rarity": "none",
+			"weight": 10,
+			"ac": 11,
+			"entries": [
+				"(Any Armor).This armor constantly smells and tastes of baked goods and fresh fruit. It is nonetheless inedible."
+			]
+		},
+		
+		{
+			"name": "Mystical Quill",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This quill never runs out of ink and can be used as a spellcasting focus. While it's within 30 feet of you, you can use an action to command it to write a message of no more than 10 words that you speak or think on a surface or in the air. A message written in the air is illusory and lasts for 10 minutes or until a creature uses an action to wipe it away."
+			]
+		},
+		
+		{
+			"name": "Pipe of Softness",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"When you smoke from this pipe you can choose for the pipe to emit flower petals, bird feathers or bubbles instead of smoke. This objects disappear at the end of your turn."
+			]
+		},
+		
+		{
+			"name": "Sword of Artistry",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "common",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"(Any Sword).While you hold this weapon you can make an image of your choice appear on the blade. Additionally, you can use the weapon as a set of {@item painter's supplies|PHB} that never runs out of paint, or a piece of chalk that never runs out."
+			]
+		},
+		
+		{
+			"name": "Ring of Censorship",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "RG",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"A creature wearing this ring has any curse words they speak replaced with bird cries and rude hand gestures they make covered by swirling lights. Additionally, any curse words they hear are replaced with silence and they perceive rude hand gestures as black bars."
+			]
+		},
+		
+		{
+			"name": "Item of Raw Power",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"(Any weapon or spellcasting focus)",
+				"Whenever you cast a spell or make an attack roll with this item, it crackles with harmless lightning, is wreathed in harmless flames or emits a bright light (your choice)."
+			]
+		},
+		
+		{
+			"name": "Holographic Amulet",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"As a bonus action you can speak a command word that causes a 1x1 illusory screen to appear above the amulet. This screen tells you the current time, which way is north and the predicted weather for your immediate area over the next 4 hours. The screen can also replicate maps you have studied for at least 10 minutes. You can dismiss it as a bonus action."
+			]
+		},
+		
+		{
+			"name": "Confusing Blindfold",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"You can see through this blindfold but you are {@condition deafened} while you wear it."
+			]
+		},
+		
+		{
+			"name": "Mace of Roses",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "mace|PHB",
+			"type": "M",
+			"rarity": "common",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"mace": true,
+			"weapon": true,
+			"entries": [
+				"When you land a successful attack roll with this weapon, you can choose for its head to explode into a mass of thorny roses. The target takes an additional {@damage 1d4} piercing damage and {@dice 2d6} fresh roses appear around it. The weapon is destroyed and a large white rose takes it place."
+			]
+		},
+		
+		{
+			"name": "Scholarly Spectacles",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While wearing these spectacles you can mentally command the pages of any book you are reading to turn on their own and you can read text you can see from up to 1 mile away."
+			]
+		},
+		
+		{
+			"name": "Gambler's Ring",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "RG",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"As a bonus action while wearing this ring, you can manifest a tangible yet ethereal set of playing cards or dice, allowing it to be used as a {@item gaming set|PHB}. You can dismiss these items as a bonus action."
+			]
+		},
+		
+		{
+			"name": "Armor of Fine Eating",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "leather armor|PHB",
+			"type": "LA",
+			"rarity": "common",
+			"weight": 10,
+			"ac": 11,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "(Any Armor)",
+					"entries": [
+						"While this item isn't being worn or carried it is edible. It takes 10 minutes to consume and provides 1 day's worth of nourishment for up to 4 people. It tastes of venison and wine."
+					]
+				}
+			]
+		}
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	]
+	
+	
+	
 	}
