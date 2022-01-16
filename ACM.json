@@ -6797,7 +6797,86 @@
 					]
 				}
 			]
+		},
+		
+		{
+			"name": "Eschaton",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": "by a bard/sorcerer/wizard",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				},
+				{
+					"class": "sorcerer"
+				},
+				{
+					"class": "wizard"
+				}
+			],
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This sword is forged from metal &specially conductive to arcane energies and engraved with magical runes along its blade. In the hands of a mage it becomes unusually light and easy to handle. While you are attuned to this weapon you are considered to be proficient with it, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for attack and damage rolls made with it, and you can use it as a spellcasting focus.",
+				"Additionally, whenever you cast a spell using a spell slot of 1st level or higher, the blade is charged by an amount equal to the level of the spell slot used. On accumulating certain amounts of charges you gain additional benefits, detailed below. The weapon loses all charges when you complete a long rest. a"
+				{
+					"type": "table",
+					"caption": "Weapon Effects",
+					"colLabels": [
+						"Charges",
+						"Effects"
+						
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							
+							
+							"5","The blade splits apart, turning into a segmented whip-like state. The weapon gains the reach property, and a +1 bonus to attack and damage rolls."
+						],
+						[
+							
+							"18","You can attack twice instead of once whenever you take the Attack action during your turn, provided both are made with this weapon."
+						],
+						[
+							
+							"30","While you wield this weapon, you gain a +1 bonus to AC- This bonus increases to +2 if you have a free hand."
+						],
+						[
+							
+							"45","The weapon deals an Additional die of damage on a hit. Additionally, the weapons bonus to attack and damage rolls increases to +2"
+						],
+						[
+							
+							"60","When you hit with an attack made with this weapon, you can use A bonus action to cast a cantrip at the target of the attack"
+						],
+						[
+							
+							"70","When you hit with an attack made with this weapon, but before you roll damage, you can choose to unleash all currently stored charges. If you do so, the attack becomes an automatic critical hit, and deals additional damage equal to the number of charges currently stored. the weapon loses all charges."
+						]
+						
+					]
+				},
+				
+				
+			]
 		}
+		
 		
 		
 		
