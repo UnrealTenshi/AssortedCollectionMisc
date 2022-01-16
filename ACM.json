@@ -5253,8 +5253,7 @@
 					"name": "Shots Fired",
 					"entries": [
 						"You can use the piecemaker to make ranged weapon attacks, with a range of 30/120 feet.",
-						"Each attack with the piecemaker expends 1 charge from the loaded capsule. The weapon deals damage of the elemental capsule's type equal to IdlO plus your",
-						"Dexterity modifier."
+						"Each attack with the piecemaker expends 1 charge from the loaded capsule. The weapon deals damage of the elemental capsule's type equal to 1dlO plus your Dexterity modifier."						
 					]
 				},
 				{
@@ -5278,7 +5277,7 @@
 					"type": "entries",
 					"name": "Fire Explosion",
 					"entries": [
-						"Each creature within 5 feet of the target, including the target must succeed on a DC 15 Dexterity saving throw or take ld4 fire damage."
+						"Each creature within 5 feet of the target, including the target must succeed on a DC 15 Dexterity saving throw or take 1d4 fire damage."
 					]
 				},
 				{
@@ -5432,7 +5431,7 @@
 					"type": "entries",
 					"name": "Gravity Shard",
 					"entries": [
-						"While holding the weapon, you can use a bonus action to produce a spearhead of force energy, shedding bright light for 10 feet and dim light for an additional 10 feet. The weapon can be used as a quarterstaff or a spear, and, on a hit, deals force damage instead of the weapons ' usual bludgeoning or piercing damage, plus an additional ld4 force damage. In addition, you can use either Intelligence or Strength as the ability modifier for attack and damage rolls you make with this weapon. The energy lasts until you use a bonus action to speak the command word again or until you drop or sheathe the weapon."
+						"While holding the weapon, you can use a bonus action to produce a spearhead of force energy, shedding bright light for 10 feet and dim light for an additional 10 feet. The weapon can be used as a quarterstaff or a spear, and, on a hit, deals force damage instead of the weapon's usual bludgeoning or piercing damage, plus an additional 1d4 force damage. In addition, you can use either Intelligence or Strength as the ability modifier for attack and damage rolls you make with this weapon. The energy lasts until you use a bonus action to speak the command word again or until you drop or sheathe the weapon."
 					]
 				},
 				{
@@ -5452,7 +5451,1397 @@
 					]
 				}
 			]
+		},
+		
+		{
+			"name": "Clerical Error",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": "by a cleric",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"grantsProficiency": true,
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"An elegant weapon for a more civilized age, this is the preferred weapon of those who grow tired of simply bashing their enemies into the afterlife. You gain a +2 bonus to attack and damage rolls made with this magic weapon, and gain proficiency with shortswords.",
+				"Once per turn, when you miss a creature with an attack using this weapon, you may use your bonus action to re-roll the attack and target an ally within melee range. On a hit, while shouting the command word \"Oops!\", your attack passes miraculously through the target, bestowing a number of temporary hit points equal to your weapon damage, instead of causing harm. If the {@dice d20} roll for the attack is a 1, you instead shout \"I am soooo sorry!\", and they gain twice as many.",
+				"Touching an {@condition incapacitated} creature with the tip of this weapon while asking \"Is it dead?\" will tell you whether the creature is alive or deceased."
+			]
+		},
+		
+		{
+			"name": "Ring of the Dauntless Paladin",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "RG",
+			"conditionImmune": [
+				"frightened"
+			],
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"While wearing this ring, you are immune to the {@condition frightened} condition and are able to communicate with the lingering, disembodied spirits of the recently deceased."
+			]
+		},
+		
+		{
+			"name": "Double Visions",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				"Dual, short daggers of mirror-polished steel, with handles of eldritch wood requiring constant trimming, to prevent the wood's growth from overtaking the blades. The daggers' most prominent features are, of course, the two wandering eyes in place of standard pommels. Some poor beholder, somewhere, now has only eight eyestalks remaining, and wants these back.",
+				"You gain a +2 bonus to attack and damage rolls made with these weapons, and you must be wielding both daggers in order to gain this bonus. Each dagger holds a single charge and regains this charge daily at dawn. As an action, you can expend 1 charge and activate a dagger's borrowed sight property.",
+				{
+					"type": "entries",
+					"name": "    Borrowed Sight",
+					"entries": [
+						"You concentrate (as if concentrating on a spell), and can see through the eye of the dagger for up to 1 minute. For the duration, you gain {@sense darkvision} out to a range of 120 feet through its eye, and one of your own eyes becomes {@condition blinded}.",
+						"As a bonus action, you can produce a magical effect from the eye determined by rolling a {@dice d10} and consulting the magical eye ray table, as in a beholder's eye rays, targeting a creature you can see through the eye within 120 feet. Borrowed sight immediately ends when used in this way. Additionally, roll a {@dice d20}. On a 1, the eye of the dagger becomes permanently {@condition blinded} and this effect cannot be activated again."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "    Hunted",
+					"entries": [
+						"The beholder whose eyes were taken actively searches for them. While it is within a 1 mile distance of you, it is able to perceive through your eyes at-will, and you are aware of this when it does so. While it is perceiving through your senses, it gains the benefits of any special senses you possess. This effect ends when the beholder reclaims the daggers, or dies trying."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Charles' Old Duds",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "half plate armor|PHB",
+			"type": "MA",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"curse": true,
+			"weight": 40,
+			"ac": 15,
+			"stealth": true,
+			"entries": [
+				"Barrel-chested and sturdy, consisting of solid steel and hearty leather fastenings, this armor was long worn into battle by Charles, the Falcon of the Farrowlands, before retirement. Having saved many a life on many a battlefield, this armor appears half-beaten to scrap, which may appeal to the more rough-and-rowdy type.",
+				"When an ally falls {@condition unconscious} in battle, the bearer gains an additional +1 AC bonus for the next 10 minutes. If that ally stabilizes or awakens, the bearer loses this bonus at the end of their next turn.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"Charles' old duds is perpetually tarnished and seemingly in disrepair, and make your presence both conspicuous and unnerving.",
+						"While wearing this armor, you gain advantage on all Strength ({@skill Intimidation}) checks, and disadvantage on all Charisma ({@skill Persuasion}) checks."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Mim-Axe",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "greataxe|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 7,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				"That's no axe... Unlike anything you've seen before, a mimic appears caught between forms, its tongue lashing about while otherwise inanimate. The mim-axe can be safely handled, and hardly seems to notice when swung about, though it's always eyeing to take a bite. You gain a +1 bonus to attack and damage rolls made with this weapon, and deal an extra {@damage 1d8} acid damage.",
+				{
+					"type": "entries",
+					"name": "Adhesive",
+					"entries": [
+						"The mim-axe adheres to anything that it touches. A Huge or smaller creature adhered to the mim-axe is also {@condition grappled} by it (escape DC 15), and a creature that remains {@condition grappled} by the mim-axe at the end of its turn is chomped. While the mim-axe is adhered to a creature, it can't be used to make an attack. You can use a bonus action to end this effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chomp",
+					"entries": [
+						"You can use a bonus action to telepathically command the mim-axe to chew on a creature it is grappling and deal {@damage 1d8} piercing damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nom",
+					"entries": [
+						"",
+						"Once per day, if a creature is slain with this weapon while {@condition grappled} by it, the mim-axe will consume the creature's corpse, unless it is a construct or an undead. When it devours a corpse, the mim-axe harvests its living vitality and grants you temporary hit points equal to twice the slain creature's challenge rating + its Constitution modifier. These hit points fade after 24 hours."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Fell Sword",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "greatsword|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Fine steel runs this large greatsword, adorned with a diamond which dances with heavenly light, secured by an ornate crossguard of black iron. This beautiful and terrible weapon was once wielded by a fallen celestial in the service of a deity of the Tempest domain, and used for ceremonial executions.",
+				"You gain a +1 bonus to attack and damage rolls made with this weapon, and deal an extra {@damage 1d8} lightning damage to any creature it hits. While holding this weapon, when a Large or smaller creature within 60 feet of you takes lightning or thunder damage, you can use your reaction to teleport to an unoccupied space within 5 feet of the target.",
+				{
+					"type": "entries",
+					"name": "    Cursed",
+					"entries": [
+						"Your dreams become nightmares, and you require twice as long to gain the benefits of a short rest. Indescribable horrors are revealed to you, as though seeing them through the eyes of the fallen celestial, uncertain of whether they are of the past or the present. Rarely do you remember the visions but for fleeting details, though you remember the terrible sounds as you awake. Always, you remember the booming voice of the celestial commands you to return what is theirs."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Snow Horn",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "lance|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"R",
+				"S"
+			],
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"entries": [
+				"An enormous shard of ice, held unmelting by a handle fashioned from a branch of the mythical tree, Yggdrasil; or so they say. This weapon grants a +1 bonus to attack and damage rolls made with it.",
+				"This weapon holds 6 charges, and regains 2 charges after a long rest. Each time you receive cold damage, the lance is reinvigorated and regains 1 charge.",
+				"Whenever you hit a creature with this weapon, you can expend 1 charge and mark your target with an icy brand, dealing an additional {@damage 1d8} cold damage. If you mark a creature with this weapon, it gains the frostbite property. A creature can only be marked once in this way.",
+				{
+					"type": "entries",
+					"name": "    Frostbite",
+					"entries": [
+						"When a marked creature is hit by an attack, or makes an attack of its own, the icy brand grows larger and more painful for all marked creatures within 60 ft. As the brand expands, marked creatures must succeed on a DC 14 Constitution saving throw, or takes {@damage 1d8} cold damage on a failed save. If the saving throw fails by 5 or more, a creature suffers from the slow spell. Conversely, if the saving throw succeeds by 5 or more, a creature's mark vanishes completely.",
+						"A creature affected by the slow spell can use an action to make a DC 10 saving throw to try and overcome their icy prison, negating the spell on a successful save."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Sigil of the Faint Flame",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"entries": [
+				"Fitting within the palm of the hand, made of splendid gold, this sigil is encircled with 8 spirals set with perfect sapphires, and when held feels of sun-kissed warmth even in the coldest of shadows.",
+				"This sigil regains {@dice 1d8 + 2} charges daily at dawn for the following property, and all charges are lost at sunset. While holding the sigil, you may use it as a spellcasting focus when casting spells dealing fire damage, gaining a +2 bonus to spell attack rolls and to their saving throw DCs.",
+				{
+					"type": "entries",
+					"name": "Reprisal",
+					"entries": [
+						"When you take damage from a spell targeting only you, you can use your reaction to expend a number of charges equal to the spell's level to halve the damage, and cast {@spell fireball} (save DC 15) at the same level back at your attacker, as part of the same reaction. The damage decreases by {@dice 2d6} for each slot level below 3rd."
+					]
+				}
+			],
+			"attachedSpells": [
+				"fireball"
+			]
+		},
+		
+		{
+			"name": "Glass Quill Cho Ko Nu",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "hand crossbow|PHB",
+			"type": "R",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"L",
+				"LD"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"crossbow": true,
+			"weapon": true,
+			"entries": [
+				"A hodgepodge of hardy wood, bronze, and steel, this hand crossbow was lovingly crafted by a famed, gnome tinkerer interested in the art of the hunt, but lacking the physical ability to wield a traditional crossbow. You gain a +1 bonus to attack and damage rolls made with this weapon.",
+				"This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action. Additionally, a steel {@item drum|PHB} containing magically liquefied glass is affixed to the base of the crossbow. This steel {@item drum|PHB} holds enough material to form 12 glass quills, and regenerates all expended material daily at dawn.",
+				{
+					"type": "entries",
+					"name": "    Quill Shot",
+					"entries": [
+						"When you make a ranged attack against a target using this weapon, you can speak a gnomish command word and magically split a fired bolt into 3 glass quills. On a hit, that attack deals {@damage 3d4} piercing damage, instead of the {@damage 1d6} piercing damage normal for a hand crossbow.",
+						"Hit or miss, the glass quills then fragments into countless, razor-sharp shards. The target and each creature within 5 feet of it must succeed on a DC 14 Dexterity saving throw, taking {@damage 3d4} slashing damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"ammoType": "crossbow bolt|phb"
+		},
+		
+		{
+			"name": "Ring of Spiraling Rage",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "RG",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"entries": [
+				"An oft-forgotten relic, predating many of the battle-tested barbarians throughout the wild lands. Tribes of the old ways would use such a ring to trigger a focused, though nearly unquenchable rage, drawing upon a warrior's own life in order to protect others'.",
+				"While wearing this ring, you can use a bonus action to speak a command word and activate the ring's magical properties. Hidden needles sink into your finger and release a potent intoxicant into your body, sending you into a spiraling rage. For the duration, the ring cannot be physically removed except by severing the ring finger.",
+				{
+					"type": "entries",
+					"name": "Spiraling Rage",
+					"entries": [
+						"You enter a rage, as in the barbarian Rage feature. This effect ends when you are dead, or if the ring is removed. You can also end your rage on your turn as a bonus action, and gain 1 level of {@condition exhaustion}.",
+						"At the end of each of your turns that you are raging, spend one Hit Dice. Roll the die, and subtract your Constitution modifier from it. You take an amount of poison damage equal to the total (minimum of 1), and this damage can't be reduced in any way. If you have no Hit Dice remaining, roll a {@dice d12} instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Overwhelming Intoxicant",
+					"entries": [
+						"The thrall of the ring is overwhelming. If you are {@condition charmed} when you take poison damage from the ring, the {@condition charmed} effect ends."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Rumourwood Leaves",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"A bundle of leaves, gathered from a single branch of a mature Rumourwood, contains {@dice 1d4 + 2} leaves. As an action you can scribe into a rumourwood leaf in Sylvan, writing a suggestion no longer than a single sentence. At the end of your turn the leaf self-immolates in a bout of white flames, activating its magical properties.",
+				"A single burning leaf releases a 20-foot-radius sphere of {@condition invisible}, odorless vapors centered on itself. These vapors last for up to 5 minutes or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
+				"Each creature that starts their turn in this area must make a DC 12 Wisdom saving throw. On a failed save, a creature suffers from the effects of the suggestion spell, for the duration of an hour. Those subjected to the vapor's effect are not aware that they've been influenced by magic."
+			]
+		},
+		
+		{
+			"name": "The Druid's Finger Trap",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "RG",
+			"rarity": "rare",
+			"entries": [
+				"This ring has a single charge, and regains this charge daily at dawn. While wearing this ring and making a melee attack, you can choose to expend its charge to force your intended target to succeed a DC 13 Strength or Dexterity saving throw or be {@condition restrained} for {@dice 1d3} rounds as powerful vines entangle them. If the target succeeds on this the save, the vines tear apart.",
+				"A creature {@condition restrained} by the vines or one that can touch the creature can use its action to make a DC 13 Strength check. On a success, the target is freed."
+			]
+		},
+		
+		{
+			"name": "Compound Mitt",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"Artificer built, monk tested. The Compound Mitt is a powerful tool for those skilled in the art of hand-to-hand combat. You gain a +1 bonus to attack and damage rolls made with with your unarmed strike.",
+				"The mitt holds a maximum of 6 charges, and 1 charge is lost each round it is not used to make an attack against a hostile creature. Each time you hit a creature using your unarmed strike, the mitt gains a charge as the kinetic energy from the blow is stored within itself.",
+				"As an action, you may expend all charges to release the energy stored within the mitt. Each creature in a 15-foot cube originating from you must make a DC 14 Constitution saving throw. On a failed save, a creature takes {@damage 1d6} force damage for each charge expended, and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.",
+				{
+					"type": "entries",
+					"name": "Flaw",
+					"entries": [
+						"Compound Mitt makes its wielder pugnacious. While attuned to the item, you gain the following flaw: \"I see only challengers, and I hope they put up a good fight.\""
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Stricken Foil",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "rapier|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"The saying goes that lightning never strikes the same place twice; perhaps that saying was premature. Mounted atop an electrum handle rests a charged disc, which, when activated, emits plasma in a rapier-blade shape. A veritable danger to those nearby, this weapon grants a +1 bonus to attack and damage rolls made with it. This weapon holds 6 charges, and regains 2 charges after a long rest. Each time you receive lightning damage, the foil absorbs some of the energy and regains 1 charge.",
+				"Whenever you use your action to attack with this weapon, you can choose to expend up to three charges. You can make an additional melee attack for each charge spent this way. If you hit a creature with this weapon, it gains the supercharge property. Supercharge. On a hit you can choose to deal an additional {@damage 1d10} lightning damage or keep attacking. Each additional hit with this weapon doubles the amount of damage dice, and decreases the die size by one: the {@dice d10} becomes a {@dice d8}, the {@dice d8} becomes a {@dice d6}, and so on until the die becomes a {@dice d4}.",
+				"If 4 attacks hit a creature in this way, spouts of supercharged energy leap to all other creatures within 5 feet of your target, and they must succeed on a DC 14 Dexterity saving throw or take {@damage 1d10} lightning damage, or half as much on a successful one."
+			]
+		},
+		
+		{
+			"name": "Fuligin Verge",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "greatsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"grantsProficiency": true,
+			"bonusWeaponAttack": "+1",
+			"critThreshold": 19,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"From the {@condition petrified} talon of an ancient black dragon emerges an obsidian blade. The Fuligin Verge is a magic greatsword that grants a +1 bonus to attack rolls made with it, and scores a critical hit on a roll of 19 or 20.",
+				"This weapon holds 3 charges, and regains 2 charges after a long rest. Each time you receive acid damage, the scimitar is bathed in miasma and regains 1 charge. Whenever you attack a creature with this weapon, you can expend 1 charge and roll with advantage, and it gains the threshold property.",
+				{
+					"type": "entries",
+					"name": "    Threshold",
+					"entries": [
+						"The Fuligin Verge begins to weep a thick, acrid gas, dealing an additional {@damage 2d4} acid damage to creatures hit with this weapon. When you land a critical hit with this weapon, the target's life energy is siphoned, granting you a number of temporary hit points equal to half the damage dealt by the weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "    Dragon Tongue",
+					"entries": [
+						"Within its glassy core lies a featureless dark, darker than black, whispering soft songs of Draconic into the mind of those who peer inside. You can speak and understand Draconic. You also have advantage on any Charisma check you make against Black dragons"
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Stone Hush",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Masterfully carved from rose marble and strung with gold, this choker prevents the voice of its wearer from causing an echo, When you speak while wearing this choker, creatures that you are not facing cannot hear you. Your also voice takes on a strange quality, like that of grinding marble."
+			]
+		},
+		
+		{
+			"name": "Needledress Frost Fern",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"A beautiful but deadly bloom of deep amethyst, this fern grows in the rain shadow of cold, sunless regions. From its seeds, orbed like dandelions, wisps of snowflake spread out to carry it into a shadowy breeze. When the seeds land, they embed themselves deeply as magical icicles grow to protect the seeds from being removed, often to the peril of unaware travelers",
+				"This flowering stalk has Id4+2 seed pods. You can use a bonus action to burst a pod on a single object, or 5-foot-square area, within reach, coating it with needle-sharp icicles for the next minute. These icicles deal 5 cold damage to the first creature that touches them before cracking"
+			]
+		},
+		
+		{
+			"name": "Keeper's Cane",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"curse": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"recharge": "dawn",
+			"charges": 10,
+			"staff": true,
+			"entries": [
+				"Poised atop the gnarled branches of a magical oak staff, the skull of a kenku shaman exudes the vitality of nature. This staff has 10 charges and regains {@dice 1d6 + 2} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff becomes a hostile swarm of poisonous snakes, which attempts to flee. If the swarm is slain, the corpses transmogrify back to the staff's original form.",
+				{
+					"type": "entries",
+					"name": "Spells",
+					"entries": [
+						"While holding the staff, you can use an action to expend a number of its charges to cast one of the following spells from it, using your spell save DC: {@spell spike growth} (2 charges), {@spell erupting earth|XGE} (3 charges), {@spell speak with plants} (3 charges), {@spell polymorph} (4 charges, constrictor snake only), or {@spell insect plague} (5 charges)"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wise Serpent",
+					"entries": [
+						"Every day at dawn you hear the whispers of a serpent, enticing you with the great deeds of its original master. You can make a DC 16 Wisdom ({@skill Insight}) ability check, heeding the wisdom of the snake. If you succeed, your spell save DC and spell attack bonus each increase by 1, and you become cursed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"When you use this weapon to reduce a creature to 0 hit points, the cane devours its soul, unless it is a construct or an undead. A creature whose soul has been devoured by Keeper's Cane can be restored to life only by a wish spell. Until the curse is broken by consuming the soul of a creature in this way, you are unwilling to part with the weapon. If a creature's soul is not consumed by the staff before dusk, the soul of its current owner is devoured instead."
+					]
+				}
+			],
+			"attachedSpells": [
+				"spike growth",
+				"erupting earth|xge",
+				"speak with plants",
+				"insect plague",
+				"polymorph"
+			]
+		},
+		
+		{
+			"name": "Wildfire Mite",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"A faint orange glow emits from within a tiny, specialized glass vial. Inside, you can see a single wildfire mite, the rare, symbiotic organism found on the phoenix of high tales. You can use an action to release the wildfire mite from its vial and direct the open container towards a target creature that the mite can see within 40 feet, and the mite will launch itself towards the target using its fireflight.",
+				"The wildfire mite has 24 hit points, 12 AC, {@sense darkvision} up to 60 feet, is immune to fire, and consumes other, tiny creatures that are parasitic to its natural host. The mite can occupy another creature's space and vice versa, and can move using its fireflight through any opening large enough for a Tiny creature. The mite can't regain hit points or gain temporary hit points, and acts in a fashion appropriate to its nature.",
+				{
+					"type": "entries",
+					"name": "Fireflight",
+					"entries": [
+						"The wildfire mite magically surges up to 40 feet toward a living creature it can see, leaping in a fiery arc that sheds bright light in a 60-foot radius and dim light for an additional 30 feet, and the target creature must make a DC 12 Dexterity saving throw. On a failed save, the creature takes {@damage 1d8} fire damage and the mite becomes attached, or half as much on a successful one and the wildfire mite is swatted away 5 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Attachment",
+					"entries": [
+						"At the start of your turn, if the wildfire mite is attached to you or another creature within reach, you can use your reaction to make a DC 10 Dexterity ({@skill Sleight of Hand}) check to recapture the mite using the special vial. If the mite not currently attached to a creature, it will immediately use its fireflight before you can react. A creature suffers {@damage 1d4} fire damage if the mite is attached to it at the end of its turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fiery Death and Rebirth",
+					"entries": [
+						"When the wildfire mite dies, it explodes. Each creature within 5 feet of it must make a DC 14 Dexterity saving throw, taking {@damage 1d8} fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't worn or carried.The explosion destroys the mite's body and leaves behind an egg-shaped stone. The stone is warm to the touch, is immune to all damage, and after {@dice 1d6} days, it hatches a new wildfire mite."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Pretender's Mantle",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"resist": [
+				"necrotic"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"From a fine collar of fleece and felt drapes the treated skin of a doppelganger, stinking of corruption and oddly discolored. It was once worn by an aberration that slunk from village to village, hiding among the locals while feasting on them, before being hunted down. Now, the mantle of carries that evil history with it, stained by it. This mantle holds 6 charges and regains {@dice 1d4 + 2} charges daily at dawn.",
+				"You have resistance to necrotic damage while wearing this mantle. If a creature uses an action to interact with the material, it can make a DC 14 Intelligence check, recognizing it as not belonging to a beast on a success.",
+				"While wearing this mantle, you can use an action and expend 1 charge to {@spell polymorph} into a Small or Medium humanoid you have seen, or back into your true form. Your statistics, other than your size and creature type, are the same in each form. Any equipment you are wearing or carrying isn't transformed. Additionally, the magical aura of this effect is not revealed by divination spells, though the mantle itself can still be detected. This effect ends if you take damage."
+			]
+		},
+		
+		{
+			"name": "Gladius of the Follower",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": "by a paladin",
+			"reqAttuneTags": [
+				{
+					"class": "paladin"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"recharge": "dawn",
+			"charges": 4,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Harmless jets of magical, blue flames emit from the pommel of a roughly-forged, cold iron blade. You can choose to deal either piercing or slashing damage when attacking with this weapon, and you gain a +1 bonus to attack and damage rolls made with it. While this weapon holds no charges this bonus is reduced to +0, and is no longer considered magical when dealing damage.",
+				"The gladius has 4 charges, and regains {@dice 1d4} charges daily at dawn. Additionally, for each charge it holds, the pommel sheds bright light in a 5-foot radius and dim light for an additional 5 feet. When you hit a creature with this weapon and use your Divine Smite, you can expend an amount of charges equal to the expended spell slot's level, empowering your smite by an additional {@damage 1d8} fire damage per charge expended in this way.",
+				{
+					"type": "entries",
+					"name": "Heretic",
+					"entries": [
+						"Gladius of the follower can be launched by a fiery propulsion from its pommel, guiding all zealous fury towards a single target. As an action, you can expend all charges and target a creature you can see within a range of 15 feet per expended charge, and make a ranged attack using this weapon, with advantage. On a hit, the creature takes {@damage 1d6} piercing damage and an additional {@damage 1d6} fire damage per charge expended in this way."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Solar Pendant",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusSavingThrow": "+1",
+			"entries": [
+				"This golden pendant radiates a soft golden light, and secures a mirror-polished stone of indiscernible material. Looking into the stone reveals a dark, smoky haze swirling impossible within it. You gain a +1 to Wisdom saving throws while wearing the pendant, and gain advantage on Wisdom ({@skill Perception}) checks made against illusions in daylight.",
+				"The pendant gains a single charge daily at dawn, and loses this charge at dusk. While you are holding it, you can use an action to speak a command word and expend its charge, causing the pendant to emit a brilliant aura of daylight in a 30-foot radius and dim light for an additional 30 feet, lasting 1 minute. For the duration, creatures of a type you choose that end their turn in this light must make a DC 14 Constitution saving throw, taking {@damage 4d6} radiant damage on a failed save, or half as much on a successful one.",
+				"While attuned to this pendant and it has no charge, you and any equipment you are carrying no longer cast a shadow, appearing instead to be completely illuminated as if by daylight even in complete darkness. You have disadvantage on Dexterity ({@skill Stealth}) checks pertaining to sight while illuminated in this way."
+			]
+		},
+		
+		{
+			"name": "Coin of Exchange",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"This polychromatic coin of magical quicksilver seems to constantly shift and change between glances. It is an alchemist's parlor trick, a marvelous play of magic and material, though capable of much more than meager sleight-of-hand. It is produced in small batches of as many as {@dice 1d6 + 4} coins, and can be safely stored and carried in a regular coin pouch.",
+				"You can use an action and speak a command word to activate one of the coin's special properties. At the end of the duration, flip a coin. On tails, the coin melts away and is destroyed. On heads, it returns to its original form. As a bonus action on your turn, if it is on the same plane of existence, you can summon a coin or a weapon it has coated, causing it to teleport instantly to your hand.",
+				{
+					"type": "entries",
+					"name": "Switcheroo",
+					"entries": [
+						"You flip the coin of exchange and catch it, while visualizing a different type of coin, and the coin's material, shape, or form is transformed into that of the visualized coin for 1 hour. If a creature uses an action to interact with the coin, it can make a DC 14 Wisdom check to try to recognize it as counterfeit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quicksilver",
+					"entries": [
+						"You touch the coin to a nonmagical weapon, coating it with the magical quicksilver. For 1 minute, the weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. Once per turn, when you make a melee attack with this weapon, you can decide to reshape the quicksilver and extend the weapon's length, making the attack with the reach property, with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Foreign Exchange",
+					"entries": [
+						"You rub the coin between thumb and forefinger, targeting a creature carrying another coin of exchange on the same plane of existence. You and the target make a contested Wisdom check, which it can choose to fail. If you win the contest, you and the target are enveloped by magical quicksilver and instantly swap positions, destroying the coins."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Minimap Compact",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 4,
+			"entries": [
+				"The minimap compact is a marvel of artificer design, able to capture its surroundings and display them as a simple, flat image. Produced as a roundish puck of smoothed and polished marble, and strung with a strong thread of golden flax, this portable compact fits conveniently in your palm. Flecks of light and dark matter shift and glisten within the mirrored lens of glass at its center, surrounded by a notched ring of nickel. This item has 4 charges, and regains {@dice 1d4} charges daily at dawn.",
+				"While holding this item flat and level, oriented with the lens facing upward and the peak on the nickel ring pointed forward, you can use an action and expend 1 charge to speak a command word and activate the minimap compact's special properties.",
+				{
+					"type": "entries",
+					"name": "    Scan",
+					"entries": [
+						"The minimap compact emits a single, high-pitched beep as it launches a ringlike, {@condition invisible} sensor that scans all immediate surroundings within a flat, 30-foot radius centered on itself. This effect can penetrate most barriers, but is unable to detect objects, structures, or creatures that are hidden or constructed by magic. Additionally, only solids and semisolids of size category Small or larger are detectable, and must be relatively stationary.",
+						"The scan appears on the lens as a small, flecked map of glittering light and dark shape on the minimap, describable in terms of value and size, at the DM's discretion. Lighter is less dense, such as soil deposits, furniture, and human creatures. Darker is more dense, such as slow-moving lava, wood, or stone golems. Blank areas are not detectable, such as gases, flowing water, or moving creatures. This image lasts until cleared by another scan."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Greenleaf Executor",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "glaive|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"entries": [
+				"Once in a harvest moon, a seed may fall from an elder mothertree, and a creature will be chosen from the inhabitants of the forest to serve and protect the vulnerable newsprout. This ceremonial glaive is formed from the twining branches of the seeded mothertree, and transmuted as bronze by fey magic, to be wielded by the seedling's guardian in carrying out its will.",
+				"You have a +1 bonus to attack and damage rolls made with this weapon. When you make a melee attack with this weapon, you can use a bonus action and extend its reach by 5 feet to target a creature that would otherwise be out of range. The targeted creature must succeed on a DC 14 Strength saving throw or be pulled up to 5 feet in a straight line toward you.",
+				"The glaive temporarily loses its magical properties if it is not buried in fertile soil for at least 6 hours each week. While the glaive is buried, the land within a 20 foot radius centered on it become enriched. Nearby vegetation grows twice as fast, and the period of downtime needed to gain the benefits from a short or long rest in this space is halved.",
+				{
+					"type": "entries",
+					"name": "    Flaw",
+					"entries": [
+						"The glaive makes its wielder regretful. While attuned to the weapon, you gain the following flaw: \"I am worried of being unable to perform my duties, and I feel must make amends when I fail to protect those around me.\" In addition, while you are attuned to the glaive, you think you hear the judgmental whispers of nearby plants."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Fowl Cry",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "INS",
+			"rarity": "very rare",
+			"reqAttune": "by a bard",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"As one of only two citterns recovered from the scorched workshop of an eccentric luthier, infamous for deeming no performer qualified to play their instruments, Fowl Cry is said to awaken powerful magics with its song.",
+				"A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Charisma ({@skill Performance}) ability check or lose the ability to speak until it completes a long rest.",
+				"The cittern must be tuned daily at dawn in order to activate its magical properties, and is tuned by singing to the carven figure of a swan at its neck, in perfect pitch, the note for each string. A creature that attempts to tune the instrument must make a DC 15 Charisma ({@skill Performance}) ability check, and it can choose to fail. Fowl Cry gains the perfection property on a success, and the wretched property on a failure.",
+				{
+					"type": "entries",
+					"name": "    Perfection",
+					"entries": [
+						"While playing this instrument to inspire others with your Bardic Inspiration, Fowl Cry sings alongside you in perfect harmony. The die size of a Bardic Inspiration die granted in this way is increased by one: the {@dice d6} becomes a {@dice d8}, the {@dice d8} becomes a {@dice d10}, and so on until the die becomes a {@dice d20}.",
+						"While this instrument is perfectly tuned, performing with it in public draws a large crowd. You gain advantage on Charisma ({@skill Performance}) checks when trying to entertain the gathered audience."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "    Wretched",
+					"entries": [
+						"While playing this instrument to inspire others with your Bardic Inspiration, Fowl Cry lets out an anguished screech that rends the minds of nearby creatures. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw. A creature takes {@damage 2d6} psychic damage on a failed save, or half as much on a successful one, and has disadvantage on the saving throw it makes to maintain concentration if it is concentrating on a spell."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Wintry Sack",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "legendary",
+			"wondrous": true,
+			"weight": 20,
+			"entries": [
+				"White stripes trail upward the pale maroon of this suede sack, toward an opening of dark mouton fur of lamb, held gently closed by a line of brass buttons. A faint, cool breeze escapes its lip, carrying ever-cold snowflakes which shimmer of magic. Opening the sack to peer inside reveals only a heavily obscuring, pale blue fog, which endlessly spills outward only to immediately vanish.",
+				"The wintry sack is actually an extradimensional gate to a large mansion, fully furnished and seemingly lived-in, that exists somewhere on the Plane of Ice. Medium or smaller creatures can crawl in through the sack's opening, and out through the flickering, blue fireplace of the mansion, and vice versa.",
+				"The sack can hold as much as the mansion is physically capable of holding, and weighs 20 pounds, regardless of its contents. Placing or Interacting with an object through the opening of the wintry sack follows the normal rules for interacting with objects, and is limited to the space within reach on the other side. Retrieving an item requires an action.",
+				"The sack If the sack is turned inside out, pierced, or torn, it turns to ice which melts away and is destroyed. Pulling the sack itself into the space of the mansion has the same effect. Placing a wintry sack inside an extradimensional space created by a {@item bag of holding}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Plane of Ice. The gate originates where the one item was placed inside the other. Any creature within 10-feet of the gate is sucked through it and deposited in a random location on the Plane of Ice. The gate then closes. The gate is one-way only and can't be reopened."
+			]
+		},
+		
+		{
+			"name": "Restrictive Mantle",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Created by an overcompensating court wizard to wear at formal events, this mantle holds incredible power in equal proportion to its terrible taste. Oversized spaulders, a flowing cape made from an excessive quantity of cotton, and unnecessary leather tassels make this mantle incredibly unwieldy. All the same, its magic oppresses all nearby creatures.",
+				"While wearing this mantle, you can use a bonus action and gently tap it twice with a free hand. If you do, a magical heaviness fills the space within a 20-foot-radius sphere, centered on you, and is considered difficult terrain for all other creatures. If you tap the mantle again, you end the effect.",
+				"A flying or swimming creature that ends its turn in this space descends 5 feet, and if landing must succeed on a DC 12 Dexterity ({@skill Acrobatics}) check to land on its feet. Otherwise, it lands {@condition prone}. A standing creature that ends its turn in this space must succeed on a DC 12 Strength ({@skill Athletics}) check, or fall {@condition prone}.",
+				"Deduct the time this effect is active, in increments of 1 minute, from the mantle's maximum duration of 10 minutes. After 10 minutes of use, the mantle ceases to function. For every uninterrupted period of 1 hours the cloak goes unused, it regains 1 minute of duration."
+			]
+		},
+		
+		{
+			"name": "Jolly Saint's Scythe",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "halberd|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"weapon": true,
+			"entries": [
+				"Stories are told of a fine fellow with hearty chuckle, clad in red, delivering joy to kind-folk and justice to wrongdoers across the world. A polished, hooked pole of cold, jagged glass, this strange weapon was once wielded by the legendary traveler. You gain a +2 bonus to attack and damage rolls made with this weapon, and deal an extra {@damage 1d8} cold damage to creatures hit with it.",
+				"While attuned to the scythe, you have a {@chance 50|50 percent} chance each day at dawn of your hair becoming ivory white, if you are capable of growing it.",
+				{
+					"type": "entries",
+					"name": "    Jolly Saint's Wish",
+					"entries": [
+						"While holding this scythe, you can use an action to magically wish for a special gift. You speak aloud the name of the object you most truly desire, and a magical package wrapped in glimmering foil and topped with a red bow instantly appears in an unoccupied space within 5 feet of you, containing the object you wished for. The object can be magical or nonmagical and of any value, but it must fit within a 5-foot cube.",
+						"If the wish was made with ill intentions, as determined by the DM, a 5-foot chunk of coal fills the package instead. This also occurs if you wish for an artifact, or for this weapon itself.",
+						"When used in this way, jolly saint's scythe is enveloped in a cascade of twinkling green, red, and white lights and becomes a nonmagical wooden staff of evergreen."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Wand of Kind Gestures",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "WD",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"recharge": "dawn",
+			"charges": 10,
+			"entries": [
+				"This strange wand holds in its center a spore of the Cranium Fungus, from which sprouts a single cilia. The sprouting spore is surrounded by 10 limbs of {@condition petrified} wood capped with crudely made, brass hands representing various gestures. When you look at the spore, you are nearly overcome with a desire to move your arms in wild, uncontrollable ways. The wand has 10 charges, and regains {@dice 1d8 + 2} charges daily at dawn.",
+				{
+					"type": "entries",
+					"name": "Rehearsal",
+					"entries": [
+						"Once per day, you can use an action to record a gesture using the wand. You hold the wand with one hand while performing a gesture with the other, and it is recorded in the wand as indicated by one of its brass hands which is magically reshaped to match. Describe the gesture as precisely as possible. It is limited to one that you can physical perform using a single arm within 6 seconds, and the DM can decide whether or not to allow it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Salutations",
+					"entries": [
+						"You can use an action to present the wand and make a DC 10 Charisma ({@skill Performance}) check to try and command the full attention of a creature you can see that can also see you. On a success, you can expend 1 charge and use your free action to perform a gesture with your free hand, as recorded by the wand, to try and force the target creature to mirror your limb's movements.",
+						"The target must succeed on a DC 14 Wisdom saving throw or be forced to perform the gesture if able, and is not aware of having done so. The DM chooses an appropriate limb if the creature has no humanoid limbs. Creatures that can't be {@condition charmed}, or do not have the appropriate limbs to perform the gesture, are immune to this effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unkind Gesture",
+					"entries": [
+						"If performing a gesture would result in a creature harming itself or another, it must succeed on a DC 14 Constitution saving throw or be forced to complete the gesture, and the DM determines the results.",
+						"Roll a {@dice d4}. On a 1, the bronze-capped limb containing the recorded gesture is magically crushed by an {@condition invisible} force and destroyed, and the wand loses 1 charge from its maximum charge amount."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cursed",
+					"entries": [
+						"If all the limbs of the wand are destroyed, you become cursed. The Cranium Fungus spore lashes out with its magical cilia and implants a gesture in your mind, as determined by the DM. Whenever another creature you see performs this gesture you must succeed on a DC 12 Wisdom saving throw or be forced to repeat it."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "The Unholy Revenger",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "greatsword|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"curse": true,
+			"sentient": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this weapon. This bonus increases to +3 against a creature that has offended The Unholy Revenger, and that creature takes an extra {@damage 2d10} necrotic damage.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a remove curse spell or similar magic, you are unwilling to part with the weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						"The Unholy Revenger is a sentient, lawful evil weapon with an Intelligence of 10, a Wisdom of 14, and a Charisma of 16. It can see and hear out to 120 feet and has {@sense darkvision}. It communicates by transmitting emotions, using a limited form of telepathy to influence the creature carrying or wielding it to retaliate against even the most minor of offenses."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Personality",
+					"entries": [
+						"The Unholy Revenger is vengeful, petty, and purposeful. If in any way separated from its owner and wielded by another, the weapon will feel forsaken and furious at the perceived betrayal. It will attempt to revenge this wrongdoing by compelling its new owner to murder its previous one."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Points of Connection",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "dart|PHB",
+			"type": "R",
+			"rarity": "uncommon",
+			"weight": 0.25,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"Points of connection are individually forged of fine mithril, set into a slotted hardwood box with a golden emblem representing their ritual purpose. Equally discreet as they are beautiful, these darts have been used generationally among certain elven tribes, an aid to teach younglings the pain felt by those creatures they must occasionally hunt. It is as much a tool used to teach compassion as to teach mortality, a necessary lesson for young elves to reach long-lived days. As some tribes know, and as few who have pillaged these ritualized darts have discovered, the darts have alternative and deadlier uses.",
+				"A single pack contains {@dice 1d12 + 6} points of connection. This weapon deals 2 psychic damage, instead of the piercing damage normal for a dart. When you make a ranged attack with this weapon, you can use a bonus action to make an additional ranged attack with a different point of connection.",
+				"A creature hit by a point of connection is marked until the dart is removed, and has no effect on creatures that are formless or dead. A creature can use its action to make a DC 10 Strength check, removing a point of connection from itself or another creature within its reach on a success. Dealing 2 damage to the dart (AC 15) also removes the mark and destroys the dart.",
+				"Marked creatures are mystically connected to each other. The following magical properties are shared among all marked creatures on the same plane of existence:",
+				{
+					"type": "entries",
+					"name": "Shared Pain",
+					"entries": [
+						"When a marked creature takes damage, all other marked creatures take an amount of Psychic damage equal to the number of marked creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shared Mind",
+					"entries": [
+						"A marked creature gains a bonus to its Wisdom saving throws equal to half the number of marked creatures, and can communicate by transmitting emotions to the group."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shared Location",
+					"entries": [
+						"A marked creature always knows where another marked creature is located, and can tell the exact distance and direction."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Mage-Cancelling Earmuffs",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"During much warmer seasons, the fearsome crag cat may find itself the trophy of an unlikely victim-turned-hunter. In skilled hands, such a valuable pelt makes for fine material, providing both fashion and magical protection. When worn as earmuffs, the spoken words of a spellcaster muffled by them will lose much of their power.",
+				"While wearing these earmuffs, you have advantage on saving throws against enchantment spells. In addition, if you succeed on a save and the spell is 7th level or lower, the spell has no effect on you.",
+				{
+					"type": "entries",
+					"name": "Selective Hearing",
+					"entries": [
+						"The voice of a creature muffled by these earmuffs has its voice imprinted onto them. While wearing these earmuffs, you can use an action to concentrate (as if concentrating on a spell) and hear through the creature's ears, and continue to do so until you use your action to return to your normal senses. While perceiving through the creature's senses, you gain the benefits of any special senses possessed by that creature, though you are {@condition deafened} to your own surroundings. Once this effect ends, the creature's imprinted voice is erased."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Boots of Buckling",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Assembled from a plethora of genuine leather and secured with straps, steel buckles, spikes, and chains, these boots are both edgy and very pointy. These boots are modified with two hidden blades at their tips, making it dangerous to sit cross-legged.",
+				"While wearing these boots, you can use a bonus action and stomp your heels twice, extending sharp blades from the boots' tips. When you make a melee attack against a creature, you can make one unarmed strike as a bonus action. The unarmed strike is performed using a kick and deals an extra {@dice 1d4} points of piercing damage. Stomping your heels again retracts the blades."
+			]
+		},
+		
+		{
+			"name": "Buckler of Deflection",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "shield|PHB",
+			"type": "S",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+1",
+			"recharge": "dawn",
+			"charges": 5,
+			"entries": [
+				"Hardy wood, round, with a solid grip, that's all that's needed. There's magic protection on this shield, but it is otherwise plain and ordinary-seeming. While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. The shield has 5 charges, and regains {@dice 1d4 + 1} charges daily at dawn. When you take damage from a ranged spell attack, or from magic missile, you can use your reaction to activate the shield's deflect property.",
+				{
+					"type": "entries",
+					"name": "Deflect",
+					"entries": [
+						"The buckler conjures a glassy portal to intercept the spell. You can expend a number of charges, up to the amount of dice used when determining the spell's damage, and decrease the die size of a dice to {@dice d4} for each charge expended in this way.",
+						"All damage determined by these dice become force damage. The shield casts {@spell magic missile}, creating one dart for each charge expended, targeting a creature you can see within 120 feet of you. If you are targeted by magic missile, you instead take no damage from the deflected darts and send the darts to target the caster instead."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Ornamental Chestnut of Goodwill",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Stories are told of spellcasters from the farthest lands who adorn young saplings with ornaments, imbuing their forests with strong magic and gaining faithful helpers during winter festivities. This hearty chestnut is capped with a carven hook of fine, polished gold, and inlaid with precious stones\u2014a ruby, diamond, and emerald.",
+				"As an action, you can hang the ornamental chestnut of goodwill from the foliage of a shrub or tree and speak a command word to awaken it. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree. Additionally, the awakened plant gains one of the following magical effects determined by activating one of the ornament's gems. Once used, this property can't be used again until the next dawn.",
+				"The awakened plant is {@condition charmed} by you for 6 hours or until you or your companions do anything harmful to it. When the {@condition charmed} condition ends, or if the ornament is removed, the awakened plant returns to its inanimate form.",
+				{
+					"type": "entries",
+					"name": "Ruby",
+					"entries": [
+						"Many small flames engulf the awakened plant. Intelligence is its spellcasting ability, and it can cast the {@spell fire bolt} cantrip. Additionally, it gains resistance to fire damage, and deals an additional {@damage 1d6} fire damage when it hits a creature with a melee attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Diamond",
+					"entries": [
+						"Golden light crowns the awakened plant, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. All creatures that can see the awakened plant have disadvantage on attack rolls while in the area of bright light and within 15 feet of the awakened plant."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Emerald",
+					"entries": [
+						"Tremendous roots and vines sprout from the awakened plant. It gains the Sentinel feat, and its reach is increased by 5 when making a melee attack."
+					]
+				}
+			],
+			"attachedSpells": [
+				"fire bolt"
+			]
+		},
+		
+		{
+			"name": "Dreamhouse Catcher",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Carved of bedrock, inlaid with rough-cut, cyan tourmaline, and woven with a fine flax thread, this primitive ornament is traditionally hung above the hearths of shaman tribe-leaders. This ward casts a powerful enchantment over the minds of creatures that attempt to enter a hearth-home without being properly invited by a resident. The dreamhouse catcher can be placed in a room after a special hour-long ritual, and that room gains the following magical effect.",
+				"While the dreamhouse catcher is hanging within a room, an uninvited creature attempting to enter it must make a DC 16 Wisdom saving throw, or find itself bewitched. On a failed save, a creature believes it has entered the room, but in reality becomes withdraws into its own mind, entering into a dream version of that space. If a creature leaves the dreamed space by the same way it had entered, the effect ends.",
+				"If a creature uses an action to interact with an object in the dream space, it can make a DC 14 Wisdom check, regaining its senses on a success. If the effect ends in this way, the creature suffers from the effects of the confusion spell.",
+				"From an observer's perspective, the duration of time in which this enchantment has hold over a creature's senses is near instantaneous; the observed creature simply stands still."
+			]
+		},
+		
+		{
+			"name": "Ethereal Chalk",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This chalky mineral is typically found in 1-foot-cube deposits, containing enough material for {@dice 1d6 + 3} uses. You can use an action and crush a fist-sized flake of chalk into a fine powder and cover a 5-foot-square area of a solid surface, or a Medium or smaller creature (one additional use is required for each size category above Medium). Two surfaces on the material plane covered using the same deposit of ethereal chalk are connected, and only two covered surfaces can be successfully connected in this way. If there are more or less than two points, the connection is fractured. Applying the powder takes 10 minutes.",
+				"As an action, a powdered creature can attempt to move between two connected points, and must roll a {@dice d20}. On a 1, the connection becomes fractured. Otherwise, the creature instantly appears within 5 feet of the destination, or in the nearest unoccupied space if that space is occupied. If there is no connected point, or if no unoccupied space exists within 30 feet, the connection becomes fractured. When moving between points this way, the powder fades back into the ethereal plane and cannot be used again.",
+				{
+					"type": "entries",
+					"name": "Fracture",
+					"entries": [
+						"A creature caught within a fractured connection is cast into the ethereal plane in the middle distance between the two connected points on the material plane. If there is no connected point, or if there are more than two, the creature appears {@dice 8d10} miles away from their origin point in a random direction, within the ethereal plane. The DM determines the direction randomly by rolling a {@dice d8} and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Arcane Sandals",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 4,
+			"entries": [
+				"Designed of humble leather and woven straw, with seemingly no way to strap them on, these sandals become illuminated by arcane seals once attuned, and magically change in size to fit their owner. The sandal straps are magically fastened when placed on your feet, and unfastened when you go to remove them, or if you fall {@condition unconscious}. The sandals have 4 charges, and regains {@dice 1d4} charges daily at dawn only if ran in for at least 5 miles the previous day.",
+				"When running while wearing these sandals, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You can move an additional 15 feet when moving across vertical surfaces in this way. However, the sandals don't allow you to move this way on a slippery surface, such as one covered by ice or oil. This effect ends if you stand still, or if you take any action besides moving.",
+				{
+					"type": "entries",
+					"name": "Tricky Moves",
+					"entries": [
+						"You can use a bonus action and stomp both feet on solid ground, such as wood or stone. If you do, you can expend a number of charges to cast one of the following spells: {@spell expeditious retreat} (1 charge), {@spell jump} (1 charge), {@spell misty step} (2 charges), or {@spell gaseous form} (3 charges). The range of a spell cast this way is limited to self, and its effect ends with your turn."
+					]
+				}
+			],
+			"attachedSpells": [
+				"expeditious retreat",
+				"jump",
+				"misty step",
+				"gaseous form"
+			]
+		},
+		
+		{
+			"name": "Aqueous Tuning Fork",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "trident|PHB",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"weapon": true,
+			"entries": [
+				"Angular and sleek, the three-pronged steel head of this trident never rusts, even when exposed to the harshest of elements. You gain advantage on attack rolls made with this weapon while underwater, or when throwing this weapon to make a ranged attack against an underwater target.",
+				"The trident allows its wielder to magically detect flowing bodies of water, such as a broken spigot or creeping river. While holding the aqueous tuning fork outward and concentrating (as if concentrating on a spell), the chains of the trident begin to shake and rattle with increasing intensity the nearer, larger, or faster the detected source of flowing water becomes in the direction pointed toward.",
+				"This effect can penetrate most barriers, but it is blocked by 30 feet of stone, 1 foot of common metal, or 1 mile of wood or dirt."
+			]
+		},
+		
+		{
+			"name": "Miasmic Shard of Ghastly Horrors (Injury)",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "P",
+			"entries": [
+				"A gelatinous semi-solid of crimson miasma, the vial containing it feels cold to the touch. Better off destroyed, this substance will transmogrify a creature unlucky enough to find the miasma coursing through its flesh. This poison is naturally forming, but is found in its usable form in only the most obscure cases, often associated with some terrible experimentation on ever more terrible aberrations.",
+				"A creature subjected to this poison becomes infected and must make a DC 16 Constitution saving throw at the start of each of their turns, taking 28 ({@damage 8d6}) necrotic damage on a failed save, or half as much damage on a successful one. A creature is immune to this effect if it is immune to necrotic damage, is a shapechanger, or has legendary actions.",
+				{
+					"type": "entries",
+					"name": "Infection",
+					"entries": [
+						"If an infected creature is reduced to 0 hit points, it must immediately roll all of its death saving throws consecutively. On its third success, the creature becomes stabilized and can roll up to half of its available hit dice, gaining a number of temporary hit points equal to the total amount. On its third failure, the creature dies and is transmogrified into a gibbering mouther and becomes hostile to all nearby creatures. An infected creature can only be cured by greater restoration or similar magic."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Monocle of the Voyeur",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Aged and worn, the glass of this brass-framed monocle is otherwise pristine, offering an uncanny clarity when peered through. The monocle holds 3 charges, and regains all expended charges daily at dawn.",
+				"You can use an action and expend 1 charge and touch a creature, and it must make a DC 14 wisdom saving throw. On a failed save, you create an {@condition invisible} sensor inside the creature's mind for 10 minutes. For the duration, you can activate the monocle's special properties.",
+				{
+					"type": "entries",
+					"name": "Voyeur's Vision",
+					"entries": [
+						"You can use an action to concentrate and see through the target creature's eyes, and continue to do so until you use an action to return to your normal senses. While perceiving through the creature's senses, you gain the benefits of any special senses possessed by that creature, though you are {@condition blinded} to your own surroundings. Once this effect ends, the creature knows they were being watched, but does not know how or by whom."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Clever Disguise",
+					"entries": [
+						"If you spend 1 minute observing another creature through the target creature's eyes, you can use a bonus action to expend 1 charge and cast {@spell disguise self}, not limited by size, changing your appearance to match that of the observed creature's. This effect ends if the monocle is removed."
+					]
+				}
+			],
+			"attachedSpells": [
+				"disguise self"
+			]
+		},
+		
+		{
+			"name": "Mime Vine",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This vine is 30 feet long, and is made from the sheer imagination. When used as a rope, the vine has an AC of 10 + your Wisdom Modifier and a number of hit points equal to your proficiency bonus + your Wisdom modifier. It is completely imperceptible by a creature's senses unless they are under the effects of the detect magic spell or possess {@sense truesight}.",
+				{
+					"type": "entries",
+					"name": "Lasso",
+					"entries": [
+						"You can use your action on your turn to hurl the vine towards a creature you can see within 20 feet of you, trying to tie them up. You concentrate (as if concentrating on a spell), and make a Wisdom ability check, contested by a Wisdom ability check made by the target. The target makes their Wisdom ability check with advantage if they can't see you, and therefore less likely to believe you, or if their size category is larger than yours. If you win the contest, the target becomes {@condition restrained}.",
+						"A {@condition restrained} creature can use its action on its turn to make a DC 14 Wisdom ability check, freeing itself or another creature within its reach on a success. You can release a {@condition restrained} creature using a bonus action on your turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swing",
+					"entries": [
+						"You can use a bonus action to attempt to swing from the vine, making a DC 12 Wisdom saving throw. On a successful save, you swing forward through the air in a pendulous arc, traversing up to 30 ft before releasing the vine. On a failed save, you grasp air, falling {@condition prone}. If you fall {@condition prone} in this manner, you must complete a short rest before you attempt to swing from the vine again."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Frail Flail",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "flail|PHB",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"entries": [
+				"Grandmother's finest china remade as a precious orb of pain-dealing, and joined to a 20 lb. wrought iron handle by the finest weave of alpaca thread you've ever seen. You gain a +1 bonus to attack and damage rolls made with this weapon.",
+				{
+					"type": "entries",
+					"name": "Raging Bull",
+					"entries": [
+						"When you hit a creature with an attack using this weapon, there is a chance that the orb will shatter on impact. If the {@dice d20} roll for an attack is either a 19 or 20, your weapon attack scores a critical hit, dealing an extra 10 ({@damage 4d4}) slashing damage as it shatters into a hundred pieces.",
+						"The bonuses for this weapon decrease to +0 while the porcelain orb is broken, and attacks made with the remaining handle and thread use the damage and properties of a whip, instead of the bludgeoning damage normal for a flail.",
+						"After {@dice 1d4} hours, and if all the pieces of the shattered orb and handle are gathered together, the weapon magically reassembles itself back to its normal state."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Entropy",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "greatsword|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"sentient": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This massive great sword was carved from obsidian and infused with ruinous powers by Thariz'dun. Its blade is perpetually cold to the touch, and seems to absorb the light around it. You gain a +2 bonus to attack and damage rolls made with this weapon, and any living creature struck by this weapon takes an additional {@damage 2d8} necrotic damage. While you are attuned to it, it has the following additional properties:",
+				{
+					"type": "entries",
+					"name": "Eternal Hunger",
+					"entries": [
+						"Whenever you use it to reduce a creature to 0 hit points, the sword slays the creature and devours part of its life essence. When it devours essence, Entropy grants you temporary hit points equal to half the slain creature's hit point maximum or half of your hit point maximum, whichever is lower. These temporary hit points fade after 24 hours. As long as these temporary hit points last, you have advantage on saving throws and ability checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Clarity of Purpose",
+					"entries": [
+						"While you hold Entropy you can't be {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rending Strikes",
+					"entries": [
+						"Your attacks with Entropy against objects and structures have advantage and always deal maximum damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bane of Existence",
+					"entries": [
+						"Entropy can hold a number of essence charges you can use to activate special abilities, which are detailed below. It can hold at most 5 charges, and regains 1 charge when it devours a foes essence. It also regains one charge every 24 hours, to a maximum of 2. The DC for its features is 18.",
+						"It can use the following abilities:",
+						{
+							"type": "list",
+							"items": [
+								"1 charge: Cloak of Shadows, Futile Struggle",
+								"2 charges: Devour magic, Entropic Aura",
+								"3 charges: Voracious Dispelling, Reaping Strike"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						"Entropy is a chaotic neutral weapon with an Intelligence of 6, a Wisdom of 14 and a Charisma of 18. It has hearing and {@sense darkvision} out to a range of 120 feet.",
+						"The weapon can speak, read and understand Common and Abyssal. It communicates with it's wearer telepathically. While you are attuned to it, it also understands every language you know."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Personality",
+					"entries": [
+						"Entropy was created to consume all of existence and pursues this goal single-mindedly, caring little for who or what it has to devour along the way. It is quick to suggest violence, though it lacks true malice. As long as its wielder feeds its endless hunger it is usually content to defer to them, though it might rebel if it perceives them as weak."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cloak of Shadows",
+					"entries": [
+						"As an action, you can spend 1 charge to drain the light from your surroundings. For 10 minutes shadows in a 10 foot radius around you deepen, turning bright light into dim light, dim light into darkness, and darkness into magical darkness.",
+						"Additionally, enemies that start their turn within that radius must make a Constitution saving throw, or suffer disadvantage on attacks and ability checks until the end of their turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Futile Struggle",
+					"entries": [
+						"When you damage a creature with Entropy, you can spend 1 charge to force the target and each hostile creature within 15 feet of it to make a Wisdom saving throw, or become {@condition frightened} of you until the end of your next turn. If the target dies from this damage, all other creatures affected save with disadvantage. Your attacks against {@condition frightened} targets have advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Devour Magic",
+					"entries": [
+						"When a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction and spend 2 charges to disrupt the spell. Entropy makes an ability check using its Charisma modifier. The DC is 10 + the spell's level.",
+						"On a success the spell does not affect you and you gain temporary hitpoints equal to 5x the spell's level. Other targets of the spell save with advantage, and they take no damage if they would normally take half damage on a successful save."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dust to Dust",
+					"entries": [
+						"As an action, you can spend 2 charges, causing a maelstrom of destructive forces to surround you in a 10 foot radius for 1 minute. Creatures other than you that start their turn within the area take {@damage 4d10} force damage and cannot regain hitpoints until the start of their next turn. Additionally any creature that dies inside the area is subject to Entropy's Eternal Hunger feature. Objects and structures within the area rapidly decay and completely disintegrate after continued exposure."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Voracious Dispelling",
+					"entries": [
+						"As an action, you can spend 3 charges to remove one condition or magical effect from a creature within 10 feet of you. If an effect is removed this way, you can choose to have the target take {@dice 10d6} points of necrotic damage, and one other creature of your choice within 30 feet regains hitpoints equal to half that amount"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reaping Strike",
+					"entries": [
+						"As an action, you can spend 3 charges to make a single attack with advantage using this weapon. On a hit the attack is a critical hit and deals maximum damage. If this would reduce the target to 50 hitpoints or lower it has to succeed on a constitution saving throw or die instantly. If this attack slays your target, you gain twice the normal amount of temporary hitpoints."
+					]
+				}
+			]
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
