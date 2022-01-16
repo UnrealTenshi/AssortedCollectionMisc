@@ -6830,7 +6830,7 @@
 			"weapon": true,
 			"entries": [
 				"This sword is forged from metal &specially conductive to arcane energies and engraved with magical runes along its blade. In the hands of a mage it becomes unusually light and easy to handle. While you are attuned to this weapon you are considered to be proficient with it, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for attack and damage rolls made with it, and you can use it as a spellcasting focus.",
-				"Additionally, whenever you cast a spell using a spell slot of 1st level or higher, the blade is charged by an amount equal to the level of the spell slot used. On accumulating certain amounts of charges you gain additional benefits, detailed below. The weapon loses all charges when you complete a long rest. a"
+				"Additionally, whenever you cast a spell using a spell slot of 1st level or higher, the blade is charged by an amount equal to the level of the spell slot used. On accumulating certain amounts of charges you gain additional benefits, detailed below. The weapon loses all charges when you complete a long rest.",
 				{
 					"type": "table",
 					"caption": "Weapon Effects",
@@ -6871,7 +6871,7 @@
 						]
 						
 					]
-				},
+				}
 				
 				
 			]
