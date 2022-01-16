@@ -246,7 +246,7 @@
 				"Masters of movement and manipulators of momentum, the river ronin were protectors of the waterways.",
 				"Legend says such samurai could control water with their ki, forming it into shields, whips and whirlpools.",
 				"These blades, known as the shisui, gave the ronin the ability to conjure water to wield in even the driest deserts or most remote mountaintops.",
-				"This weapon has 5 charges and regains expended ld4 + 1 charges daily at dawn.",
+				"This weapon has 5 charges and regains expended 1d4 + 1 charges daily at dawn.",
 				{
 					"type": "entries",
 					"name": "Aqua Conjuration",
@@ -339,7 +339,7 @@
 					"type": "entries",
 					"name": "Flash Step",
 					"entries": [
-						"As an action, you can expend a charge of this weapon to instantly travel in a 30 ft line to an unoccupied space. You can choose to make an attack with this weapon against any creatures you move through while making this movement' Any creature hit takes an additional ld8 lightning damage."
+						"As an action, you can expend a charge of this weapon to instantly travel in a 30 ft line to an unoccupied space. You can choose to make an attack with this weapon against any creatures you move through while making this movement' Any creature hit takes an additional 1d8 lightning damage."
 					]
 				},
 				{
@@ -415,7 +415,7 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"This magic weapon has 5 charges and regains expended ld4 + 1 charges daily at dawn. You can cast the {@spell light} cantrip on the blade at will.",
+				"This magic weapon has 5 charges and regains expended 1d4 + 1 charges daily at dawn. You can cast the {@spell light} cantrip on the blade at will.",
 				{
 					"type": "entries",
 					"name": "Radiant Wrath",
@@ -4875,7 +4875,7 @@
 			"bonusWeapon": "+1",
 			"weapon": true,
 			"entries": [
-				"This magical halberd(or glaive) is infused with psychic energy, bestowing its wielder with a weak form of precognition while in combat. You gain a +1 bonus to attack and damage rolls made with this weapon. Attacks made with this weapon deal an extra ld4 psychic damage to creatures. In addition, while wielding this halberd, you make opportunity attacks with advantage"
+				"This magical halberd(or glaive) is infused with psychic energy, bestowing its wielder with a weak form of precognition while in combat. You gain a +1 bonus to attack and damage rolls made with this weapon. Attacks made with this weapon deal an extra 1d4 psychic damage to creatures. In addition, while wielding this halberd, you make opportunity attacks with advantage"
 			]
 		},
 		
@@ -5020,9 +5020,9 @@
 					"name": "Orbit",
 					"entries": [
 						"Whenever you make a ranged attack with evening moon while also holding morning star, you can use a bonus action to cause it to begin orbiting you. As part of this bonus action and as a bonus action on subsequent turns, you can make one attack with evening moon against any creature within 15 feet of you.",
-						"Evening moon orbits you at a distance of ld3 feet.",
-						"Any creature within 5 feet of you can use its action to make a DC 21 Dexterity ({@skill Acrobatics}) check in an attempt to catch evening moon. On a success, the creature catches evening moon. On a failure, it takes ld6 slashing damage.",
-						"While the Orbit property is active, a creature that targets you with a melee attack must succeed on a DC 17 Dexterity saving throw or take ld6 slashing damage immediately before it makes its attack roll."
+						"Evening moon orbits you at a distance of 1d3 feet.",
+						"Any creature within 5 feet of you can use its action to make a DC 21 Dexterity ({@skill Acrobatics}) check in an attempt to catch evening moon. On a success, the creature catches evening moon. On a failure, it takes 1d6 slashing damage.",
+						"While the Orbit property is active, a creature that targets you with a melee attack must succeed on a DC 17 Dexterity saving throw or take 1d6 slashing damage immediately before it makes its attack roll."
 					]
 				},
 				{
@@ -5033,11 +5033,439 @@
 					]
 				}
 			]
+		},
+		
+		{
+			"name": "Cloak of the Dunamancer",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Wrought from starlight and comet dust, this almost-weightless cloak ignores the wind, rippling in response to unseen solar flares. In response to its wearer's thoughts, the cloak's dunamantic magic, can levitate its wearer and distort how light interacts with the fabric.",
+				{
+					"type": "entries",
+					"name": "Float",
+					"entries": [
+						"While wearing this cloak, you can use a bonus action to cause the tentacles to lift you a foot off of the ground, or to cause you to land again. While floating in this way you can traverse low-lying obstacles (such as caltrops) and difficult terrain without impediment (at the GM's discretion). In addition, while floating, you are always under the effects of the {@spell featherfall} spell. You can't float while the Distort property is active."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Distort",
+					"entries": [
+						"While wearing this cloak, you can use an action to cause the tentacles to twist and shimmer, distorting your outline as you cast the {@spell blur} spell. If you are floating as per the Float property when you activate this property, you fall back to the ground ending the effects of Float. Once you have used this property, you can't do so again until the following dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astral Step",
+					"entries": [
+						"While wearing this clock you can use an action to cause the cloak to appear to implode as you cast the spell blink. Instead of visiting the border ethereal, you enter a demiplane between the astral and material planes. Once you use this property, you can't do so again until the following dawn."
+					]
+				}
+			],
+			"attachedSpells": [
+				"blur"
+			]
+		},
+		
+		{
+			"name": "Kanaboom Stick",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "mace|PHB",
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"mace": true,
+			"weapon": true,
+			"entries": [
+				"The fact demons are reborn after being killed on the material plane leaves them with a laissez-faire attitude towards self-preservation. Taking advantage of their innate resistance to the elements, they can often be found in possession of these crudely enchanted maces that leave a minor path of flaming destruction in their wake. The only limit to this weapon is how much punishment its wielder can suffer.",
+				"As a bonus action you can stick this magic weapon in any open flame or, as an action, you can light the mace as you would a torch. Either way, the metal glows with incandescent heat as lava-like veins lick up the weapon's length for the next 10 minutes, shedding dim light for 15 feet.",
+				{
+					"type": "entries",
+					"name": "Bigger Booms",
+					"entries": [
+						"While lit, whenever you hit a target with an attack using this weapon you cause a fiery explosion. Each creature within 5 feet of the target, including yourself, must succeed on a DC 13 Dexterity saving throw taking Id6 fire damage on a failed save or half as much damage on a success. Flammable objects within this area are set alight if not being worn or carried."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Kitsune Mask",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 6,
+			"entries": [
+				"Where demons arise, so follows the Courteous Cabal.",
+				"Though the cabal maintains a neutral stance in most wars, they can often be observed combing battlefields, offering quick deaths to the wounded, and seeking out the abominations that might feast upon the corpses.",
+				"This mask has 6 charges, which manifest as six, incorporeal, fox-like tails. It regains all expended charges daily at dawn. While wearing this mask you can use the Soul Spin, Spirit Ray, and Spirit Trance properties.",
+				{
+					"type": "entries",
+					"name": "Soul Spin",
+					"entries": [
+						"As an action you can spend 3 charges, conjuring a fierce vortex of ethereal fire, in a 10-foot- wide, 40-foot-high cylinder on a point within 120 feet of you for up to 1 minute, as if concentrating on a spell. Until the effect ends, dim light fills the cylinder. When a creature enters the area for the first time on a turn or starts its turn there, it is engulfed in raging purple flames and must make a DC 15 Intelligence saving throw. It takes {@damage 3d6} psychic damage on a failed save, or half as much damage on a successful one.",
+						"On each of your turns after you use this property, you can use an action to move the vortex up to 60 feet in any direction."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spirit Ray",
+					"entries": [
+						"As an action you can spend any number of charges to cause the same number of tails to whip into ghostly rays which you hurl at targets within 120 feet of you. Make a ranged spell attack (+{@hit 7} to hit) for each ray, dealing {@damage 2d6} psychic damage on a hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spirit Trance",
+					"entries": [
+						"As an action you can point at a corpse and expend 1 charge. A tail shoots towards the body, forming a ghostly re-enactment of the ten seconds before the corpse's death."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Bloodshot",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "revolver",
+			"type": "R",
+			"rarity": "uncommon",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"age": "modern",
+			"property": [
+				"AF",
+				"RLD"
+			],
+			"range": "40/120",
+			"reload": 6,
+			"dmg1": "2d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"entries": [
+				"(Any Firearm)With a trickle of one's lifeblood the pupils on this abyssal weapon dilate and the eyes appear wild and bloodshot. Due to its method of charging, this magical martial ranged weapon does not have the loading property like other firearms.",
+				{
+					"type": "entries",
+					"name": "Feed the Beast",
+					"entries": [
+						"Over the course of a short rest, any creature can recharge bloodshot by dripping their own blood down its barrel and spending hit dice. For each hit die spent in this way, the character rolls the die and the weapon gains a number of charges equal to the total of the rolled hit dice. The weapon can absorb no more than 3 hit dice of blood per short rest and can't hold more than 16 charges at once.",
+						"Alternatively, over the course of a minute, you can extract blood from the corpse of a creature killed less than 10 minutes ago. When you do so, the weapon gains a number of charges equal to the total of one roll of the dead creature's hit die. The weapon can be charged using a corpse no more than once each 10 minutes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shot Selection",
+					"entries": [
+						"When you take the {@action Attack} action, you can spend charges in the following ways to make ranged weapon attacks using this weapon:",
+						{
+							"type": "list",
+							"items": [
+								"Bloodshard (1 Charge). On a hit, the weapon deals its normal piercing damage.",
+								"Septic Shock (2 Charges). On a hit, the weapon deals its normal piercing damage and the target must succeed on a DC 13 Constitution saving throw or become {@condition poisoned} until the end of your next turn as its blood becomes corrupted."
+							]
+						}
+					]
+				}
+			],
+			"ammoType": "modern bullet"
+		},
+		
+		{
+			"name": "Blood Drinker",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "glaive|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"The blade of this magic weapon is fashioned from the beak of a pitcrow, a nomad of the lower planes that feasts on the flesh and blood of fallen and wounded fiends. This polearm is able to pierce the flesh of wounded foes and absorb their blood, transferring the life force to its wielder.",
+				{
+					"type": "entries",
+					"name": "Siphon",
+					"entries": [
+						"When you hit a creature that has blood with a melee attack using this weapon and reduce the creature to half its maximum hit points or fewer, you can use a bonus action to cause the weapon to latch onto the creature and begin siphoning its blood. The creature is {@condition grappled} (escape DC 16). While it is {@condition grappled}, the creature takes {@damage 4d6} necrotic damage at the start of each of its turns and you can't use Blood Drinker to attack another target. You must hold onto Blood",
+						"Drinker with at least one hand to maintain the grapple; if you let go of Blood Drinker with both hands, the grapple ends. When you deal necrotic damage in this way, you are healed for half the amount of necrotic damage dealt. Once you activate this property, you can't do so again until the following dawn.",
+						"SoarBones. You can use this weapon to cast the {@spell phantom steed} spell. The weapon grows skeletal wings and feet, turning into a vicious looking crow named SoarBones. In addition to the steed's normal statistics, it has a fly speed equal to its walking speed.",
+						"Once you have used this property, you can't do so again until the following dawn."
+					]
+				}
+			],
+			"attachedSpells": [
+				"phantom steed"
+			]
+		}
+		
+		{
+			"name": "Piecemaker",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "revolver",
+			"type": "R",
+			"rarity": "rare",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"age": "modern",
+			"property": [
+				"AF",
+				"RLD"
+			],
+			"range": "40/120",
+			"reload": 6,
+			"dmg1": "2d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"entries": [
+				"Originally named the 'Peacemaker', this field combat device has built in protections to prevent its agents from exceeding their mandate. If the magic within the firearm detects that a target is unarmed, the agent is unable to discharge the weapon.",
+				{
+					"type": "entries",
+					"name": "Elemental Ammunition",
+					"entries": [
+						"As an action, you can load this weapon with a capsule of elemental energy. Each capsule contains 6 charges, and new capsules can be requisitioned from the quartermaster or purchased on the grey market. Capsules come in five flavours: acid, cold, fire, lightning, and thunder."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shots Fired",
+					"entries": [
+						"You can use the piecemaker to make ranged weapon attacks, with a range of 30/120 feet.",
+						"Each attack with the piecemaker expends 1 charge from the loaded capsule. The weapon deals damage of the elemental capsule's type equal to IdlO plus your",
+						"Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Conflict Avoidance",
+					"entries": [
+						"If the target of your attack is an unarmed creature, the weapon does not fire and the attack is wasted. The piecemaker is sophisticated enough to detect whether a creature has natural weapons, such as a bear's claws and bite. If a creature's natural weapons are restricted such as handcuffed claws, or a muzzled maw the piecemaker deems the target to be unarmed.",
+						"Monks' unarmed strikes are the exception to this rule; the gun can't classify empty fists as weapons.",
+						"For this reason, the Shadow Enclave's agents often manage to escape confrontations with the FBI unscathed.",
+						"The piecemaker enhances the elemental energy of its shots in the following ways:"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Acid Dissolution",
+					"entries": [
+						"When you hit a target wearing metal armor with an acid shot, roll a {@dice d20}. On an 11 or higher, its AC is decreased by l to a minimum of 10 plus its Dexterity modifier until repaired."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fire Explosion",
+					"entries": [
+						"Each creature within 5 feet of the target, including the target must succeed on a DC 15 Dexterity saving throw or take ld4 fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cold Deceleration",
+					"entries": [
+						"A creature hit by a cold charge has its speed reduced by 10 feet until the end of its next turn. This effect can stack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lightning Inhibition",
+					"entries": [
+						"A creature hit by a lightning charge must succeed on a DC 15 Constitution saving throw or be unable to take reactions until the start of its next turn. A creature that fails this saving throw by 10 or more (DC 4) is {@condition stunned} until the end of its next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thunder Disorientation",
+					"entries": [
+						"A creature hit by a thunder charge is {@condition deafened} until the end of its next turn and must make a DC 15 Constitution saving throw.",
+						"On a failure, a creature has disadvantage on the next attack roll, Dexterity check, or Dexterity saving throw made before the end of its next turn."
+					]
+				}
+			],
+			"ammoType": "modern bullet"
+		},
+		
+		{
+			"name": "Taz's Zealous Retribution",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"type": "WD",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"entries": [
+				"A common field tool, the TZR, as it is referred to by",
+				"FBI agents, is the creation of the Bureau's very own inventor: Tazon Regalton. Designed primarily for incapacitating fleeing evil-doers, the TZR can also pack a punch when necessary.",
+				{
+					"type": "entries",
+					"name": "Stun Baton",
+					"entries": [
+						"A creature wielding this wand can use it as a simple melee weapon with the finesse property, dealing I piercing damage on a hit. Once per turn, you can cause this wand to discharge when you hit a target with it, triggering either the Stun or Zap effects. You choose whether the wand is in the Stun or Zap mode immediately prior to making an attack, no action required."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stun",
+					"entries": [
+						"On a hit, a creature must make a DC 13 Constitution saving throw. On a failure, it is {@condition stunned} until the end of its next turn. On a success, it can't take reactions until the start of its next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Zap",
+					"entries": [
+						"On a hit, a creature takes {@damage 2d8} lightning damage and can't take reactions until the start of its next turn.",
+						"OptionalAttunement. A creature with a spellcasting ability can attune to this wand, which gains the Stunspell property while a creature is attuned. A creature attuned to this weapon can cast the {@spell shocking grasp} cantrip at will and always has following spells prepared:",
+						{
+							"type": "list",
+							"items": [
+								"{@spell Lightning Wave} (l st-level)",
+								"{@spell Hold Person} (2nd-level)"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stunspell",
+					"entries": [
+						"You can cast any of the spells granted you by this item without expending a spell slot. After you do so, roll a {@dice d4}. If the result is equal to or lower than the spell's level, the wand's voltage becomes critically low and you can't activate the Stunspell feature again until the following dawn."
+					]
+				}
+			],
+			"attachedSpells": [
+				"shocking grasp"
+			]
+		},
+		
+		{
+			"name": "Psionblade",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"(Any Sword).As locomotion in the astral plane is powered by thought, wayfarer's of this vast, water-less sea tend to be of greater than normal intelligence. Hence it follows that their armaments should be manipulated by their greatest asset thought itself in place of the strength of their arm.",
+				"While wielding this magic weapon, you can use your mind to manipulate and empower the blade. You can use your Intelligence for the attack and damage rolls of attacks using this weapon instead of Strength or Dexterity.",
+				{
+					"type": "entries",
+					"name": "Psionslice",
+					"entries": [
+						"While holding the weapon, you can use a bonus action to cause it to switch from an ethereal blade of nebulous energy that deals psychic damage on a hit, to a hardened, crystalline structure that deals slashing damage on a hit, or vice-versa."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Quantum Earring of the Paranoid",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Crafted for Lord Innes Ecure, this earring regularly scans the intention-spectrum for references to the creature whose ear or hearing orifice it pierces.",
+				{
+					"type": "entries",
+					"name": "Hot Ear",
+					"entries": [
+						"Whenever someone talks about you while you wear this earring regardless of the plane on which you both currently reside your ear becomes uncomfortably warm. As a bonus action, you can twist the earring, activating it in an attempt to listen in to the conversation. The creature that activated your hot ear must succeed on a DC 16 Charisma saving throw. On a failure, an {@condition invisible} sensor is created within 10 feet of the target that lasts for 10 minutes.",
+						"For the duration, you can hear through the sensor as if you were there. The sensor moves with the creature that triggered your hot ear, remaining within 10 feet of it for the duration. Once you activate this property, you can't do so again until the following dawn."
+					]
+				}
+			]
+		},
+		
+		{
+			"name": "Singularity",
+			"source": "Assorted Collection Misc",
+			"page": 1,
+			"baseItem": "quarterstaff|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"weapon": true,
+			"entries": [
+				"With a thought, this staff opens up a tiny portal to the event horizon of a black hole, molding the warped space-time into a spearhead of flickering force energy.",
+				{
+					"type": "entries",
+					"name": "Gravity Shard",
+					"entries": [
+						"While holding the weapon, you can use a bonus action to produce a spearhead of force energy, shedding bright light for 10 feet and dim light for an additional 10 feet. The weapon can be used as a quarterstaff or a spear, and, on a hit, deals force damage instead of the weapons ' usual bludgeoning or piercing damage, plus an additional ld4 force damage. In addition, you can use either Intelligence or Strength as the ability modifier for attack and damage rolls you make with this weapon. The energy lasts until you use a bonus action to speak the command word again or until you drop or sheathe the weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gravity Shunt",
+					"entries": [
+						"As an action you can use the weapon to telekinetically move creatures or objects within 50 feet of you.",
+						{
+							"type": "list",
+							"items": [
+								"Creature. You can try to move a Medium or smaller creature. The creature must succeed on a DC 15 Strength saving throw or be moved up to 10 feet in any direction, including upward. A creature can choose to fail this saving throw.",
+								"Object. You can fry to move an object that weighs up to 100 pounds. If the object isn't being worn or carried, you automatically move it up to 10 feet in any direction, but not beyond the range of this properW. If the object is worn or can-ied by a creature, the creature must make a DC 15 Strength saving throw. On a failure, you pull the object away from that creature and can move it up to 10 feet in any direction where it falls to the ground."
+							]
+						},
+						"You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial."
+						
+					]
+				}
+			]
 		}
 		
 		
 		
-
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
